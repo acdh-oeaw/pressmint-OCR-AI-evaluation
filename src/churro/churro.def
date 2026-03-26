@@ -1,0 +1,25 @@
+Bootstrap: docker
+From: ubuntu:20.04
+
+%files
+  ./src/ /pressmint-ground-truth/src/churro/
+
+%post
+  #!/bin/bash
+  export DEBIAN_FRONTEND=noninteractive
+  export HF_HOME=/pressmint-ground-truth/src/churro/src/huggingface_cache
+  ln -fs /usr/share/zoneinfo/Europe/Vienna /etc/localtime
+  echo "Europe/Vienna" > /etc/timezone
+  apt-get update && apt-get install -y \
+	  libtiff5-dev libjpeg8-dev libopenjp2-7-dev zlib1g-dev libfreetype6-dev \
+  	liblcms2-dev libwebp-dev tcl8.6-dev tk8.6-dev python3-tk libharfbuzz-dev \
+	  libfribidi-dev libxcb1-dev curl
+  curl -fsSL https://github.com/prefix-dev/pixi/releases/latest/download/pixi-x86_64-unknown-linux-musl -o /usr/bin/pixi
+  chmod +x /usr/bin/pixi
+  cd /pressmint-ground-truth/src/churro/src/
+  pixi install -e minimal
+  pixi run -e minimal python churro_transformers_infer.py tests/churro_dataset_sample_1.jpeg --max-new-tokens 40
+
+%environment
+    export HF_HOME=/pressmint-ground-truth/src/churro/src/huggingface_cache
+

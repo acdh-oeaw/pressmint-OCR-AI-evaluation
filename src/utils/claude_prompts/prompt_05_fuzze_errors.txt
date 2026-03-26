@@ -1,0 +1,58 @@
+ocr_to_gs_formatter_by_fuzzymatch.py is faulty when it comes to the central functionality which was well covered by the char-by-char approach; 
+
+
+Sample: 
+
+Gold-Standard:
+```
+Die „Grazer Tagespost“ schreibt: Es ist ein
+schwerer Schlag und ein unersetzlicher Verlust, den
+unser Monarch erlitten hat. Keiner von jenen, die
+einmal Gelegenheit hatten, mit dem Herrn Erzherzog
+zu sprechen, wird sich dem Eindrucke zu entziehen ver=
+mocht haben, daß der Erbe der Krone ein ganzer
+Mann, eine starke, zielbewußte Natur war.
+Das „Grazer Volksblatt“ schreibt in Be=
+urteilung der Persönlichkeit des verblichenen Herrn
+Erzherzogs: Er war ein Mann aus einem Guß und
+```
+
+Input:
+```
+Die „Grazer Tagespost“ schreibt: Es ist ein schwerer Schlag und ein unerseßlicher Verlust, den unser Monarch erlitten hat. Keiner von jenen, die einmal Gelegenheit hatten, mit dem Herrn Erzherzog zu sprechen, wird sich dem Eindrucke zu entziehen vermoct haben, daß der Erbe der Krone ein ganzer Mann, eine starke, zielbewußte Natur war.
+```
+
+Output:
+```
+Die „Grazer Tagespost“ schreibt: Es ist ein schwerer Schlag und ein unerseßlicher Verlust, den unser Monarch erlitten hat. Keiner von jenen, die einmal Gelegenheit hatten, mit dem Herrn Erzherzog zu sprechen, wird sich dem Eindrucke zu entziehen vermoct haben, daß der Erbe der Krone ein ganzer Mann, eine starke, zielbewußte Natur war.
+```
+
+
+Expected output:
+```
+Die „Grazer Tagespost“ schreibt: Es ist ein
+schwerer Schlag und ein unerseßlicher Verlust, den
+unser Monarch erlitten hat. Keiner von jenen, die
+einmal Gelegenheit hatten, mit dem Herrn Erzherzog
+zu sprechen, wird sich dem Eindrucke zu entziehen ver=
+moct haben, daß der Erbe der Krone ein ganzer
+Mann, eine starke, zielbewußte Natur war.
+Das „Grazer Volkshlatt“ schreibt in Be=
+urteilung der Persönlichkeit des verblichenen Herrn
+Erzherzogs: Er war ein Mann aus einem Guß und
+...
+```
+
+
+I.e. with over-long lines the line-breaks from the gold-standard are not imposed on the output!
+
+
+
+###############
+
+
+Much better!
+But reintroduce correct handling of "#" when option `--md` is present: 
+wherever you find one or more "#" enforce a "\n" in the output! 
+You probably want to put this in a pre-processing step because it should help you to make a first segmentation of longish lines.
+

@@ -1,0 +1,117 @@
+Try to use a more sophisticated approach than doing strict character-by-character comparison. 
+The OCR in places can deviate from the Gold Standard not only in a few misrecognices charcters in a stretch.
+Due to to faults in the layout detection whole lines can be displaced, columns might get mixed up etc. 
+
+Currently even a single missing line can throw off the script.
+
+Cf. the following example:
+
+ocr: 
+
+```
+Italienischer Kriegsschauplatz.
+Mt. Solardlo wurden feindliche Vorstöße abgewiesen
+Der Chef des Generalstabes.
+Bericht des deutschen Generalstabes.
+Berlin, 28. Dezember.
+Das Wolffsche Bureau meldet:
+„Großes Hauptquartier, den 28. Dezember 1917
+Westlicher Kriegsschauplatz.
+```
+
+gold standard:
+```
+Italienischer Kriegsschauplatz.
+Westlich des Mt. Asolone und östlich des
+Mt. Solarolo wurden feindliche Vorstöße abgewiesen.
+Der Chef des Generalstabes."
+Bericht des deutschen Generalstabes.
+Berlin, 28. Dezember.
+Das Wolffsche Bureau meldet:
+„Großes Hauptquartier, den 28. Dezember 1917.
+Westlicher Kriegsschauplatz
+```
+
+current output: 
+```
+Italienischer Kriegsschauplatz.
+Mt.
+Solardlo wurden feindliche Vorstöße abgewiesen
+Der Chef des Generalstabes.
+Bericht des deutschen Generalstabes.
+Berlin, 28. Dezember.
+Das Wolffsche Bureau meldet:
+„Großes Hauptquartier, den 28. Dezember 1917
+Westlicher Kriegsschauplatz
+```
+
+It seems as the script tries to align the missing line "Westlich des Mt. Asolone und östlich des" and gets thrown off, 
+because the string "Mt." is present in the very next line again. 
+
+Try to amend for cases like this. 
+Also add the information, that proper alignment was achieved by ignoring a missing line by adding a label  `<MISSINGLINE/>`. 
+
+The same holds true if in other cases line(s) from the OCR do not show up (in that very same spot) in the gold-standard. 
+Mark these with <ADDEDLINE>...</ADDEDLINE>
+
+
+expected output:
+```
+Italienischer Kriegsschauplatz.
+<MISSINGLINE>
+Mt. Solardlo wurden feindliche Vorstöße abgewiesen
+Der Chef des Generalstabes.
+Bericht des deutschen Generalstabes.
+Berlin, 28. Dezember.
+Das Wolffsche Bureau meldet:
+„Großes Hauptquartier, den 28. Dezember 1917
+Westlicher Kriegsschauplatz
+```
+
+
+The ideal solution would be: whenever major deviations between OCD and gold-standard appear: 
+Try to find the proper matching regions (a line, a pragraph) taking the whole document into account. 
+(one document will alway only cover one page of newpaper, so the overall search-space is quite restricted).
+
+I.e. when 
+gold standard is:
+```
+line1
+line2
+line3
+line4
+line5
+line6
+```
+
+and OCR is:
+```
+line1
+line2
+line5 line6
+line3
+line4
+```
+
+Then output should be:
+```
+line1
+line2
+<ADDLINE>
+line5
+line6
+</ADDLINE>
+line3
+line4
+<MISSINGINE/>
+```
+
+And still line5 + line6 in the output should get the proper layout from line5 + line6 in the gold-standard.  
+
+
+Add the markup (i.e. `<MISSINGLINE>` or `<ADDEDLINE>`  only when the option `--add-markup` is specified.
+
+
+###
+Refine treatment of "#": only replace by "\n" when option `--md   Input contains mark-down-elements` is present! 
+If `--md` is not specified do not treat `#` in the OCR in any particular way.

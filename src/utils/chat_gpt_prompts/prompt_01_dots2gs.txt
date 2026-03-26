@@ -1,0 +1,67 @@
+I provided you with a .py script  `ocr_to_gs_formatter_by_fuzzymatch.py`
+
+The script comes up with buggy results.  
+I expect you to debug the script and provide me with a working version.
+
+I uploaded: 
+
+* `ocr_to_gs_formatter_by_fuzzymatch.py` : the script
+* `gold_1918-12-27_1_TEIL1.txt` : the Gold Standard 
+* `orig_dots_ocr_1_default_1918-12-27_1_TEIL1.txt` : the OCR result
+* `faulty_dots2ocr_1918-12-27_1_TEIL1.txt` : the current faulty output of the script
+* `manual_dots2ocr_1918-12-27_1_TEIL1.txt` : the manually created *expected* output of the script.
+
+
+
+What the script is supposed to do: 
+
+
+I want to compare results from a OCR model against a gold standard. 
+
+The texts are from newspapers in a 3 column layout. 
+
+The gold standard kept all the original formatting. 
+
+I.e. the standard length of a line is approximately 60 characters long, and words are frequently hyphenated at the end of a line (indicated by the character "=" which is uniformely used as hyphenation-character but also as "dash"). 
+
+In contrast, the OCR sometimes tried to act "clever" by  combining multiple lines into one paragraph and especially got rid of hyphenations - i.e. `... xxxx=\nyyy ...` was transformed  to `... xxxyyy ...`
+
+
+In order to allow easier visual comparison in a tool like meld, I want you to provide a python script `dots2gs.txt`:
+
+* it takes pairs of OCR-results and gold-standards
+* it tries to transfer the layout of the gold standard to the OCR. 
+
+
+I.e. for the newly created layout-corrected OCR: 
+
+* First replace all "-" in the OCR by a "="
+* Iff option `--md` is provided: first replace all  "#" in the OCR by "\n".
+* Replace multiple "\n" in the OCR by just one - i.e. do remove any empty line.
+* In some OCR results `spaces` are missing after ".". When you find more than 3 instances of "\.[:non whitespace:]" in the OCR: simply insert a space after each "."  
+* Do not change *any* other characters in the OCR 
+* Try to make lines maximally similar by just adding "\n"  or "=\n". I.e. given a longish line ( > 65 characters ) in the OCR: try to break it at the exact same word as in the Gold Standard. 
+* Do NOT change any existing "\n" in the OCR
+* When you find hyphenations in the Gold Standard: try to perform the very same word-separation in the OCR.
+
+I.e. Gold Standard
+```
+Italienischer Kriegs=schauplatz.
+Westlich des Mt. Asolone und öst=
+lich des Mt. Solarolo wurden feindli=
+che Vorstöße abgewiesen.
+```
+
+OCR: 
+```
+Italienischer Kriegs-schauplatz. Westlich des Mt. Asolone und östlich des Mt. Soloaralo wurden feindliche VorStöße abgewiesen.
+```
+
+Expected output: 
+```
+Italienischer Kriegs=schauplatz.
+Westlich des Mt. Asolone und öst=
+lich des Mt. Soloaralo wurden feind=
+liche VorStöße abgewiesen. 
+```
+

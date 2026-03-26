@@ -1,0 +1,1929 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>Pero OCR</Creator>
+    <Created>2026-02-10T15:53:13.678788+00:00</Created>
+    <LastChange>2026-02-10T15:53:13.678788+00:00</LastChange>
+  </Metadata>
+  <Page imageFilename="1914-06-29_2.jpg" imageWidth="2991" imageHeight="4382">
+    <TextRegion id="4c488771-42fa-448d-a03b-8b2c5260f19e">
+      <Coords points="1035,544 1045,134 115,128 96,1163 93,1803 83,1895 81,2442 243,2445 291,2400 1005,2397 1035,544"/>
+      <TextLine id="27a1430a-b1e7-4860-ab32-c5dc57266205" index="0" custom="{&quot;heights&quot;: [33.5, 11.9]}">
+        <Coords points="654,131 630,131 527,134 427,131 324,131 222,131 115,128 114,174 222,177 324,177 426,177 528,180 630,177 732,177 834,177 936,177 1044,180 1045,134 1022,134 654,131"/>
+        <Baseline points="114,162 222,165 324,165 426,165 528,168 630,165 732,165 834,165 936,165 1044,168"/>
+        <TextEquiv conf="1.000">
+          <Unicode>verletzt worden. Dagegen ist sein Automobil stark</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="ad3b3cd0-a53b-403b-ba2b-f04eabacf2aa" index="1" custom="{&quot;heights&quot;: [33.4, 11.7]}">
+        <Coords points="114,182 114,222 219,222 321,222 423,225 525,225 627,225 729,225 831,225 933,225 1041,228 1042,183 934,180 831,180 729,180 627,180 525,180 423,180 322,177 219,177 114,177 114,182"/>
+        <Baseline points="114,210 219,210 321,210 423,213 525,213 627,213 729,213 831,213 933,213 1041,216"/>
+        <TextEquiv conf="1.000">
+          <Unicode>beschädigt, ebenso zeigt jenes des Grafen Harrach,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="4d53644a-e422-452d-9842-da164703dd97" index="2" custom="{&quot;heights&quot;: [33.6, 12.2]}">
+        <Coords points="112,267 219,270 321,270 423,270 525,270 627,270 729,270 831,270 933,270 1041,267 1040,221 932,224 831,224 729,224 627,224 525,224 423,224 321,224 219,224 113,221 112,267"/>
+        <Baseline points="113,255 219,258 321,258 423,258 525,258 627,258 729,258 831,258 933,258 1041,255"/>
+        <TextEquiv conf="1.000">
+          <Unicode>worin Ihre Hoheiten gefahren waren, zahlreiche durch</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="e6f171cd-162e-4892-b698-32db2033f252" index="3" custom="{&quot;heights&quot;: [33.9, 12.3]}">
+        <Coords points="112,312 180,315 246,315 312,315 378,315 444,315 510,315 576,315 642,315 714,315 714,269 642,269 576,269 510,269 444,269 378,269 312,269 246,269 180,269 112,266 112,266 112,312"/>
+        <Baseline points="112,300 180,303 246,303 312,303 378,303 444,303 510,303 576,303 642,303 714,303"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Bombensplitter verursachte Löcher</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="7f3ea76f-fc6e-43d4-bff0-9ad44efc02b2" index="4" custom="{&quot;heights&quot;: [34.0, 12.6]}">
+        <Coords points="153,361 204,361 252,361 300,361 345,361 393,361 441,361 486,361 534,361 588,361 588,314 534,314 486,314 441,314 393,314 345,314 300,314 252,314 204,314 153,314 153,361"/>
+        <Baseline points="153,348 204,348 252,348 300,348 345,348 393,348 441,348 486,348 534,348 588,348"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Vom Publikum wurde</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="953d87e6-6545-4a83-9d68-b8ee2bed419e" index="5" custom="{&quot;heights&quot;: [34.7, 12.8]}">
+        <Coords points="1041,313 987,313 939,313 891,313 843,313 795,313 747,313 699,313 649,316 600,316 600,364 652,364 699,361 747,361 795,361 843,361 891,361 939,361 987,361 1039,361 1041,313"/>
+        <Baseline points="600,351 651,351 699,348 747,348 795,348 843,348 891,348 939,348 987,348 1040,348"/>
+        <TextEquiv conf="1.000">
+          <Unicode>mand lebensgefährlich</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="8c8f1c44-cf03-48a3-93c0-e3a2bd69ec7e" index="6" custom="{&quot;heights&quot;: [34.5, 12.9]}">
+        <Coords points="110,406 216,406 318,406 420,406 522,406 624,406 726,409 828,409 930,409 1038,406 1037,358 929,361 828,361 726,361 625,358 522,358 420,358 318,358 216,358 111,358 110,406"/>
+        <Baseline points="110,393 216,393 318,393 420,393 522,393 624,393 726,396 828,396 930,396 1038,393"/>
+        <TextEquiv conf="1.000">
+          <Unicode>verletzt. Schwerere Verletzungen haben Frau Forstrat</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="442b06cb-c9d1-4905-a525-c8168d9d0203" index="7" custom="{&quot;heights&quot;: [35.2, 12.8]}">
+        <Coords points="507,451 548,451 582,454 618,454 651,454 684,454 720,454 753,454 795,454 795,406 753,406 720,406 684,406 651,406 618,406 582,406 552,403 507,403 507,451"/>
+        <Baseline points="507,438 549,438 582,441 618,441 651,441 684,441 720,441 753,441 795,441"/>
+        <TextEquiv conf="0.999">
+          <Unicode>Mich erlitten.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="9d03ab1d-fff6-4eec-83ac-49513c5564aa" index="8" custom="{&quot;heights&quot;: [35.3, 13.2]}">
+        <Coords points="111,454 159,454 201,454 244,454 284,451 327,454 369,454 411,454 454,454 502,451 499,403 451,406 411,406 369,406 327,406 288,403 240,406 201,406 159,406 111,406 111,454"/>
+        <Baseline points="111,441 159,441 201,441 243,441 285,438 327,441 369,441 411,441 453,441 501,438"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Probst und Offizial</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="015400a4-9d96-418d-b689-fb4c152adf35" index="9" custom="{&quot;heights&quot;: [35.6, 13.3]}">
+        <Coords points="153,499 195,499 231,499 270,499 306,499 345,499 381,499 426,499 426,450 381,450 345,450 306,450 270,450 231,450 195,450 153,450 153,499"/>
+        <Baseline points="153,486 195,486 231,486 270,486 306,486 345,486 381,486 426,486"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Sarajevo 29.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="ea9d07dd-9b4e-46ff-a138-8400c699e90f" index="10" custom="{&quot;heights&quot;: [34.6, 12.9]}">
+        <Coords points="1035,537 1034,496 929,499 835,496 738,496 642,496 543,496 447,496 351,496 255,496 153,496 153,544 255,544 351,544 447,544 543,544 642,544 738,544 834,544 930,547 1035,544 1035,537"/>
+        <Baseline points="153,531 255,531 351,531 447,531 543,531 642,531 738,531 834,531 930,534 1035,531"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Gestern wurde in der kroatischen Schul-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="576c90f7-1e84-4842-9389-5e436595df0a" index="11" custom="{&quot;heights&quot;: [33.9, 12.5]}">
+        <Coords points="1035,544 1035,542 960,542 894,542 828,542 762,542 696,542 630,542 564,542 498,542 427,539 425,586 498,589 564,589 630,589 696,589 762,589 828,589 894,589 960,589 1034,589 1035,544"/>
+        <Baseline points="426,573 498,576 564,576 630,576 696,576 762,576 828,576 894,576 960,576 1034,576"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Demonstration mit antiserbi-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="e3a740fd-0afd-44b9-85c3-b8f4070d32dd" index="12" custom="{&quot;heights&quot;: [35.5, 13.5]}">
+        <Coords points="106,593 144,593 180,593 214,592 249,590 291,590 324,590 360,590 402,590 402,540 360,540 324,540 291,540 249,540 210,544 180,543 144,543 107,543 106,593"/>
+        <Baseline points="107,579 144,579 180,579 213,579 249,576 291,576 324,576 360,576 402,576"/>
+        <TextEquiv conf="1.000">
+          <Unicode>jugend ein</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="3f9f1a6c-368e-482d-a9e2-3cf7525788d8" index="13" custom="{&quot;heights&quot;: [34.3, 12.3]}">
+        <Coords points="1034,590 927,590 826,587 723,587 621,587 522,587 420,587 318,587 216,587 110,590 111,636 216,633 318,633 420,633 522,633 621,633 723,633 825,633 927,636 1034,636 1034,590"/>
+        <Baseline points="111,624 216,621 318,621 420,621 522,621 621,621 723,621 825,621 927,624 1034,624"/>
+        <TextEquiv conf="1.000">
+          <Unicode>schem Charakter veranstaltet. Die Ruhe wurde jedoch</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="9b5eabba-4d48-4fd3-a0ae-b266077e5c23" index="14" custom="{&quot;heights&quot;: [33.9, 12.3]}">
+        <Coords points="105,673 105,678 213,678 315,678 417,678 519,678 621,678 723,678 825,681 927,681 1033,681 1034,635 927,635 825,635 724,632 621,632 519,632 417,632 315,632 213,632 106,632 105,673"/>
+        <Baseline points="105,666 213,666 315,666 417,666 519,666 621,666 723,666 825,669 927,669 1033,669"/>
+        <TextEquiv conf="1.000">
+          <Unicode>durch herstrückendes Militär wieder hergestellt. Das</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="be4965cc-8ce3-4812-994a-a78a33f45122" index="15" custom="{&quot;heights&quot;: [34.4, 12.2]}">
+        <Coords points="105,698 105,726 213,723 315,723 417,723 519,726 621,726 723,726 825,726 927,729 1032,726 1033,680 926,683 826,680 723,680 621,680 519,680 418,677 315,677 213,677 105,680 105,698"/>
+        <Baseline points="105,714 213,711 315,711 417,711 519,714 621,714 723,714 825,714 927,717 1032,714"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Militär wurde von den Demonstranten mit stürmischen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="0b7ff4f5-e228-42e0-ad3f-09c4ac137aea" index="16" custom="{&quot;heights&quot;: [33.9, 12.2]}">
+        <Coords points="104,746 106,777 192,771 276,768 360,771 444,771 528,771 612,771 696,771 780,771 870,774 871,728 781,725 696,725 612,725 528,725 444,725 360,725 277,722 191,725 104,731 104,746"/>
+        <Baseline points="105,765 192,759 276,756 360,759 444,759 528,759 612,759 696,759 780,759 870,762"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Zivil Rufen und Händeklatschen empfangen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="02c91868-40e6-496e-a568-07bc20eac915" index="17" custom="{&quot;heights&quot;: [35.0, 12.8]}">
+        <Coords points="132,820 228,817 321,817 414,820 507,820 597,820 690,820 783,820 876,820 975,820 975,772 876,772 783,772 690,772 597,772 507,772 414,772 322,769 228,769 131,772 132,820"/>
+        <Baseline points="132,807 228,804 321,804 414,807 507,807 597,807 690,807 783,807 876,807 975,807"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Sonst wurde die Ruhe in keiner Weise gestört.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="b6fc3054-427c-4704-88b2-454a657f0122" index="18" custom="{&quot;heights&quot;: [37.4, 13.4]}">
+        <Coords points="336,883 390,883 438,883 489,883 538,883 588,880 636,880 687,880 735,880 792,880 792,830 735,830 687,830 636,830 588,830 535,833 489,833 438,833 390,833 336,833 336,883"/>
+        <Baseline points="336,870 390,870 438,870 489,870 537,870 588,867 636,867 687,867 735,867 792,867"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Die Trauer in Wien.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="afdd2159-3f80-4d75-99ce-3128f3a68efa" index="19" custom="{&quot;heights&quot;: [35.2, 12.5]}">
+        <Coords points="1029,895 929,889 831,889 735,889 637,886 540,886 444,886 345,886 249,886 147,886 147,934 249,934 345,934 444,934 540,934 636,934 735,937 831,937 926,937 1029,942 1029,895"/>
+        <Baseline points="147,921 249,921 345,921 444,921 540,921 636,921 735,924 831,924 927,924 1029,930"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Se. Exzellenz Bürgermeister Dr. Weiskirchner,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="1f661bc5-278e-4278-8bbd-515120229f24" index="20" custom="{&quot;heights&quot;: [33.5, 12.0]}">
+        <Coords points="99,978 207,981 309,981 411,981 513,981 615,981 717,981 819,981 921,984 1028,984 1029,939 921,939 820,936 717,936 615,936 513,936 411,936 309,936 207,936 100,933 99,978"/>
+        <Baseline points="100,966 207,969 309,969 411,969 513,969 615,969 717,969 819,969 921,972 1028,972"/>
+        <TextEquiv conf="1.000">
+          <Unicode>der sich gestern nach Hall begeben hatte, wird heute</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="65740e2d-1820-483f-9bc4-f0bdc4efdf67" index="21" custom="{&quot;heights&quot;: [33.8, 12.0]}">
+        <Coords points="99,1000 99,1026 207,1026 309,1026 411,1026 513,1026 615,1026 717,1026 819,1026 921,1026 1027,1029 1028,983 922,980 819,980 717,980 615,980 513,980 411,980 309,980 207,980 99,980 99,1000"/>
+        <Baseline points="99,1014 207,1014 309,1014 411,1014 513,1014 615,1014 717,1014 819,1014 921,1014 1027,1017"/>
+        <TextEquiv conf="1.000">
+          <Unicode>nachmittag hieher zurückkehren. Auf den Ecktürmen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="d2d5d3cf-041c-4052-a04c-4b16430f5d98" index="22" custom="{&quot;heights&quot;: [33.9, 11.9]}">
+        <Coords points="1027,1028 921,1028 820,1025 717,1025 615,1025 513,1025 411,1025 309,1025 207,1025 99,1025 99,1071 207,1071 309,1071 411,1071 513,1071 615,1071 717,1071 819,1071 921,1074 1026,1074 1027,1028"/>
+        <Baseline points="99,1059 207,1059 309,1059 411,1059 513,1059 615,1059 717,1059 819,1059 921,1062 1027,1062"/>
+        <TextEquiv conf="1.000">
+          <Unicode>des Rathauses wurden Trauerfahnen gehißt, ebenso</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="cf9058a2-78cc-47fc-bdf9-f8da7a4d51ae" index="23" custom="{&quot;heights&quot;: [33.8, 12.3]}">
+        <Coords points="1026,1100 1026,1073 918,1073 816,1073 715,1070 612,1070 510,1070 408,1070 306,1070 204,1070 99,1070 99,1116 204,1116 306,1116 408,1116 510,1116 612,1116 714,1116 816,1119 918,1119 1026,1119 1026,1100"/>
+        <Baseline points="99,1104 204,1104 306,1104 408,1104 510,1104 612,1104 714,1104 816,1107 918,1107 1026,1107"/>
+        <TextEquiv conf="1.000">
+          <Unicode>wehen von sämtlichen öffentlichen Gebäuden der Ge-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="ec30bb40-e197-4e0b-b97c-3113beb2021c" index="24" custom="{&quot;heights&quot;: [33.6, 12.1]}">
+        <Coords points="1026,1118 921,1118 819,1118 717,1118 615,1118 514,1115 410,1118 309,1118 207,1118 99,1118 99,1164 207,1164 309,1164 411,1164 513,1161 615,1164 717,1164 819,1164 921,1164 1025,1164 1026,1118"/>
+        <Baseline points="99,1152 207,1152 309,1152 411,1152 513,1149 615,1152 717,1152 819,1152 921,1152 1025,1152"/>
+        <TextEquiv conf="1.000">
+          <Unicode>meinde schwarze Fahnen. In Wien sind auch bei</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="dff8e0e9-6bf2-4fdc-912b-99d6452bbdb4" index="25" custom="{&quot;heights&quot;: [33.7, 12.2]}">
+        <Coords points="96,1209 201,1209 303,1209 405,1209 507,1209 609,1209 711,1209 813,1209 915,1209 1023,1209 1023,1163 915,1163 813,1163 711,1163 609,1163 507,1163 405,1163 303,1163 201,1163 96,1163 96,1209"/>
+        <Baseline points="96,1197 201,1197 303,1197 405,1197 507,1197 609,1197 711,1197 813,1197 915,1197 1023,1197"/>
+        <TextEquiv conf="1.000">
+          <Unicode>vielen Privathäusern bereits schwarze Fahnen aus-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="06e29d35-f821-488b-b290-1ac7ddaf2a55" index="26" custom="{&quot;heights&quot;: [33.4, 12.2]}">
+        <Coords points="100,1257 150,1254 195,1254 246,1254 246,1209 195,1209 150,1209 97,1212 100,1257"/>
+        <Baseline points="99,1245 150,1242 195,1242 246,1242"/>
+        <TextEquiv conf="1.000">
+          <Unicode>gehängt.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="9186dc92-7ef1-4662-8634-d1ad9066f057" index="27" custom="{&quot;heights&quot;: [33.9, 12.0]}">
+        <Coords points="1023,1285 1023,1256 918,1256 822,1256 727,1253 630,1253 531,1253 435,1253 339,1253 243,1253 141,1253 141,1299 243,1299 339,1299 435,1299 531,1299 630,1299 726,1299 822,1302 918,1302 1023,1302 1023,1285"/>
+        <Baseline points="141,1287 243,1287 339,1287 435,1287 531,1287 630,1287 726,1287 822,1290 918,1290 1023,1290"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Auf telephonische Anordnung des Bürgermeisters</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="6881b86a-d85d-49cf-8be2-e61b8ff7a807" index="28" custom="{&quot;heights&quot;: [33.9, 12.2]}">
+        <Coords points="1023,1301 915,1301 813,1301 712,1298 609,1298 507,1298 405,1298 303,1298 200,1301 96,1301 96,1347 201,1347 303,1344 405,1344 507,1344 609,1344 711,1344 813,1347 915,1347 1022,1347 1023,1301"/>
+        <Baseline points="96,1335 201,1335 303,1332 405,1332 507,1332 609,1332 711,1332 813,1335 915,1335 1022,1335"/>
+        <TextEquiv conf="1.000">
+          <Unicode>wird sich der Wiener Gemeinderat morgen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="be14a112-98ae-4073-85ed-36c977ed63b4" index="29" custom="{&quot;heights&quot;: [33.6, 12.0]}">
+        <Coords points="96,1392 201,1392 303,1392 405,1392 507,1392 606,1392 708,1392 810,1392 912,1392 1020,1395 1021,1349 913,1346 810,1346 708,1346 606,1346 507,1346 405,1346 303,1346 201,1346 96,1346 96,1392"/>
+        <Baseline points="96,1380 201,1380 303,1380 405,1380 507,1380 606,1380 708,1380 810,1380 912,1380 1020,1383"/>
+        <TextEquiv conf="1.000">
+          <Unicode>(Dienstag) vormittag 11 Uhr zu einer Trauersitzung</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="4367a8b4-3672-4078-974f-dfc5ac787c0a" index="30" custom="{&quot;heights&quot;: [33.5, 11.8]}">
+        <Coords points="96,1437 201,1437 303,1437 405,1437 507,1437 606,1437 708,1437 810,1437 912,1437 1020,1440 1021,1395 913,1392 810,1392 708,1392 606,1392 507,1392 405,1392 303,1392 201,1392 96,1392 96,1437"/>
+        <Baseline points="96,1425 201,1425 303,1425 405,1425 507,1425 606,1425 708,1425 810,1425 912,1425 1020,1428"/>
+        <TextEquiv conf="1.000">
+          <Unicode>versammen. Die Kundgebung des Gemeinderates soll</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="b355d303-4161-41eb-8bd9-a729bfd888c8" index="31" custom="{&quot;heights&quot;: [33.3, 11.8]}">
+        <Coords points="95,1482 198,1482 300,1482 402,1482 504,1482 606,1482 708,1482 810,1482 912,1485 1020,1485 1020,1470 1020,1440 912,1440 811,1437 708,1437 606,1437 504,1437 402,1437 300,1437 198,1437 95,1437 95,1482"/>
+        <Baseline points="95,1470 198,1470 300,1470 402,1470 504,1470 606,1470 708,1470 810,1470 912,1473 1020,1473"/>
+        <TextEquiv conf="1.000">
+          <Unicode>durch eine Deputation Sr. Majestät dem Kaiser</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="b5d72802-6ecf-4297-8773-727a5f20454f" index="32" custom="{&quot;heights&quot;: [33.3, 11.6]}">
+        <Coords points="94,1527 135,1527 171,1527 207,1527 243,1527 279,1527 315,1527 351,1527 387,1527 429,1527 429,1482 387,1482 351,1482 315,1482 279,1482 243,1482 207,1482 171,1482 135,1482 95,1482 94,1527"/>
+        <Baseline points="94,1515 135,1515 171,1515 207,1515 243,1515 279,1515 315,1515 351,1515 387,1515 429,1515"/>
+        <TextEquiv conf="1.000">
+          <Unicode>übermittelt werden.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="dbcf16c4-e893-4713-bf58-850f47118d79" index="33" custom="{&quot;heights&quot;: [33.9, 11.9]}">
+        <Coords points="138,1572 240,1572 336,1572 432,1572 528,1572 624,1572 720,1572 816,1575 912,1575 1017,1575 1017,1529 912,1529 816,1529 721,1526 624,1526 528,1526 432,1526 336,1526 240,1526 138,1526 138,1572"/>
+        <Baseline points="138,1560 240,1560 336,1560 432,1560 528,1560 624,1560 720,1560 816,1563 912,1563 1017,1563"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Der für nächsten Mittwoch in Aussicht genommene</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="b3e3bb0c-d6b5-4642-a1de-c49989877c24" index="34" custom="{&quot;heights&quot;: [33.5, 11.8]}">
+        <Coords points="94,1620 198,1620 300,1620 402,1620 501,1617 603,1617 705,1617 804,1620 906,1620 1014,1620 1014,1574 906,1574 804,1574 706,1571 603,1571 501,1571 401,1574 300,1574 198,1574 94,1574 94,1620"/>
+        <Baseline points="94,1608 198,1608 300,1608 402,1608 501,1605 603,1605 705,1605 804,1608 906,1608 1014,1608"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Empfang des Kaufmannstages im Rathaus unterbleibt.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="b4235cb8-9f49-49c7-b642-3588e7dabdb3" index="35" custom="{&quot;heights&quot;: [33.2, 11.6]}">
+        <Coords points="94,1665 198,1665 300,1665 402,1665 501,1665 603,1665 705,1665 804,1665 906,1665 1014,1665 1014,1620 906,1620 804,1620 705,1620 603,1620 501,1620 402,1620 300,1620 198,1620 94,1620 94,1665"/>
+        <Baseline points="94,1653 198,1653 300,1653 402,1653 501,1653 603,1653 705,1653 804,1653 906,1653 1014,1653"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Die für Donnerstag anberaumte Überreichung von</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="cc8496ba-75d0-47e6-8256-15902713bf00" index="36" custom="{&quot;heights&quot;: [33.7, 11.7]}">
+        <Coords points="93,1710 195,1710 297,1710 399,1710 501,1710 600,1710 702,1710 804,1710 906,1710 1014,1710 1014,1664 906,1664 804,1664 702,1664 600,1664 501,1664 399,1664 297,1664 195,1664 94,1664 93,1710"/>
+        <Baseline points="93,1698 195,1698 297,1698 399,1698 501,1698 600,1698 702,1698 804,1698 906,1698 1014,1698"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Auszeichnungen sowie die sonstigen Feierlichkeiten des</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="59f84e64-29be-4842-a387-d601c5bd1bc3" index="37" custom="{&quot;heights&quot;: [33.5, 11.8]}">
+        <Coords points="93,1755 195,1755 297,1755 399,1755 501,1755 600,1755 702,1755 804,1755 906,1755 1014,1755 1014,1709 906,1709 804,1709 702,1709 600,1709 501,1709 399,1709 297,1709 195,1709 93,1709 93,1755"/>
+        <Baseline points="93,1743 195,1743 297,1743 399,1743 501,1743 600,1743 702,1743 804,1743 906,1743 1014,1743"/>
+        <TextEquiv conf="1.000">
+          <Unicode>ersten Donnerstags wurden bis auf weiteres ver-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="8dd1349c-6aff-4931-a8b6-a1e5a78c3f9c" index="38" custom="{&quot;heights&quot;: [33.9, 12.0]}">
+        <Coords points="93,1803 138,1803 180,1803 228,1803 228,1757 180,1757 138,1757 93,1757 93,1803"/>
+        <Baseline points="93,1791 138,1791 180,1791 228,1791"/>
+        <TextEquiv conf="1.000">
+          <Unicode>schoben.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="e5fe7eb9-f387-407e-a05c-dfe8b627cac8" index="39" custom="{&quot;heights&quot;: [34.0, 11.9]}">
+        <Coords points="1014,1841 1014,1802 909,1802 813,1802 717,1802 621,1802 522,1802 426,1802 330,1802 234,1802 131,1805 132,1851 234,1848 330,1848 426,1848 522,1848 621,1848 717,1848 813,1848 909,1848 1014,1848 1014,1841"/>
+        <Baseline points="132,1839 234,1836 330,1836 426,1836 522,1836 621,1836 717,1836 813,1836 909,1836 1014,1836"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Zu Beginn der heutigen Sitzung des Inter-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="76939300-e566-4906-bbc6-f9e962638ad4" index="40" custom="{&quot;heights&quot;: [33.5, 11.7]}">
+        <Coords points="86,1864 87,1896 192,1893 294,1893 396,1893 498,1893 600,1893 702,1896 804,1896 906,1896 1013,1893 1014,1866 1013,1847 905,1850 804,1850 702,1850 601,1847 498,1847 396,1847 294,1847 192,1847 88,1850 86,1864"/>
+        <Baseline points="87,1884 192,1881 294,1881 396,1881 498,1881 600,1881 702,1884 804,1884 906,1884 1013,1881"/>
+        <TextEquiv conf="1.000">
+          <Unicode>nationalen Kaufmannstages in der Volks-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="689d34e4-3d53-4e8c-bba5-20bb72d16993" index="41" custom="{&quot;heights&quot;: [33.5, 11.7]}">
+        <Coords points="1013,1895 906,1895 805,1892 702,1892 600,1892 498,1892 396,1892 294,1892 192,1892 83,1895 84,1941 192,1938 294,1938 396,1938 498,1938 600,1938 702,1938 804,1938 906,1941 1012,1941 1013,1895"/>
+        <Baseline points="84,1929 192,1926 294,1926 396,1926 498,1926 600,1926 702,1926 804,1926 906,1929 1013,1929"/>
+        <TextEquiv conf="1.000">
+          <Unicode>halle des Rathauses richtete der Vorsitzende Präsident</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="a5b3b1e6-488a-4372-958b-0574458fbdef" index="42" custom="{&quot;heights&quot;: [33.7, 11.7]}">
+        <Coords points="1012,1943 907,1940 805,1937 702,1937 600,1937 498,1937 396,1937 294,1937 191,1940 88,1937 87,1983 192,1986 294,1983 396,1983 498,1983 600,1983 702,1983 804,1983 906,1986 1012,1989 1012,1943"/>
+        <Baseline points="87,1971 192,1974 294,1971 396,1971 498,1971 600,1971 702,1971 804,1971 906,1974 1012,1977"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Ratz an die Versammlung eine Ansprache, worin er</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="f7f2493a-6850-493c-b7cd-829e74fee504" index="43" custom="{&quot;heights&quot;: [33.7, 12.0]}">
+        <Coords points="84,2031 186,2031 285,2031 384,2031 483,2028 579,2028 678,2031 777,2031 876,2031 981,2031 981,1985 876,1985 777,1985 678,1985 580,1982 483,1982 383,1985 285,1985 186,1985 84,1985 84,2031"/>
+        <Baseline points="84,2019 186,2019 285,2019 384,2019 483,2016 579,2016 678,2019 777,2019 876,2019 981,2019"/>
+        <TextEquiv conf="1.000">
+          <Unicode>der tiefen Trauer der Versammlung Ausdruck gab.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="01e11555-3143-4553-97e6-99f08063033f" index="44" custom="{&quot;heights&quot;: [33.7, 11.8]}">
+        <Coords points="1011,2033 907,2030 810,2030 714,2030 618,2030 522,2030 426,2030 330,2030 234,2030 132,2030 132,2076 234,2076 330,2076 426,2076 522,2076 618,2076 714,2076 810,2076 906,2076 1010,2079 1011,2033"/>
+        <Baseline points="132,2064 234,2064 330,2064 426,2064 522,2064 618,2064 714,2064 810,2064 906,2064 1010,2067"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Die Aufführung des Merkur-Festspieles, die zur</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="8d2f7957-b460-41eb-96f7-f5762954399a" index="45" custom="{&quot;heights&quot;: [33.5, 11.8]}">
+        <Coords points="1010,2078 903,2078 802,2075 699,2075 597,2075 495,2075 393,2075 290,2078 189,2078 84,2078 84,2124 189,2124 291,2124 393,2121 495,2121 597,2121 699,2121 801,2121 903,2124 1009,2124 1010,2078"/>
+        <Baseline points="84,2112 189,2112 291,2112 393,2109 495,2109 597,2109 699,2109 801,2109 903,2112 1010,2112"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Feier des Internationalen Kaufmannstages gestern</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="84d5346a-779a-46ff-a3fa-a8445f468c91" index="46" custom="{&quot;heights&quot;: [33.5, 12.1]}">
+        <Coords points="1009,2121 902,2124 801,2123 699,2123 597,2123 498,2123 397,2121 293,2124 192,2123 87,2123 87,2169 192,2169 294,2169 396,2166 498,2169 597,2169 699,2169 801,2169 903,2169 1009,2166 1009,2121"/>
+        <Baseline points="87,2157 192,2157 294,2157 396,2154 498,2157 597,2157 699,2157 801,2157 903,2157 1009,2154"/>
+        <TextEquiv conf="1.000">
+          <Unicode>zum ersten Male hätte stattfinden sollen, wurde ab-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="3ceb7ff8-7c9f-4d7f-b55e-0d427ebb1751" index="47" custom="{&quot;heights&quot;: [33.2, 12.0]}">
+        <Coords points="84,2217 145,2217 205,2214 202,2169 142,2172 84,2172 84,2217"/>
+        <Baseline points="84,2205 144,2205 204,2202"/>
+        <TextEquiv conf="1.000">
+          <Unicode>gesagt.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="7ed4b5d2-ffd1-47b6-80a1-4ff19128bfaf" index="48" custom="{&quot;heights&quot;: [33.5, 11.8]}">
+        <Coords points="1008,2216 907,2214 810,2214 714,2214 618,2214 522,2214 426,2214 330,2214 234,2214 132,2214 132,2259 234,2259 330,2259 426,2259 522,2259 618,2259 714,2259 810,2259 906,2259 1007,2262 1008,2216"/>
+        <Baseline points="132,2247 234,2247 330,2247 426,2247 522,2247 618,2247 714,2247 810,2247 906,2247 1007,2250"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Die Wiener Börsekammer wird morgen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="23ee57ae-d6a1-44ef-a2b3-3309d2343f24" index="49" custom="{&quot;heights&quot;: [33.7, 11.9]}">
+        <Coords points="1007,2262 1007,2258 899,2261 798,2261 697,2258 594,2258 495,2258 392,2261 291,2261 189,2261 84,2261 84,2307 189,2307 291,2307 393,2307 495,2304 594,2304 696,2304 798,2307 900,2307 1007,2304 1007,2262"/>
+        <Baseline points="84,2295 189,2295 291,2295 393,2295 495,2292 594,2292 696,2292 798,2295 900,2295 1007,2292"/>
+        <TextEquiv conf="1.000">
+          <Unicode>um 11/2 Uhr Nachmittags eine Trauerkundgebung an-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="3a3a837c-459a-49ec-8911-d19937e79698" index="50" custom="{&quot;heights&quot;: [33.9, 11.8]}">
+        <Coords points="84,2352 189,2352 291,2352 393,2352 492,2352 594,2352 696,2352 795,2352 897,2352 1005,2349 1004,2303 896,2306 795,2306 696,2306 594,2306 492,2306 393,2306 291,2306 189,2306 84,2306 84,2352"/>
+        <Baseline points="84,2340 189,2340 291,2340 393,2340 492,2340 594,2340 696,2340 795,2340 897,2340 1005,2337"/>
+        <TextEquiv conf="1.000">
+          <Unicode>läßlich des Ablebens Sr. k. und k. Hoheit des durch-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="81ad6c3c-bd41-4ca3-8a05-bfaa3b3951d5" index="51" custom="{&quot;heights&quot;: [34.7, 11.9]}">
+        <Coords points="639,2399 696,2397 795,2397 897,2397 1005,2397 1005,2350 897,2350 795,2350 696,2350 593,2353 493,2350 393,2350 290,2353 189,2353 85,2350 84,2397 189,2400 291,2400 393,2397 492,2397 561,2399 639,2399"/>
+        <Baseline points="84,2385 189,2388 291,2388 393,2385 492,2385 594,2388 696,2385 795,2385 897,2385 1005,2385"/>
+        <TextEquiv conf="1.000">
+          <Unicode>lauchtigsten Herrn Erzherzogs Franz Ferdinand</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="97e54dff-1651-4e3e-a857-8a5e90c365e8" index="52" custom="{&quot;heights&quot;: [33.1, 12.1]}">
+        <Coords points="81,2442 84,2442 123,2442 161,2442 184,2444 243,2445 243,2400 198,2400 165,2397 123,2397 81,2397 81,2442"/>
+        <Baseline points="81,2430 123,2430 162,2430 198,2433 243,2433"/>
+        <TextEquiv conf="1.000">
+          <Unicode>abhalten.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="f3783cb3-af02-46f4-b968-20971f8cf7f0">
+      <Coords points="60,4192 63,4284 990,4284 993,3419 1006,2644 885,2539 731,2536 639,2490 417,2493 355,2539 204,2539 123,2595 78,2687 60,4192"/>
+      <TextLine id="af783fb8-c6e8-4699-b6c2-6820e8b290e3" index="0" custom="{&quot;heights&quot;: [33.3, 11.5]}">
+        <Coords points="584,2491 558,2493 528,2493 492,2493 456,2493 437,2493 417,2493 417,2537 456,2537 492,2537 528,2537 562,2537 597,2534 639,2534 639,2490 584,2491"/>
+        <Baseline points="417,2526 456,2526 492,2526 528,2526 561,2526 597,2523 639,2523"/>
+        <TextEquiv conf="0.998">
+          <Unicode>(Telegramme.)</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="400284f3-6572-4be8-9bba-e06a21380ea8" index="1" custom="{&quot;heights&quot;: [37.8, 12.9]}">
+        <Coords points="204,2590 282,2590 358,2590 432,2587 507,2587 579,2587 654,2587 728,2587 804,2590 885,2590 885,2539 804,2539 731,2536 654,2536 579,2536 507,2536 432,2536 355,2539 282,2539 204,2539 204,2590"/>
+        <Baseline points="204,2577 282,2577 357,2577 432,2574 507,2574 579,2574 654,2574 729,2574 804,2577 885,2577"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Die Trauer in den Kronländern.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="00dddb1f-b733-4b18-8e4b-70d8673bd8db" index="2" custom="{&quot;heights&quot;: [36.3, 12.6]}">
+        <Coords points="123,2595 123,2644 174,2644 219,2644 265,2644 309,2641 354,2641 399,2641 444,2641 489,2641 543,2641 543,2592 489,2592 444,2592 399,2592 354,2592 309,2592 262,2595 219,2595 174,2595 123,2595 123,2595"/>
+        <Baseline points="123,2631 174,2631 219,2631 264,2631 309,2628 354,2628 399,2628 444,2628 489,2628 543,2628"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Bad Ischl, 29. Juni.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="f913e4bf-65a6-4adf-b9e7-35c9e7b47799" index="3" custom="{&quot;heights&quot;: [34.6, 12.2]}">
+        <Coords points="123,2688 225,2688 321,2688 417,2688 513,2688 612,2688 708,2688 804,2688 900,2688 1005,2691 1006,2644 901,2641 804,2641 708,2641 612,2641 513,2641 417,2641 321,2641 225,2641 123,2641 123,2688"/>
+        <Baseline points="123,2676 225,2676 321,2676 417,2676 513,2676 612,2676 708,2676 804,2676 900,2676 1005,2679"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Unter Vorsitz des Bürgermeisters kaiserlichen Rates</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="8f305f02-4773-4003-a3b9-4c67e3495f4c" index="4" custom="{&quot;heights&quot;: [33.9, 12.1]}">
+        <Coords points="1005,2690 898,2687 795,2687 693,2687 591,2687 489,2687 387,2687 285,2687 183,2687 78,2687 78,2733 183,2733 285,2733 387,2733 489,2733 591,2733 693,2733 795,2733 897,2733 1004,2736 1005,2690"/>
+        <Baseline points="78,2721 183,2721 285,2721 387,2721 489,2721 591,2721 693,2721 795,2721 897,2721 1005,2724"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Leithner fand heute um11 Uhr Vormittags</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="bfae0692-4e5f-4b94-acd1-4ffe07026505" index="5" custom="{&quot;heights&quot;: [33.5, 12.0]}">
+        <Coords points="78,2781 183,2781 285,2778 387,2781 489,2781 588,2781 690,2781 792,2781 894,2781 1002,2778 1001,2733 893,2736 792,2735 690,2735 588,2735 489,2735 387,2735 286,2733 182,2736 78,2735 78,2781"/>
+        <Baseline points="78,2769 183,2769 285,2766 387,2769 489,2769 588,2769 690,2769 792,2769 894,2769 1002,2766"/>
+        <TextEquiv conf="1.000">
+          <Unicode>eine feierliche Trauersitzung der gesamten Ge-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="f70df0c7-1779-4729-a1b4-1ff62195ff01" index="6" custom="{&quot;heights&quot;: [34.2, 12.2]}">
+        <Coords points="78,2826 183,2826 285,2826 387,2826 489,2823 588,2823 690,2826 792,2826 894,2826 1002,2826 1002,2780 894,2780 792,2780 690,2780 589,2777 489,2777 386,2780 285,2780 183,2780 78,2780 78,2826"/>
+        <Baseline points="78,2814 183,2814 285,2814 387,2814 489,2811 588,2811 690,2814 792,2814 894,2814 1002,2814"/>
+        <TextEquiv conf="1.000">
+          <Unicode>meindevertretung statt. Der Bürgermeister</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="7b160a09-3afe-4f01-9cfa-d5dd10f6b709" index="7" custom="{&quot;heights&quot;: [34.1, 12.0]}">
+        <Coords points="78,2871 183,2871 285,2871 387,2871 489,2871 588,2871 690,2871 792,2871 894,2871 1002,2871 1002,2825 894,2825 792,2825 690,2825 588,2825 489,2825 387,2825 285,2825 183,2825 78,2825 78,2871"/>
+        <Baseline points="78,2859 183,2859 285,2859 387,2859 489,2859 588,2859 690,2859 792,2859 894,2859 1002,2859"/>
+        <TextEquiv conf="1.000">
+          <Unicode>gab zunächst der Empörung über das fluchwürdige</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="993a73a4-2b5f-4679-a1fc-fe27a842c135" index="8" custom="{&quot;heights&quot;: [33.9, 12.1]}">
+        <Coords points="1002,2896 1001,2870 893,2873 793,2870 690,2870 588,2870 489,2870 387,2870 285,2870 183,2870 78,2870 78,2916 183,2916 285,2916 387,2916 489,2916 588,2916 690,2916 792,2916 894,2919 1001,2916 1002,2896"/>
+        <Baseline points="78,2904 183,2904 285,2904 387,2904 489,2904 588,2904 690,2904 792,2904 894,2907 1002,2904"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Verbrechen Ausdruck, dem der Herr Erzherzog-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="43599191-edec-4b74-8aef-60d9ec9407ad" index="9" custom="{&quot;heights&quot;: [33.7, 11.7]}">
+        <Coords points="1001,2918 894,2918 793,2915 690,2915 588,2915 489,2915 387,2915 285,2915 182,2918 79,2915 78,2961 183,2964 285,2961 387,2961 489,2961 588,2961 690,2961 792,2961 894,2964 1001,2964 1001,2918"/>
+        <Baseline points="78,2949 183,2952 285,2949 387,2949 489,2949 588,2949 690,2949 792,2949 894,2952 1001,2952"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Thronfolger und die Herzogin Hohenberg zum Opfer</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="8eef305d-e97e-4e58-8355-4fbc8562f9ef" index="10" custom="{&quot;heights&quot;: [33.6, 11.8]}">
+        <Coords points="75,3009 180,3009 282,3009 384,3009 486,3009 585,3006 687,3006 789,3006 891,3009 999,3009 999,2963 891,2963 790,2960 687,2960 585,2960 485,2963 384,2963 282,2963 180,2963 75,2963 75,3009"/>
+        <Baseline points="75,2997 180,2997 282,2997 384,2997 486,2997 585,2994 687,2994 789,2994 891,2997 999,2997"/>
+        <TextEquiv conf="1.000">
+          <Unicode>gefallen sind. Die ganze Monarchie empfinde darüber</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="9bad751b-a596-47cb-88a0-00ff1132eb24" index="11" custom="{&quot;heights&quot;: [34.1, 12.0]}">
+        <Coords points="1000,3008 894,3008 793,3005 690,3005 587,3008 486,3008 384,3008 282,3008 180,3008 75,3008 75,3054 180,3054 282,3054 384,3054 486,3054 588,3054 690,3051 792,3051 894,3054 999,3054 1000,3008"/>
+        <Baseline points="75,3042 180,3042 282,3042 384,3042 486,3042 588,3042 690,3039 792,3039 894,3042 999,3042"/>
+        <TextEquiv conf="1.000">
+          <Unicode>den tiefsten Schmerz. In dieser Stunde wolle er nur</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="708dab02-f867-422a-8e13-86bb696f1f27" index="12" custom="{&quot;heights&quot;: [34.2, 12.0]}">
+        <Coords points="999,3053 894,3053 792,3053 690,3053 588,3053 485,3056 385,3053 282,3053 180,3053 75,3053 75,3099 180,3099 282,3099 384,3099 486,3102 588,3099 690,3099 792,3099 894,3099 998,3099 999,3053"/>
+        <Baseline points="75,3087 180,3087 282,3087 384,3087 486,3090 588,3087 690,3087 792,3087 894,3087 999,3087"/>
+        <TextEquiv conf="1.000">
+          <Unicode>der Hoffnung Ausdruck geben, daß Se. Majestät</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="0363f46f-07c9-47db-bca4-be82715aebaa" index="13" custom="{&quot;heights&quot;: [33.9, 12.0]}">
+        <Coords points="998,3098 894,3098 792,3098 689,3101 589,3098 485,3101 384,3101 282,3101 180,3101 75,3101 75,3147 180,3147 282,3147 384,3147 486,3147 588,3144 690,3147 792,3144 894,3144 998,3144 998,3098"/>
+        <Baseline points="75,3135 180,3135 282,3135 384,3135 486,3135 588,3132 690,3135 792,3132 894,3132 998,3132"/>
+        <TextEquiv conf="1.000">
+          <Unicode>die Kraft aufbringen möge, den Ihm zugefügten</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="fef3c852-33b9-4890-80fd-e6978ed6913b" index="14" custom="{&quot;heights&quot;: [33.8, 11.9]}">
+        <Coords points="998,3143 891,3143 789,3143 687,3143 584,3146 486,3146 384,3146 282,3146 180,3146 75,3146 75,3192 180,3192 282,3192 384,3192 486,3192 585,3192 687,3189 789,3189 891,3189 997,3189 998,3143"/>
+        <Baseline points="75,3180 180,3180 282,3180 384,3180 486,3180 585,3180 687,3177 789,3177 891,3177 997,3177"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Schicksalsschlag zu ertragen. Die Gemeinde Bad</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="859da3e6-b385-4787-a2fb-86d51499d3b0" index="15" custom="{&quot;heights&quot;: [33.7, 11.9]}">
+        <Coords points="997,3191 892,3188 789,3188 687,3188 584,3191 483,3191 381,3191 279,3191 177,3191 72,3194 72,3216 72,3240 177,3237 279,3237 381,3237 483,3237 585,3237 687,3234 789,3234 891,3234 996,3237 997,3191"/>
+        <Baseline points="72,3228 177,3225 279,3225 381,3225 483,3225 585,3225 687,3222 789,3222 891,3222 996,3225"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Ischl, schloß der Bürgermeister, deren Geschicke mit</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="fb34b8ea-9732-40a4-b0bf-8343cdffe1cb" index="16" custom="{&quot;heights&quot;: [34.5, 12.0]}">
+        <Coords points="996,3233 890,3235 789,3235 687,3235 585,3235 483,3235 381,3235 279,3235 177,3235 72,3235 72,3282 177,3282 279,3282 381,3282 483,3282 585,3282 687,3282 789,3282 891,3282 995,3279 996,3233"/>
+        <Baseline points="72,3270 177,3270 279,3270 381,3270 483,3270 585,3270 687,3270 789,3270 891,3270 996,3267"/>
+        <TextEquiv conf="1.000">
+          <Unicode>der Allerhöchsten Person Sr. Majestät des Kaisers</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="00caa25e-039d-4fb1-9d5f-3c1dc9805c33" index="17" custom="{&quot;heights&quot;: [34.5, 11.9]}">
+        <Coords points="995,3280 888,3280 786,3280 684,3280 582,3280 482,3283 381,3283 280,3280 177,3280 72,3280 72,3327 177,3327 279,3327 381,3330 483,3330 582,3327 684,3327 786,3327 888,3327 995,3327 995,3280"/>
+        <Baseline points="72,3315 177,3315 279,3315 381,3318 483,3318 582,3315 684,3315 786,3315 888,3315 995,3315"/>
+        <TextEquiv conf="1.000">
+          <Unicode>auf das innigste verknüpft sind, sei besonders schwer</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="19a88f65-241b-4ff3-b2ab-48ecfd9cae5f" index="18" custom="{&quot;heights&quot;: [34.2, 12.0]}">
+        <Coords points="995,3329 888,3329 787,3326 684,3326 581,3329 483,3329 381,3329 279,3329 177,3329 72,3329 72,3375 177,3375 279,3375 381,3375 483,3375 582,3375 684,3372 786,3372 888,3375 994,3375 995,3329"/>
+        <Baseline points="72,3363 177,3363 279,3363 381,3363 483,3363 582,3363 684,3360 786,3360 888,3363 994,3363"/>
+        <TextEquiv conf="1.000">
+          <Unicode>betroffen worden durch das Leid, das der Monarch</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="f5d79a64-43b5-44e4-8006-fcac227db6b1" index="19" custom="{&quot;heights&quot;: [33.6, 12.3]}">
+        <Coords points="69,3423 112,3423 147,3420 183,3420 222,3420 258,3420 294,3420 330,3420 375,3420 375,3374 330,3374 294,3374 258,3374 222,3374 183,3374 147,3374 108,3377 70,3377 69,3423"/>
+        <Baseline points="69,3411 111,3411 147,3408 183,3408 222,3408 258,3408 294,3408 330,3408 375,3408"/>
+        <TextEquiv conf="1.000">
+          <Unicode>zu ertragen hätte.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="88fca36f-1050-4655-a450-cbabe20e7ffd" index="20" custom="{&quot;heights&quot;: [34.0, 11.8]}">
+        <Coords points="993,3419 993,3419 888,3419 792,3419 696,3419 600,3419 504,3419 408,3419 312,3419 216,3419 114,3419 114,3465 216,3465 312,3465 408,3465 504,3465 600,3465 696,3465 792,3465 888,3465 993,3465 993,3419"/>
+        <Baseline points="114,3453 216,3453 312,3453 408,3453 504,3453 600,3453 696,3453 792,3453 888,3453 993,3453"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Auf Vorschlag des Bürgermeisters wurde sodann</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="45fecc62-584d-428a-be5c-cc26ae22a312" index="21" custom="{&quot;heights&quot;: [33.8, 11.9]}">
+        <Coords points="69,3510 165,3510 258,3510 351,3510 444,3510 537,3510 630,3510 723,3510 816,3510 915,3510 915,3464 816,3464 723,3464 630,3464 537,3464 444,3464 351,3464 258,3464 165,3464 69,3464 69,3510"/>
+        <Baseline points="69,3498 165,3498 258,3498 351,3498 444,3498 537,3498 630,3498 723,3498 816,3498 915,3498"/>
+        <TextEquiv conf="1.000">
+          <Unicode>die Absendung nachstehender Depesche beschlossen:</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="20034f84-1f09-457c-a38d-368f607c31ec" index="22" custom="{&quot;heights&quot;: [33.2, 11.8]}">
+        <Coords points="993,3510 891,3510 795,3510 699,3510 603,3510 507,3510 411,3510 315,3510 219,3510 117,3510 117,3555 219,3555 315,3555 411,3555 507,3555 603,3555 699,3555 795,3555 891,3555 993,3555 993,3510"/>
+        <Baseline points="117,3543 219,3543 315,3543 411,3543 507,3543 603,3543 699,3543 795,3543 891,3543 993,3543"/>
+        <TextEquiv conf="1.000">
+          <Unicode>An Se. Exzellenz den Generaladjutanten Grafen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="538587c9-ef11-41fc-b233-f0cdf40b4a32" index="23" custom="{&quot;heights&quot;: [33.9, 12.3]}">
+        <Coords points="69,3603 126,3603 183,3603 183,3557 126,3557 69,3557 69,3603"/>
+        <Baseline points="69,3591 126,3591 183,3591"/>
+        <TextEquiv conf="0.999">
+          <Unicode>Paar.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="54e9828b-18ab-4a7b-acb6-abb908809c20" index="24" custom="{&quot;heights&quot;: [34.0, 11.8]}">
+        <Coords points="992,3602 891,3602 796,3599 698,3602 603,3602 504,3602 408,3602 312,3602 216,3602 114,3602 114,3648 216,3648 312,3648 408,3648 504,3648 603,3648 699,3648 795,3645 891,3648 992,3648 992,3602"/>
+        <Baseline points="114,3636 216,3636 312,3636 408,3636 504,3636 603,3636 699,3636 795,3633 891,3636 992,3636"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Unter dem Eindrucke der erschütternden Nachricht</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="0807b33f-89f1-4d37-8519-b645edf77f2b" index="25" custom="{&quot;heights&quot;: [33.3, 11.8]}">
+        <Coords points="992,3648 886,3645 783,3645 680,3648 579,3648 480,3648 378,3648 276,3648 174,3648 69,3648 69,3693 174,3693 276,3693 378,3693 480,3693 579,3693 681,3693 783,3690 885,3690 992,3693 992,3648"/>
+        <Baseline points="69,3681 174,3681 276,3681 378,3681 480,3681 579,3681 681,3681 783,3678 885,3678 992,3681"/>
+        <TextEquiv conf="1.000">
+          <Unicode>von dem schweren Schicksalsschlage, der Se. k. und k.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="b8083f8d-6289-4889-a028-ca0f2135ea2b" index="26" custom="{&quot;heights&quot;: [34.0, 12.0]}">
+        <Coords points="992,3689 885,3689 783,3689 683,3692 582,3692 480,3692 381,3692 279,3692 177,3692 72,3692 72,3738 177,3738 279,3738 381,3738 480,3738 582,3738 684,3738 783,3735 885,3735 992,3735 992,3689"/>
+        <Baseline points="72,3726 177,3726 279,3726 381,3726 480,3726 582,3726 684,3726 783,3723 885,3723 992,3723"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Apostolische Majestät unseren geliebten Kaiser und</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="f8f3a0f0-3d71-4e5e-b582-8853b73367bc" index="27" custom="{&quot;heights&quot;: [34.2, 11.9]}">
+        <Coords points="992,3737 885,3737 783,3737 681,3737 579,3737 480,3737 378,3737 276,3737 174,3737 69,3737 69,3783 174,3783 276,3783 378,3783 480,3783 579,3783 681,3783 783,3783 885,3783 992,3783 992,3737"/>
+        <Baseline points="69,3771 174,3771 276,3771 378,3771 480,3771 579,3771 681,3771 783,3771 885,3771 992,3771"/>
+        <TextEquiv conf="1.000">
+          <Unicode>das Allerhöchste Kaiserhaus betroffen hat, hat sich die</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="e57df298-1c78-46c5-b111-4830d835b224" index="28" custom="{&quot;heights&quot;: [33.8, 11.9]}">
+        <Coords points="992,3782 885,3782 783,3782 680,3785 579,3785 480,3785 378,3785 276,3785 174,3785 70,3782 69,3828 174,3831 276,3831 378,3831 480,3831 579,3831 681,3831 783,3828 885,3828 992,3828 992,3782"/>
+        <Baseline points="69,3816 174,3819 276,3819 378,3819 480,3819 579,3819 681,3819 783,3816 885,3816 992,3816"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Gemeindevertretung heute zu einer außerordentlichen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="9b0a2e79-118c-4feb-8327-2b43f39165c6" index="29" custom="{&quot;heights&quot;: [33.6, 11.9]}">
+        <Coords points="992,3830 886,3827 783,3827 680,3830 579,3830 477,3830 375,3830 273,3830 171,3830 66,3830 66,3876 171,3876 273,3876 375,3876 477,3876 579,3876 681,3876 783,3873 885,3873 991,3876 992,3830"/>
+        <Baseline points="66,3864 171,3864 273,3864 375,3864 477,3864 579,3864 681,3864 783,3861 885,3861 991,3864"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Trauersitzung versammelt. In derselben wurde dem</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="40c1b673-adf3-4035-a8e5-81bf0dbf7930" index="30" custom="{&quot;heights&quot;: [33.6, 11.9]}">
+        <Coords points="991,3875 885,3875 783,3875 681,3875 579,3875 477,3875 375,3875 273,3875 171,3875 66,3875 66,3921 171,3921 273,3921 375,3921 477,3921 579,3921 681,3921 783,3921 885,3921 991,3921 991,3875"/>
+        <Baseline points="66,3909 171,3909 273,3909 375,3909 477,3909 579,3909 681,3909 783,3909 885,3909 991,3909"/>
+        <TextEquiv conf="1.000">
+          <Unicode>tiefsten Abscheu über das unselige Verbrechen Ausdruck</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="31cdc312-57d8-4549-8c2c-0d3ba88ff9eb" index="31" custom="{&quot;heights&quot;: [34.3, 12.0]}">
+        <Coords points="991,3917 884,3920 783,3920 681,3920 579,3920 480,3920 378,3920 276,3920 174,3920 68,3923 69,3969 174,3966 276,3966 378,3966 480,3966 579,3966 681,3966 783,3966 885,3966 991,3963 991,3917"/>
+        <Baseline points="69,3957 174,3954 276,3954 378,3954 480,3954 579,3954 681,3954 783,3954 885,3954 991,3951"/>
+        <TextEquiv conf="1.000">
+          <Unicode>gegeben, dem Se. k. und k. Hoheit der durchlauch-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="fc6126e4-2214-4ef1-9f7f-07ef9c2b940d" index="32" custom="{&quot;heights&quot;: [34.5, 12.1]}">
+        <Coords points="66,4011 171,4011 273,4011 375,4014 477,4014 576,4011 678,4011 780,4011 882,4011 990,4011 990,3965 882,3965 780,3965 678,3965 576,3965 476,3968 375,3968 274,3965 171,3965 66,3965 66,4011"/>
+        <Baseline points="66,3999 171,3999 273,3999 375,4002 477,4002 576,3999 678,3999 780,3999 882,3999 990,3999"/>
+        <TextEquiv conf="1.000">
+          <Unicode>tigste Herr Erzherzog Franz Ferdinand und</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="d2f95557-c7e9-4e73-a785-e1f7de59ad32" index="33" custom="{&quot;heights&quot;: [34.4, 12.2]}">
+        <Coords points="66,4059 150,4059 228,4059 309,4059 387,4059 468,4059 546,4059 627,4059 705,4056 792,4056 792,4010 705,4010 626,4013 546,4013 468,4013 387,4013 309,4013 228,4013 150,4013 66,4013 66,4059"/>
+        <Baseline points="66,4047 150,4047 228,4047 309,4047 387,4047 468,4047 546,4047 627,4047 705,4044 792,4044"/>
+        <TextEquiv conf="1.000">
+          <Unicode>dessen Gemahlin zum Opfer gefallen sind.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="8b782610-c4b4-4afc-85c0-e540be37f98f" index="34" custom="{&quot;heights&quot;: [34.2, 12.1]}">
+        <Coords points="991,4058 888,4058 792,4058 696,4058 597,4058 501,4058 405,4058 306,4058 210,4058 108,4058 108,4104 210,4104 306,4104 405,4104 501,4104 597,4104 696,4104 792,4104 888,4104 991,4104 991,4058"/>
+        <Baseline points="108,4092 210,4092 306,4092 405,4092 501,4092 597,4092 696,4092 792,4092 888,4092 991,4092"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Die Gemeindevertretung von Bad Ischl bittet Eure</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="dc6eb735-790a-4340-8d71-c60b23ab9be3" index="35" custom="{&quot;heights&quot;: [34.1, 12.2]}">
+        <Coords points="61,4149 168,4149 270,4149 372,4149 474,4149 576,4149 678,4149 780,4149 882,4149 990,4149 990,4103 882,4103 780,4103 678,4103 576,4103 474,4103 372,4103 270,4103 168,4103 61,4103 61,4149"/>
+        <Baseline points="61,4137 168,4137 270,4137 372,4137 474,4137 576,4137 678,4137 780,4137 882,4137 990,4137"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Exzellenz, Sr. k. und k. Apostolischen Majestät</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="d18fcd2f-c170-4a6f-b5e2-2fd05fb95c67" index="36" custom="{&quot;heights&quot;: [34.7, 12.1]}">
+        <Coords points="63,4194 168,4194 270,4194 372,4194 474,4194 576,4194 678,4194 780,4194 882,4194 990,4194 990,4147 882,4147 780,4147 678,4147 576,4147 474,4147 372,4147 270,4147 168,4147 63,4147 63,4194"/>
+        <Baseline points="63,4182 168,4182 270,4182 372,4182 474,4182 576,4182 678,4182 780,4182 882,4182 990,4182"/>
+        <TextEquiv conf="1.000">
+          <Unicode>die innigste Anteilnahme der gesamten Bevölkerung</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="cc8e5d72-0d03-446f-aaff-01892a9d8360" index="37" custom="{&quot;heights&quot;: [35.0, 12.2]}">
+        <Coords points="62,4239 168,4239 270,4242 372,4242 474,4239 576,4239 678,4239 780,4239 882,4239 990,4236 990,4231 989,4189 881,4192 780,4192 678,4192 576,4192 474,4192 371,4195 270,4195 169,4192 60,4192 62,4239"/>
+        <Baseline points="61,4227 168,4227 270,4230 372,4230 474,4227 576,4227 678,4227 780,4227 882,4227 990,4224"/>
+        <TextEquiv conf="1.000">
+          <Unicode>von Bad Ischl gütigst übermitteln zu wollen und</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="5bfa6711-ba55-4c68-a740-5231ccb28057" index="38" custom="{&quot;heights&quot;: [35.5, 12.2]}">
+        <Coords points="63,4284 990,4284 990,4237 882,4237 780,4237 678,4237 576,4237 474,4237 371,4240 270,4240 168,4240 64,4237 63,4278 63,4284"/>
+        <Baseline points="63,4272 168,4275 270,4275 372,4275 474,4272 576,4272 678,4272 780,4272 882,4272 990,4272"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Sr. k. und k. Apostolischen Majestät in diesen Tagen</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="3f04dcd2-2bad-4ab2-8316-a63f1f5d9379">
+      <Coords points="1623,4284 1935,4281 1950,2604 1962,2193 1962,1785 1978,1194 1992,140 1069,131 1055,590 1053,1137 1041,1500 1026,2507 1011,4281 1623,4284"/>
+      <TextLine id="2382ace4-a54d-4ef3-83a8-765c82dcf365" index="0" custom="{&quot;heights&quot;: [33.8, 12.3]}">
+        <Coords points="1992,140 1884,140 1782,140 1680,140 1579,137 1479,137 1378,134 1275,134 1173,134 1069,131 1069,146 1068,177 1173,180 1275,180 1377,180 1479,183 1578,183 1680,186 1782,186 1884,186 1991,186 1992,140"/>
+        <Baseline points="1068,165 1173,168 1275,168 1377,168 1479,171 1578,171 1680,174 1782,174 1884,174 1992,174"/>
+        <TextEquiv conf="1.000">
+          <Unicode>des Schmerzes die unwandelbare Liebe für Se. Ma-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="5341ad49-4777-414b-a9a5-e33530a1c9c7" index="1" custom="{&quot;heights&quot;: [33.3, 11.9]}">
+        <Coords points="1991,189 1884,189 1783,186 1680,186 1579,183 1479,183 1378,180 1275,180 1173,180 1068,180 1068,225 1173,225 1275,225 1377,225 1479,228 1578,228 1680,231 1782,231 1884,234 1991,234 1991,189"/>
+        <Baseline points="1068,213 1173,213 1275,213 1377,213 1479,216 1578,216 1680,219 1782,219 1884,222 1991,222"/>
+        <TextEquiv conf="1.000">
+          <Unicode>jestät sowie die treueste Anteilnahme für die Geschicke</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="763d3f18-79b5-4a8c-9bda-3d696638630b" index="2" custom="{&quot;heights&quot;: [33.5, 11.9]}">
+        <Coords points="1991,233 1884,233 1782,233 1680,233 1579,230 1477,227 1374,227 1273,224 1170,224 1066,224 1065,262 1065,270 1170,270 1272,270 1374,273 1476,273 1578,276 1680,279 1782,279 1884,279 1990,279 1991,233"/>
+        <Baseline points="1065,258 1170,258 1272,258 1374,261 1476,261 1578,264 1680,267 1782,267 1884,267 1990,267"/>
+        <TextEquiv conf="1.000">
+          <Unicode>des gesamten Herrscherhauses zum ehrfurchtsvollen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="7acf7b57-c5b5-4061-8205-7dd20014f224" index="3" custom="{&quot;heights&quot;: [33.6, 12.2]}">
+        <Coords points="1065,315 1110,315 1152,315 1190,315 1233,318 1272,318 1314,318 1353,318 1395,318 1443,318 1443,272 1395,272 1353,272 1314,272 1272,272 1233,272 1193,269 1152,269 1110,269 1065,269 1065,315"/>
+        <Baseline points="1065,303 1110,303 1152,303 1191,303 1233,306 1272,306 1314,306 1353,306 1395,306 1443,306"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Ausdrucke zu bringen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="f18474b4-5614-4c1e-8409-6fa7c95a7506" index="4" custom="{&quot;heights&quot;: [33.9, 12.1]}">
+        <Coords points="1989,366 1989,326 1884,326 1789,323 1692,323 1594,320 1497,320 1402,317 1302,317 1206,317 1105,314 1104,360 1206,363 1302,363 1401,363 1497,366 1593,366 1692,369 1788,369 1884,372 1989,372 1989,366"/>
+        <Baseline points="1104,348 1206,351 1302,351 1401,351 1497,354 1593,354 1692,357 1788,357 1884,360 1989,360"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Namens der Gemeindevertretung von Bad Ischl:</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="b708862b-5455-4b07-90d4-8fcd7161d6d5" index="5" custom="{&quot;heights&quot;: [33.7, 12.1]}">
+        <Coords points="1061,405 1122,408 1179,408 1236,408 1293,408 1349,408 1407,411 1464,411 1521,411 1584,411 1584,365 1521,365 1464,365 1407,365 1352,362 1293,362 1236,362 1179,362 1122,362 1062,359 1061,405"/>
+        <Baseline points="1061,393 1122,396 1179,396 1236,396 1293,396 1350,396 1407,399 1464,399 1521,399 1584,399"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Bürgermeister Franz Leithner.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="d1a54360-c62e-49f7-a786-777ceaced562" index="6" custom="{&quot;heights&quot;: [33.7, 12.1]}">
+        <Coords points="1101,453 1140,453 1176,453 1212,453 1248,453 1280,453 1317,456 1353,456 1389,456 1431,456 1431,410 1389,410 1353,410 1317,410 1284,407 1248,407 1212,407 1176,407 1140,407 1101,407 1101,453"/>
+        <Baseline points="1101,441 1140,441 1176,441 1212,441 1248,441 1281,441 1317,444 1353,444 1389,444 1431,444"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Graz, 29. Juni.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="bf8516ce-0cff-46a5-bb10-675237391f4b" index="7" custom="{&quot;heights&quot;: [34.0, 11.8]}">
+        <Coords points="1101,495 1203,498 1299,498 1398,501 1494,501 1590,504 1689,504 1785,507 1881,507 1986,507 1986,461 1881,461 1785,461 1690,458 1590,458 1495,455 1398,455 1300,452 1203,452 1102,449 1101,495"/>
+        <Baseline points="1101,483 1203,486 1299,486 1398,489 1494,489 1590,492 1689,492 1785,495 1881,495 1986,495"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Auf der Bevölkerung der Stadt und des Landes</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="e3e5e923-ba37-432a-baf4-ad67399abe0f" index="8" custom="{&quot;heights&quot;: [33.5, 11.9]}">
+        <Coords points="1059,543 1164,543 1266,543 1368,546 1470,546 1572,549 1674,549 1776,552 1878,552 1986,555 1987,509 1879,506 1776,506 1675,503 1572,503 1471,500 1368,500 1267,497 1164,497 1059,497 1059,543"/>
+        <Baseline points="1059,531 1164,531 1266,531 1368,534 1470,534 1572,537 1674,537 1776,540 1878,540 1986,543"/>
+        <TextEquiv conf="1.000">
+          <Unicode>lastet mit unverminderter Schwere die furchtbare</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="58a702da-e73f-4a0f-a0a6-6ed46ff109a0" index="9" custom="{&quot;heights&quot;: [33.8, 12.0]}">
+        <Coords points="1986,592 1986,551 1878,551 1776,551 1675,548 1572,548 1471,545 1368,545 1266,545 1165,542 1056,542 1056,557 1056,588 1164,588 1266,591 1368,591 1470,591 1572,594 1674,594 1776,597 1878,597 1986,597 1986,592"/>
+        <Baseline points="1056,576 1164,576 1266,579 1368,579 1470,579 1572,582 1674,582 1776,585 1878,585 1986,585"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Katastrophe von Sarajevo. Bis in die späten Nacht-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="00116247-9d60-4c88-aeef-2833d3927ff6" index="10" custom="{&quot;heights&quot;: [33.8, 11.9]}">
+        <Coords points="1056,636 1161,633 1263,636 1365,636 1467,639 1569,639 1671,639 1773,642 1875,642 1983,642 1983,596 1875,596 1773,596 1672,593 1569,593 1467,593 1366,590 1263,590 1162,587 1055,590 1056,636"/>
+        <Baseline points="1056,624 1161,621 1263,624 1365,624 1467,627 1569,627 1671,627 1773,630 1875,630 1983,630"/>
+        <TextEquiv conf="1.000">
+          <Unicode>stunden des gestrigen Tages und heute schon in den</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="714b8bc2-b121-4845-b6cc-809e51b7da02" index="11" custom="{&quot;heights&quot;: [34.0, 12.0]}">
+        <Coords points="1056,681 1161,681 1263,681 1365,681 1467,684 1569,684 1671,687 1773,687 1875,687 1983,690 1984,644 1876,641 1773,641 1671,641 1570,638 1467,638 1366,635 1263,635 1161,635 1056,635 1056,681"/>
+        <Baseline points="1056,669 1161,669 1263,669 1365,669 1467,672 1569,672 1671,675 1773,675 1875,675 1983,678"/>
+        <TextEquiv conf="1.000">
+          <Unicode>ersten Morgenstunden waren die Straßen der Stadt</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="15b673e1-58a5-43f8-80bd-4535097fe896" index="12" custom="{&quot;heights&quot;: [34.1, 12.0]}">
+        <Coords points="1056,726 1161,726 1263,726 1365,726 1467,729 1569,732 1671,732 1773,732 1875,735 1983,735 1983,689 1875,689 1774,686 1671,686 1569,686 1468,683 1366,680 1263,680 1161,680 1056,680 1056,726"/>
+        <Baseline points="1056,714 1161,714 1263,714 1365,714 1467,717 1569,720 1671,720 1773,720 1875,723 1983,723"/>
+        <TextEquiv conf="1.000">
+          <Unicode>überaus belebt. Mit allen Zeichen des Entsetzens</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="07042bc3-7b1d-46b4-8b80-f4c4fbab2df4" index="13" custom="{&quot;heights&quot;: [34.1, 12.0]}">
+        <Coords points="1056,771 1161,771 1263,774 1365,774 1467,774 1569,777 1671,777 1773,780 1875,780 1983,780 1983,734 1875,734 1773,734 1672,731 1569,731 1468,728 1365,728 1263,728 1162,725 1056,725 1056,771"/>
+        <Baseline points="1056,759 1161,759 1263,762 1365,762 1467,762 1569,765 1671,765 1773,768 1875,768 1983,768"/>
+        <TextEquiv conf="1.000">
+          <Unicode>wurden die Extra-Ausgaben der Blätter gelesen. Vor</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="cebf51f5-b2aa-4cce-95fd-645e5e00c842" index="14" custom="{&quot;heights&quot;: [33.9, 12.0]}">
+        <Coords points="1983,818 1983,779 1875,779 1773,779 1671,779 1570,776 1468,773 1365,773 1263,773 1161,773 1057,770 1056,816 1161,819 1263,819 1365,819 1467,819 1569,822 1671,825 1773,825 1875,825 1983,825 1983,818"/>
+        <Baseline points="1056,804 1161,807 1263,807 1365,807 1467,807 1569,810 1671,813 1773,813 1875,813 1983,813"/>
+        <TextEquiv conf="1.000">
+          <Unicode>dem Geburtshause des durchlauchtigsten Herrn Erz-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="9587759a-5b5e-482f-acbf-4011709ae8c5" index="15" custom="{&quot;heights&quot;: [33.9, 12.0]}">
+        <Coords points="1983,827 1875,827 1774,824 1671,824 1570,821 1467,821 1366,818 1263,818 1161,818 1054,818 1054,864 1161,864 1263,864 1365,864 1467,867 1569,867 1671,870 1773,870 1875,873 1982,873 1983,827"/>
+        <Baseline points="1054,852 1161,852 1263,852 1365,852 1467,855 1569,855 1671,858 1773,858 1875,861 1982,861"/>
+        <TextEquiv conf="1.000">
+          <Unicode>herzogs Franz Ferdinand in der Sackstraße</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="001c5757-9506-432d-b895-10222282bff0" index="16" custom="{&quot;heights&quot;: [33.6, 12.0]}">
+        <Coords points="1054,909 1158,909 1260,909 1362,912 1464,912 1566,915 1668,915 1770,915 1872,918 1980,918 1980,872 1872,872 1771,869 1668,869 1566,869 1465,866 1362,866 1261,863 1158,863 1054,863 1054,909"/>
+        <Baseline points="1054,897 1158,897 1260,897 1362,900 1464,900 1566,903 1668,903 1770,903 1872,906 1980,906"/>
+        <TextEquiv conf="1.000">
+          <Unicode>sammelten sich viele Personen an und besprachen mit</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="4b2e4017-2eb4-4f91-ace5-4ef6be177e3a" index="17" custom="{&quot;heights&quot;: [33.4, 11.8]}">
+        <Coords points="1054,954 1152,954 1251,954 1347,957 1446,957 1542,960 1641,960 1737,960 1836,963 1941,963 1941,918 1836,918 1738,915 1641,915 1542,915 1447,912 1347,912 1252,909 1152,909 1054,909 1054,954"/>
+        <Baseline points="1054,942 1152,942 1251,942 1347,945 1446,945 1542,948 1641,948 1737,948 1836,951 1941,951"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Tränen in den Augen das fürchterliche Geschehnis.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="6b32669e-79ce-4ade-812c-629e5b31ee55" index="18" custom="{&quot;heights&quot;: [34.0, 12.0]}">
+        <Coords points="1092,1002 1143,1002 1189,1002 1236,999 1280,999 1329,1002 1374,1002 1422,1002 1466,1002 1520,1005 1523,959 1469,956 1422,956 1374,956 1329,956 1283,953 1236,953 1186,956 1143,956 1092,956 1092,1002"/>
+        <Baseline points="1092,990 1143,990 1188,990 1236,987 1281,987 1329,990 1374,990 1422,990 1467,990 1521,993"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Innsbruck, 29. Juni.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="be8f3f2f-59cd-4b4c-81c7-c949d9d04f64" index="19" custom="{&quot;heights&quot;: [33.8, 11.8]}">
+        <Coords points="1092,1044 1194,1044 1290,1047 1389,1047 1485,1047 1581,1047 1680,1050 1776,1053 1872,1053 1977,1056 1978,1010 1873,1007 1776,1007 1681,1004 1582,1001 1485,1001 1389,1001 1290,1001 1195,998 1092,998 1092,1044"/>
+        <Baseline points="1092,1032 1194,1032 1290,1035 1389,1035 1485,1035 1581,1035 1680,1038 1776,1041 1872,1041 1977,1044"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Die erschütternde Kunde von dem furchtbarem</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="9d5e5fdf-b117-4543-8f0d-ad9159db3636" index="20" custom="{&quot;heights&quot;: [33.6, 11.7]}">
+        <Coords points="1053,1089 1155,1089 1257,1092 1359,1092 1461,1092 1563,1092 1665,1095 1767,1095 1869,1098 1977,1098 1977,1052 1869,1052 1768,1049 1665,1049 1564,1046 1461,1046 1359,1046 1257,1046 1156,1043 1053,1043 1053,1089"/>
+        <Baseline points="1053,1077 1155,1077 1257,1080 1359,1080 1461,1080 1563,1080 1665,1083 1767,1083 1869,1086 1977,1086"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Attentat in Sarajevo wurde in den Nachmittags-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="cfaa1ad1-a618-4733-a260-3f8c02ddfa8b" index="21" custom="{&quot;heights&quot;: [33.3, 11.6]}">
+        <Coords points="1053,1137 1158,1137 1260,1137 1362,1137 1464,1137 1563,1140 1665,1140 1767,1140 1869,1143 1977,1146 1978,1101 1870,1098 1768,1095 1665,1095 1563,1095 1465,1092 1362,1092 1260,1092 1158,1092 1053,1092 1053,1137"/>
+        <Baseline points="1053,1125 1158,1125 1260,1125 1362,1125 1464,1125 1563,1128 1665,1128 1767,1128 1869,1131 1977,1134"/>
+        <TextEquiv conf="1.000">
+          <Unicode>stunden durch Extra-Ausgaben der Blätter bekannt</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="3b3620ae-1f21-463c-9fd6-5b5dc753c553" index="22" custom="{&quot;heights&quot;: [33.6, 11.5]}">
+        <Coords points="1053,1137 1053,1182 1158,1182 1260,1182 1362,1182 1464,1185 1563,1185 1665,1185 1767,1188 1869,1188 1977,1191 1978,1145 1870,1142 1767,1142 1666,1139 1563,1139 1464,1139 1363,1136 1260,1136 1158,1136 1053,1136 1053,1137"/>
+        <Baseline points="1053,1170 1158,1170 1260,1170 1362,1170 1464,1173 1563,1173 1665,1173 1767,1176 1869,1176 1977,1179"/>
+        <TextEquiv conf="1.000">
+          <Unicode>und rief allenthalben größte Entrüstung und Abscheu</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="e94661ae-6739-4bdf-a264-017db7ecac0c" index="23" custom="{&quot;heights&quot;: [33.4, 11.5]}">
+        <Coords points="1050,1226 1155,1226 1257,1226 1359,1229 1461,1229 1563,1229 1665,1232 1767,1232 1869,1235 1977,1238 1978,1194 1870,1191 1768,1188 1665,1188 1564,1185 1461,1185 1359,1185 1258,1182 1155,1182 1052,1182 1050,1226"/>
+        <Baseline points="1050,1215 1155,1215 1257,1215 1359,1218 1461,1218 1563,1218 1665,1221 1767,1221 1869,1224 1977,1227"/>
+        <TextEquiv conf="1.000">
+          <Unicode>hervor. Auf dem Rathause wurde die Trauerflagge</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="56de7ada-9fb9-421e-aa27-c5b3a58ca2cb" index="24" custom="{&quot;heights&quot;: [33.4, 11.6]}">
+        <Coords points="1050,1275 1155,1275 1257,1275 1359,1275 1461,1275 1560,1275 1662,1278 1764,1278 1866,1281 1974,1284 1975,1239 1867,1236 1765,1233 1662,1233 1561,1230 1461,1230 1359,1230 1257,1230 1155,1230 1050,1230 1050,1275"/>
+        <Baseline points="1050,1263 1155,1263 1257,1263 1359,1263 1461,1263 1560,1263 1662,1266 1764,1266 1866,1269 1974,1272"/>
+        <TextEquiv conf="1.000">
+          <Unicode>gehißt, worauf auch die übrigen städtischen und die</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="b9c0d2f8-2238-477b-a0f5-5e58b924b999" index="25" custom="{&quot;heights&quot;: [33.6, 11.7]}">
+        <Coords points="1050,1317 1155,1320 1257,1320 1359,1320 1461,1320 1560,1323 1662,1323 1764,1326 1866,1326 1974,1329 1975,1283 1867,1280 1764,1280 1663,1277 1560,1277 1462,1274 1359,1274 1257,1274 1155,1274 1051,1271 1050,1317"/>
+        <Baseline points="1050,1305 1155,1308 1257,1308 1359,1308 1461,1308 1560,1311 1662,1311 1764,1314 1866,1314 1974,1317"/>
+        <TextEquiv conf="1.000">
+          <Unicode>staatlichen Gebäude Trauerschmuck anlegten. Die</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="89786bc4-bd4d-4739-90b5-c919eac7a9d2" index="26" custom="{&quot;heights&quot;: [33.6, 11.7]}">
+        <Coords points="1047,1362 1152,1365 1254,1365 1356,1365 1458,1368 1557,1368 1659,1371 1761,1371 1863,1374 1971,1374 1971,1328 1863,1328 1762,1325 1659,1325 1558,1322 1458,1322 1357,1319 1254,1319 1152,1319 1048,1316 1047,1362"/>
+        <Baseline points="1047,1350 1152,1353 1254,1353 1356,1353 1458,1356 1557,1356 1659,1359 1761,1359 1863,1362 1971,1362"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Vorstellung im Theater wurde abgesagt. Ebenso</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="1533885e-53b1-4cb9-ac00-7449752030a9" index="27" custom="{&quot;heights&quot;: [33.5, 11.9]}">
+        <Coords points="1047,1410 1152,1410 1254,1410 1356,1413 1455,1413 1557,1413 1659,1416 1758,1416 1860,1419 1968,1419 1968,1373 1860,1373 1759,1370 1659,1370 1558,1367 1455,1367 1356,1367 1255,1364 1152,1364 1047,1364 1047,1410"/>
+        <Baseline points="1047,1398 1152,1398 1254,1398 1356,1401 1455,1401 1557,1401 1659,1404 1758,1404 1860,1407 1968,1407"/>
+        <TextEquiv conf="1.000">
+          <Unicode>wurden die Vergnügungs-Veranstaltungen anläßlich</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eeb78389-b0f7-468e-9c4a-2fab3a752931" index="28" custom="{&quot;heights&quot;: [33.8, 11.9]}">
+        <Coords points="1044,1409 1044,1455 1149,1455 1251,1458 1353,1458 1455,1458 1554,1461 1656,1461 1758,1461 1860,1464 1968,1464 1968,1418 1860,1418 1759,1415 1656,1415 1554,1415 1456,1412 1353,1412 1251,1412 1150,1409 1044,1409 1044,1409"/>
+        <Baseline points="1044,1443 1149,1443 1251,1446 1353,1446 1455,1446 1554,1449 1656,1449 1758,1449 1860,1452 1968,1452"/>
+        <TextEquiv conf="1.000">
+          <Unicode>der Vormittags erfolgten Fahnenweihe des Militär-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="cdf6f9b3-afe1-4a05-872e-c40e3d16cfbb" index="29" custom="{&quot;heights&quot;: [34.5, 12.2]}">
+        <Coords points="1041,1500 1041,1500 1146,1503 1248,1503 1350,1503 1452,1503 1554,1506 1656,1506 1758,1509 1860,1509 1968,1509 1968,1463 1860,1463 1758,1463 1657,1460 1554,1460 1453,1457 1350,1457 1248,1457 1146,1457 1043,1454 1041,1500"/>
+        <Baseline points="1041,1488 1146,1491 1248,1491 1350,1491 1452,1491 1554,1494 1656,1494 1758,1497 1860,1497 1968,1497"/>
+        <TextEquiv conf="1.000">
+          <Unicode>veteranen-Landesbundes auf das Eintreffen der Trauer-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="0d6283ca-05b6-4987-adaf-d935717f0a8a" index="30" custom="{&quot;heights&quot;: [33.2, 12.2]}">
+        <Coords points="1041,1548 1080,1548 1113,1548 1149,1548 1182,1548 1215,1548 1251,1548 1284,1548 1317,1548 1359,1548 1359,1503 1317,1503 1284,1503 1251,1503 1215,1503 1182,1503 1149,1503 1113,1503 1080,1503 1041,1503 1041,1548"/>
+        <Baseline points="1041,1536 1080,1536 1113,1536 1149,1536 1182,1536 1215,1536 1251,1536 1284,1536 1317,1536 1359,1536"/>
+        <TextEquiv conf="1.000">
+          <Unicode>kunde abgebrochen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="e261fd33-8cb2-4a12-a02f-c29e8033f303" index="31" custom="{&quot;heights&quot;: [33.8, 12.1]}">
+        <Coords points="1083,1593 1122,1593 1158,1593 1194,1593 1230,1593 1266,1593 1301,1593 1338,1596 1374,1596 1416,1596 1416,1550 1374,1550 1338,1550 1305,1547 1266,1547 1230,1547 1194,1547 1158,1547 1122,1547 1083,1547 1083,1593"/>
+        <Baseline points="1083,1581 1122,1581 1158,1581 1194,1581 1230,1581 1266,1581 1302,1581 1338,1584 1374,1584 1416,1584"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Trieft, 28. Juni.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="f2046afb-468a-4262-be20-253307c38142" index="32" custom="{&quot;heights&quot;: [34.2, 11.9]}">
+        <Coords points="1080,1638 1182,1638 1278,1641 1377,1641 1473,1641 1569,1641 1668,1644 1764,1644 1860,1647 1965,1647 1965,1601 1860,1601 1765,1598 1668,1598 1570,1595 1473,1595 1377,1595 1278,1595 1183,1592 1080,1592 1080,1638"/>
+        <Baseline points="1080,1626 1182,1626 1278,1629 1377,1629 1473,1629 1569,1629 1668,1632 1764,1632 1860,1635 1965,1635"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Hier traf die Trauerbotschaft im Laufe des Nach-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="7e1d547b-3779-47f3-9e34-1ae8b6a5b43e" index="33" custom="{&quot;heights&quot;: [33.6, 12.0]}">
+        <Coords points="1041,1683 1146,1686 1248,1686 1350,1686 1449,1686 1551,1686 1653,1689 1752,1689 1854,1692 1962,1695 1963,1649 1855,1646 1753,1643 1653,1643 1552,1640 1449,1640 1350,1640 1248,1640 1146,1640 1042,1637 1041,1683"/>
+        <Baseline points="1041,1671 1146,1674 1248,1674 1350,1674 1449,1674 1551,1674 1653,1677 1752,1677 1854,1680 1962,1683"/>
+        <TextEquiv conf="1.000">
+          <Unicode>mittags ein und erweckte überall große Bestürzung.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="e19fd4f1-abdb-43d1-87c5-60cd6d15ce69" index="34" custom="{&quot;heights&quot;: [33.7, 11.8]}">
+        <Coords points="1965,1691 1857,1691 1756,1688 1653,1688 1551,1688 1453,1685 1350,1685 1248,1685 1146,1685 1042,1682 1041,1728 1146,1731 1248,1731 1350,1731 1452,1731 1551,1734 1653,1734 1755,1734 1857,1737 1963,1737 1965,1691"/>
+        <Baseline points="1041,1716 1146,1719 1248,1719 1350,1719 1452,1719 1551,1722 1653,1722 1755,1722 1857,1725 1964,1725"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Se. k. und k. Hoheit der durchlauchtigste Herr Erz-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="fb69214b-81d7-4740-a4f7-dee8f730fe24" index="35" custom="{&quot;heights&quot;: [33.6, 11.7]}">
+        <Coords points="1038,1776 1143,1776 1245,1776 1347,1779 1449,1779 1548,1779 1650,1779 1752,1779 1854,1782 1962,1785 1963,1739 1855,1736 1753,1733 1650,1733 1548,1733 1449,1733 1347,1733 1246,1730 1143,1730 1038,1730 1038,1776"/>
+        <Baseline points="1038,1764 1143,1764 1245,1764 1347,1767 1449,1767 1548,1767 1650,1767 1752,1767 1854,1770 1962,1773"/>
+        <TextEquiv conf="1.000">
+          <Unicode>herzog war erst am vergangenen Mittwoch in Triest</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="7a16a008-ea90-46a1-a167-7f318ed9bc3d" index="36" custom="{&quot;heights&quot;: [33.7, 11.7]}">
+        <Coords points="1038,1821 1143,1821 1245,1821 1344,1824 1446,1824 1545,1824 1647,1824 1746,1827 1848,1827 1956,1830 1957,1784 1849,1781 1746,1781 1648,1778 1545,1778 1446,1778 1344,1778 1246,1775 1143,1775 1038,1775 1038,1821"/>
+        <Baseline points="1038,1809 1143,1809 1245,1809 1344,1812 1446,1812 1545,1812 1647,1812 1746,1815 1848,1815 1956,1818"/>
+        <TextEquiv conf="1.000">
+          <Unicode>gewesen, als er sich an Bord der „Viribus unitis“</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="5c8a5a65-0e20-4572-ad70-fb0cf85ad590" index="37" custom="{&quot;heights&quot;: [33.9, 11.7]}">
+        <Coords points="1962,1829 1857,1829 1756,1826 1654,1823 1550,1826 1449,1826 1348,1823 1245,1823 1144,1820 1038,1820 1038,1866 1143,1866 1245,1869 1347,1869 1449,1872 1551,1872 1653,1869 1755,1872 1857,1875 1962,1875 1962,1829"/>
+        <Baseline points="1038,1854 1143,1854 1245,1857 1347,1857 1449,1860 1551,1860 1653,1857 1755,1860 1857,1863 1962,1863"/>
+        <TextEquiv conf="1.000">
+          <Unicode>nach Metkovie einschiffte. Zahlreiche Gebäude der Stadt</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="f4a73c29-9e05-4ccb-9dd1-4242a5b242b3" index="38" custom="{&quot;heights&quot;: [34.0, 11.6]}">
+        <Coords points="1962,1874 1854,1874 1753,1871 1650,1871 1548,1871 1449,1871 1348,1868 1245,1868 1144,1865 1038,1865 1038,1911 1143,1911 1245,1914 1347,1914 1449,1917 1548,1917 1650,1917 1752,1917 1854,1920 1962,1920 1962,1874"/>
+        <Baseline points="1038,1899 1143,1899 1245,1902 1347,1902 1449,1905 1548,1905 1650,1905 1752,1905 1854,1908 1962,1908"/>
+        <TextEquiv conf="1.000">
+          <Unicode>haben bereits Trauerfahnen gehißt. Das Sommerfest</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="af5d9810-8196-4e04-b887-5b8419aa758b" index="39" custom="{&quot;heights&quot;: [33.8, 11.7]}">
+        <Coords points="1962,1919 1854,1919 1753,1916 1650,1916 1548,1916 1446,1916 1345,1913 1242,1913 1141,1910 1035,1910 1035,1956 1140,1956 1242,1959 1344,1959 1446,1962 1548,1962 1650,1962 1752,1962 1854,1965 1962,1965 1962,1919"/>
+        <Baseline points="1035,1944 1140,1944 1242,1947 1344,1947 1446,1950 1548,1950 1650,1950 1752,1950 1854,1953 1962,1953"/>
+        <TextEquiv conf="1.000">
+          <Unicode>der deutschen Vereine wurde sofort nach dem Bekannt-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="9df8efbe-ba62-43b7-b3c1-57e0da1fc46e" index="40" custom="{&quot;heights&quot;: [34.1, 11.7]}">
+        <Coords points="1035,2001 1140,2004 1242,2004 1344,2007 1446,2007 1545,2007 1647,2007 1749,2007 1851,2010 1959,2010 1959,1964 1851,1964 1750,1961 1647,1961 1545,1961 1446,1961 1344,1961 1243,1958 1140,1958 1036,1955 1035,2001"/>
+        <Baseline points="1035,1989 1140,1992 1242,1992 1344,1995 1446,1995 1545,1995 1647,1995 1749,1995 1851,1998 1959,1998"/>
+        <TextEquiv conf="1.000">
+          <Unicode>werden der Nachricht abgesagt. Auch das italienische</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="798192d1-853d-4fb7-ac0f-421bcc85abfd" index="41" custom="{&quot;heights&quot;: [33.7, 11.9]}">
+        <Coords points="1035,2049 1140,2049 1242,2052 1344,2052 1446,2052 1545,2052 1647,2052 1749,2055 1851,2055 1959,2058 1960,2012 1852,2009 1749,2009 1648,2006 1545,2006 1446,2006 1344,2006 1242,2006 1141,2003 1035,2003 1035,2049"/>
+        <Baseline points="1035,2037 1140,2037 1242,2040 1344,2040 1446,2040 1545,2040 1647,2040 1749,2043 1851,2043 1959,2046"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Turnfest am Montebello wurde unterbrochen, als</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="ce8da850-975b-469c-a07c-059fc48e8d15" index="42" custom="{&quot;heights&quot;: [33.9, 11.8]}">
+        <Coords points="1035,2094 1140,2094 1242,2097 1344,2097 1446,2097 1545,2097 1647,2100 1749,2100 1851,2103 1959,2106 1960,2060 1852,2057 1750,2054 1647,2054 1546,2051 1446,2051 1344,2051 1242,2051 1141,2048 1035,2048 1035,2094"/>
+        <Baseline points="1035,2082 1140,2082 1242,2085 1344,2085 1446,2085 1545,2085 1647,2088 1749,2088 1851,2091 1959,2094"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Podesta Dr. Valerio die erschütternde Mitteilung</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="4895f56c-d27e-4cd7-974e-ac88905941a3" index="43" custom="{&quot;heights&quot;: [33.9, 11.9]}">
+        <Coords points="1962,2102 1854,2102 1753,2099 1650,2099 1548,2099 1447,2096 1344,2096 1242,2096 1140,2096 1036,2093 1035,2139 1140,2142 1242,2142 1344,2142 1446,2142 1548,2145 1650,2145 1752,2145 1854,2148 1962,2148 1962,2102"/>
+        <Baseline points="1035,2127 1140,2130 1242,2130 1344,2130 1446,2130 1548,2133 1650,2133 1752,2133 1854,2136 1962,2136"/>
+        <TextEquiv conf="1.000">
+          <Unicode>machte. Sämtliche Kinematographen-Theater sowie</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="339f1498-2622-4a73-ba92-2159d44a8848" index="44" custom="{&quot;heights&quot;: [33.9, 12.1]}">
+        <Coords points="1962,2193 1962,2147 1854,2147 1752,2147 1651,2144 1548,2144 1446,2144 1345,2141 1242,2141 1140,2141 1032,2141 1032,2187 1140,2187 1242,2187 1344,2187 1446,2190 1548,2190 1650,2190 1752,2193 1854,2193 1962,2193 1962,2193"/>
+        <Baseline points="1032,2175 1140,2175 1242,2175 1344,2175 1446,2178 1548,2178 1650,2178 1752,2181 1854,2181 1962,2181"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Konzerte und Variétés haben sofort zum Zeichen der</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="8be8955f-54f6-4c73-b06e-8f3e8621cdee" index="45" custom="{&quot;heights&quot;: [33.8, 12.2]}">
+        <Coords points="1032,2232 1104,2232 1173,2232 1241,2232 1311,2235 1377,2235 1446,2235 1515,2235 1584,2235 1659,2235 1659,2189 1584,2189 1515,2189 1446,2189 1377,2189 1311,2189 1243,2186 1173,2186 1104,2186 1032,2186 1032,2232"/>
+        <Baseline points="1032,2220 1104,2220 1173,2220 1242,2220 1311,2223 1377,2223 1446,2223 1515,2223 1584,2223 1659,2223"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Trauer die Vorstellungen eingestellt.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="8b325433-bbe9-4465-9b64-59c86badb97e" index="46" custom="{&quot;heights&quot;: [33.9, 12.1]}">
+        <Coords points="1071,2277 1173,2277 1269,2277 1368,2280 1464,2280 1563,2280 1659,2280 1758,2283 1854,2283 1959,2286 1960,2240 1855,2237 1758,2237 1660,2234 1563,2234 1464,2234 1368,2234 1270,2231 1173,2231 1071,2231 1071,2277"/>
+        <Baseline points="1071,2265 1173,2265 1269,2265 1368,2268 1464,2268 1563,2268 1659,2268 1758,2271 1854,2271 1959,2274"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Ministerpräsident Graf Stürgkh hat an den</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="c9265757-965c-4293-a1a7-19b4be0aa368" index="47" custom="{&quot;heights&quot;: [34.3, 12.3]}">
+        <Coords points="1959,2296 1959,2282 1851,2282 1749,2282 1647,2282 1546,2279 1443,2279 1341,2279 1240,2276 1137,2276 1031,2279 1032,2325 1137,2322 1239,2322 1341,2325 1443,2325 1545,2325 1647,2328 1749,2328 1851,2328 1958,2328 1959,2296"/>
+        <Baseline points="1032,2313 1137,2310 1239,2310 1341,2313 1443,2313 1545,2313 1647,2316 1749,2316 1851,2316 1958,2316"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Statthalter folgende Depesche gerichtet: Tief-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="1533d592-8926-4366-9c6f-ad1400f75bc2" index="48" custom="{&quot;heights&quot;: [33.9, 12.1]}">
+        <Coords points="1032,2370 1137,2367 1239,2367 1341,2370 1443,2370 1542,2370 1644,2373 1746,2373 1848,2373 1956,2376 1957,2330 1849,2327 1746,2327 1644,2327 1543,2324 1443,2324 1341,2324 1240,2321 1137,2321 1031,2324 1032,2370"/>
+        <Baseline points="1032,2358 1137,2355 1239,2355 1341,2358 1443,2358 1542,2358 1644,2361 1746,2361 1848,2361 1956,2364"/>
+        <TextEquiv conf="1.000">
+          <Unicode>erschüttert gebe ich Eurer Durchlaucht Kenntnis, daß</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="55490a9f-af6d-484b-817b-03b56ae1d099" index="49" custom="{&quot;heights&quot;: [34.0, 12.1]}">
+        <Coords points="1029,2415 1134,2415 1236,2415 1338,2415 1440,2415 1539,2418 1641,2418 1743,2418 1845,2418 1953,2421 1954,2375 1846,2372 1743,2372 1641,2372 1539,2372 1441,2369 1338,2369 1236,2369 1134,2369 1029,2369 1029,2415"/>
+        <Baseline points="1029,2403 1134,2403 1236,2403 1338,2403 1440,2403 1539,2406 1641,2406 1743,2406 1845,2406 1953,2409"/>
+        <TextEquiv conf="1.000">
+          <Unicode>einer mir zugekommenen authentischen Nachricht zufolge</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="136b9e17-b0fa-4e64-ae07-61897dc85a44" index="50" custom="{&quot;heights&quot;: [34.6, 12.3]}">
+        <Coords points="1029,2460 1134,2460 1236,2460 1338,2460 1437,2463 1539,2463 1641,2463 1740,2466 1842,2466 1950,2469 1951,2422 1843,2419 1740,2419 1642,2416 1539,2416 1437,2416 1339,2413 1236,2413 1134,2413 1029,2413 1029,2460"/>
+        <Baseline points="1029,2448 1134,2448 1236,2448 1338,2448 1437,2451 1539,2451 1641,2451 1740,2454 1842,2454 1950,2457"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Se. k. und k. Hoheit der durchlauchtigste Herr Erzherzog</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="aad34589-ad5a-4137-86ff-678e2c14fb57" index="51" custom="{&quot;heights&quot;: [34.4, 12.3]}">
+        <Coords points="1953,2501 1953,2465 1845,2465 1743,2465 1642,2462 1539,2462 1440,2462 1338,2462 1236,2462 1134,2462 1029,2462 1029,2508 1134,2508 1236,2508 1338,2508 1440,2508 1539,2508 1641,2508 1743,2511 1845,2511 1953,2511 1953,2501"/>
+        <Baseline points="1029,2496 1134,2496 1236,2496 1338,2496 1440,2496 1539,2496 1641,2496 1743,2499 1845,2499 1953,2499"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Franz Ferdinand mit Ihrer Hoheit der Frau</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="19b05439-1723-4df8-871f-cfe07c59ad1c" index="52" custom="{&quot;heights&quot;: [34.0, 12.2]}">
+        <Coords points="1953,2510 1845,2510 1743,2510 1641,2510 1540,2507 1437,2507 1335,2507 1233,2507 1131,2507 1026,2507 1026,2507 1026,2553 1131,2553 1233,2553 1335,2553 1437,2553 1539,2553 1641,2556 1743,2556 1845,2556 1951,2556 1953,2510"/>
+        <Baseline points="1026,2541 1131,2541 1233,2541 1335,2541 1437,2541 1539,2541 1641,2544 1743,2544 1845,2544 1952,2544"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Herzogin von Hohenberg heute in Sarajevo</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="c8bd57d4-14dd-4d93-90bd-273f2f863496" index="53" custom="{&quot;heights&quot;: [34.1, 12.4]}">
+        <Coords points="1026,2598 1131,2598 1233,2598 1335,2598 1437,2598 1536,2598 1638,2601 1740,2601 1842,2601 1950,2604 1951,2558 1843,2555 1740,2555 1638,2555 1537,2552 1437,2552 1335,2552 1233,2552 1131,2552 1026,2552 1026,2598"/>
+        <Baseline points="1026,2586 1131,2586 1233,2586 1335,2586 1437,2586 1536,2586 1638,2589 1740,2589 1842,2589 1950,2592"/>
+        <TextEquiv conf="1.000">
+          <Unicode>einem fluchwürdigen Attentat zum Opfer gefallen ist.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="7304cd85-1744-4d2d-9846-dd40fae11dbe" index="54" custom="{&quot;heights&quot;: [34.3, 12.5]}">
+        <Coords points="1026,2644 1089,2644 1146,2644 1203,2644 1260,2644 1320,2644 1376,2643 1434,2647 1492,2646 1558,2643 1555,2597 1489,2600 1434,2600 1379,2597 1320,2597 1260,2597 1203,2597 1146,2597 1089,2597 1026,2597 1026,2644"/>
+        <Baseline points="1026,2631 1089,2631 1146,2631 1203,2631 1260,2631 1320,2631 1377,2631 1434,2634 1491,2634 1557,2631"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Gezeichnet Graf Stürgkh.“</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="2b4c1480-0aac-4cf4-a228-0183d55bf5f0" index="55" custom="{&quot;heights&quot;: [34.7, 12.3]}">
+        <Coords points="1950,2644 1845,2644 1749,2644 1653,2644 1554,2644 1458,2644 1362,2644 1263,2644 1168,2641 1065,2641 1065,2688 1167,2688 1263,2691 1362,2691 1458,2691 1554,2691 1653,2691 1749,2691 1845,2691 1949,2691 1950,2644"/>
+        <Baseline points="1065,2676 1167,2676 1263,2679 1362,2679 1458,2679 1554,2679 1653,2679 1749,2679 1845,2679 1949,2679"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Einer Extra-Ausgabe des „Piccolo“ zufolge wird</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="c37bfee8-feaf-4bc5-a10f-234fcc42d72e" index="56" custom="{&quot;heights&quot;: [34.5, 12.3]}">
+        <Coords points="1949,2693 1842,2693 1741,2690 1638,2690 1536,2690 1437,2690 1335,2690 1233,2690 1132,2687 1026,2687 1026,2733 1131,2733 1233,2736 1335,2736 1437,2736 1536,2736 1638,2736 1740,2736 1842,2739 1949,2739 1949,2693"/>
+        <Baseline points="1026,2721 1131,2721 1233,2724 1335,2724 1437,2724 1536,2724 1638,2724 1740,2724 1842,2727 1949,2727"/>
+        <TextEquiv conf="1.000">
+          <Unicode>der Gemeinderat von Triest zu einer</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="a26a63c5-902e-463d-a61c-85c81a4311be" index="57" custom="{&quot;heights&quot;: [34.5, 12.2]}">
+        <Coords points="1949,2737 1845,2737 1744,2734 1641,2734 1539,2734 1437,2734 1335,2734 1233,2734 1132,2731 1026,2731 1026,2778 1131,2778 1233,2781 1335,2781 1437,2781 1539,2781 1641,2781 1743,2781 1845,2784 1948,2784 1949,2737"/>
+        <Baseline points="1026,2766 1131,2766 1233,2769 1335,2769 1437,2769 1539,2769 1641,2769 1743,2769 1845,2772 1948,2772"/>
+        <TextEquiv conf="1.000">
+          <Unicode>außerordentlichen Sitzung für Dienstag 12 Uhr</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="377a2f22-a1c8-4a07-867b-06d50913774e" index="58" custom="{&quot;heights&quot;: [34.5, 12.2]}">
+        <Coords points="1948,2782 1842,2782 1740,2782 1639,2779 1535,2782 1437,2782 1336,2779 1233,2779 1131,2779 1027,2776 1026,2823 1131,2826 1233,2826 1335,2826 1437,2829 1536,2829 1638,2826 1740,2829 1842,2829 1948,2829 1948,2782"/>
+        <Baseline points="1026,2811 1131,2814 1233,2814 1335,2814 1437,2817 1536,2817 1638,2814 1740,2817 1842,2817 1948,2817"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Mittags einberufen. Der Podesta wird</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="e6c1a982-87bc-4fe0-aee6-558c5c361a42" index="59" custom="{&quot;heights&quot;: [34.5, 12.1]}">
+        <Coords points="1948,2830 1843,2827 1740,2827 1638,2827 1536,2827 1437,2827 1336,2824 1233,2824 1131,2824 1026,2824 1026,2871 1131,2871 1233,2871 1335,2871 1437,2874 1536,2874 1638,2874 1740,2874 1842,2874 1948,2877 1948,2830"/>
+        <Baseline points="1026,2859 1131,2859 1233,2859 1335,2859 1437,2862 1536,2862 1638,2862 1740,2862 1842,2862 1948,2865"/>
+        <TextEquiv conf="1.000">
+          <Unicode>den Antrag stellen, daß der Gemeinderat</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="d051b489-3a2f-4342-bd0d-8195632e0c55" index="60" custom="{&quot;heights&quot;: [34.5, 12.2]}">
+        <Coords points="1948,2873 1842,2873 1740,2873 1639,2870 1536,2870 1437,2870 1335,2870 1233,2870 1131,2870 1027,2867 1026,2913 1131,2916 1233,2916 1335,2916 1437,2916 1536,2916 1638,2916 1740,2919 1842,2919 1947,2919 1948,2873"/>
+        <Baseline points="1026,2901 1131,2904 1233,2904 1335,2904 1437,2904 1536,2904 1638,2904 1740,2907 1842,2907 1947,2907"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Sr. Majestät dem Kaiser sein Beileid ausdrücke</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="4a462957-c0d9-44a7-b421-a5bb6e32fb60" index="61" custom="{&quot;heights&quot;: [34.1, 12.0]}">
+        <Coords points="1947,2921 1840,2918 1737,2918 1635,2918 1534,2915 1433,2918 1333,2915 1230,2915 1128,2915 1023,2915 1023,2961 1128,2961 1230,2961 1332,2961 1434,2964 1533,2961 1635,2964 1737,2964 1839,2964 1947,2967 1947,2962 1947,2921"/>
+        <Baseline points="1023,2949 1128,2949 1230,2949 1332,2949 1434,2952 1533,2949 1635,2952 1737,2952 1839,2952 1947,2955"/>
+        <TextEquiv conf="1.000">
+          <Unicode>und an die Bevölkerung einen Aufruf erlasse, worin</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="5a791d45-a52e-42d6-acbf-d70afc8589d8" index="62" custom="{&quot;heights&quot;: [33.4, 11.8]}">
+        <Coords points="1947,2964 1839,2964 1737,2964 1635,2964 1534,2961 1433,2964 1333,2961 1230,2961 1127,2964 1023,2964 1023,3009 1128,3009 1230,3006 1332,3006 1434,3009 1533,3006 1635,3009 1737,3009 1839,3009 1946,3009 1947,2964"/>
+        <Baseline points="1023,2997 1128,2997 1230,2994 1332,2994 1434,2997 1533,2994 1635,2997 1737,2997 1839,2997 1946,2997"/>
+        <TextEquiv conf="1.000">
+          <Unicode>sie aufgefordert wird, das Gefühl des Abscheus und</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="c143d86a-6bd0-45a9-9ae2-4a3b9c58adc5" index="63" custom="{&quot;heights&quot;: [33.6, 11.8]}">
+        <Coords points="1946,3011 1839,3011 1738,3008 1635,3008 1533,3008 1434,3008 1332,3008 1231,3005 1127,3008 1023,3008 1023,3054 1128,3054 1230,3051 1332,3054 1434,3054 1533,3054 1635,3054 1737,3054 1839,3057 1946,3057 1946,3011"/>
+        <Baseline points="1023,3042 1128,3042 1230,3039 1332,3042 1434,3042 1533,3042 1635,3042 1737,3042 1839,3045 1946,3045"/>
+        <TextEquiv conf="1.000">
+          <Unicode>der Trauer durch Anbringung von Trauerzeichen an</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="616b2b85-b8a0-4f67-964d-433ef83c82fe" index="64" custom="{&quot;heights&quot;: [33.7, 11.7]}">
+        <Coords points="1946,3056 1839,3056 1737,3056 1636,3053 1533,3053 1434,3053 1332,3053 1230,3053 1128,3053 1023,3053 1023,3099 1128,3099 1230,3099 1332,3099 1434,3099 1533,3099 1635,3099 1737,3102 1839,3102 1946,3102 1946,3056"/>
+        <Baseline points="1023,3087 1128,3087 1230,3087 1332,3087 1434,3087 1533,3087 1635,3087 1737,3090 1839,3090 1946,3090"/>
+        <TextEquiv conf="1.000">
+          <Unicode>den Häusern am Tage des Leichenbegängnisses zum</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="832d0465-f17e-4ee2-b452-f7c00958ea05" index="65" custom="{&quot;heights&quot;: [33.7, 11.9]}">
+        <Coords points="1946,3101 1839,3101 1737,3101 1635,3101 1533,3101 1435,3098 1332,3098 1230,3098 1128,3098 1023,3098 1023,3144 1128,3144 1230,3144 1332,3144 1434,3144 1533,3147 1635,3147 1737,3147 1839,3147 1945,3147 1946,3101"/>
+        <Baseline points="1023,3132 1128,3132 1230,3132 1332,3132 1434,3132 1533,3135 1635,3135 1737,3135 1839,3135 1945,3135"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Ausdrucke zu bringen. Die „Lega Patriotica della</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="3dba041d-5b9c-4ea0-beab-571a7e64d418" index="66" custom="{&quot;heights&quot;: [33.8, 11.9]}">
+        <Coords points="1020,3189 1125,3189 1227,3192 1329,3189 1431,3192 1530,3192 1632,3192 1734,3192 1836,3192 1944,3189 1943,3143 1835,3146 1734,3146 1632,3146 1530,3146 1431,3146 1330,3143 1226,3146 1126,3143 1021,3143 1020,3189"/>
+        <Baseline points="1020,3177 1125,3177 1227,3180 1329,3177 1431,3180 1530,3180 1632,3180 1734,3180 1836,3180 1944,3177"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Gioventü Triestina“ hat in einer sofort nach Bekannt-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="0e8c4f42-8629-4c49-bcd7-367214d71a20" index="67" custom="{&quot;heights&quot;: [33.6, 12.0]}">
+        <Coords points="1020,3217 1020,3237 1125,3237 1227,3237 1329,3237 1431,3237 1530,3237 1632,3237 1734,3237 1836,3240 1944,3240 1944,3194 1836,3194 1735,3191 1632,3191 1530,3191 1431,3191 1329,3191 1227,3191 1125,3191 1020,3191 1020,3217"/>
+        <Baseline points="1020,3225 1125,3225 1227,3225 1329,3225 1431,3225 1530,3225 1632,3225 1734,3225 1836,3228 1944,3228"/>
+        <TextEquiv conf="1.000">
+          <Unicode>werden der Nachricht einberufenen Direktionssitzung</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="5425eaac-a330-4ae2-a1c8-55a8a79bba61" index="68" custom="{&quot;heights&quot;: [34.5, 12.0]}">
+        <Coords points="1020,3282 1125,3282 1227,3282 1329,3282 1428,3282 1530,3282 1632,3282 1731,3282 1833,3282 1941,3282 1941,3235 1833,3235 1731,3235 1632,3235 1530,3235 1428,3235 1329,3235 1227,3235 1125,3235 1020,3235 1020,3282"/>
+        <Baseline points="1020,3270 1125,3270 1227,3270 1329,3270 1428,3270 1530,3270 1632,3270 1731,3270 1833,3270 1941,3270"/>
+        <TextEquiv conf="1.000">
+          <Unicode>beschlossen, an Se. Majestät den Kaiser sowie an</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="50900c64-71ec-4d13-a9c5-7943861ac381" index="69" custom="{&quot;heights&quot;: [34.7, 12.1]}">
+        <Coords points="1019,3327 1122,3327 1224,3327 1326,3327 1428,3327 1527,3327 1629,3327 1731,3327 1833,3327 1941,3327 1941,3280 1833,3280 1731,3280 1629,3280 1527,3280 1428,3280 1326,3280 1224,3280 1122,3280 1019,3280 1019,3327"/>
+        <Baseline points="1019,3315 1122,3315 1224,3315 1326,3315 1428,3315 1527,3315 1629,3315 1731,3315 1833,3315 1941,3315"/>
+        <TextEquiv conf="1.000">
+          <Unicode>den Ministerpräsidenten Beileidstelegramme</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="c4059546-a3cf-4828-b688-87280a9bd5b5" index="70" custom="{&quot;heights&quot;: [34.1, 12.0]}">
+        <Coords points="1020,3375 1125,3375 1227,3375 1329,3375 1428,3372 1530,3375 1632,3375 1731,3375 1833,3375 1941,3375 1941,3329 1833,3329 1731,3329 1632,3329 1530,3329 1429,3326 1328,3329 1227,3329 1125,3329 1020,3329 1020,3375"/>
+        <Baseline points="1020,3363 1125,3363 1227,3363 1329,3363 1428,3360 1530,3363 1632,3363 1731,3363 1833,3363 1941,3363"/>
+        <TextEquiv conf="1.000">
+          <Unicode>zu senden und zum Leichenbegängnis einen Kranz zu</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="41bfb2bc-bb1d-4787-b3be-9bd0cec2a66f" index="71" custom="{&quot;heights&quot;: [34.0, 12.4]}">
+        <Coords points="1018,3423 1062,3420 1101,3420 1149,3420 1149,3374 1101,3374 1062,3374 1019,3377 1018,3423"/>
+        <Baseline points="1018,3411 1062,3408 1101,3408 1149,3408"/>
+        <TextEquiv conf="1.000">
+          <Unicode>schicken.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="51b02b74-1b94-4cc8-8d42-d116632561e1" index="72" custom="{&quot;heights&quot;: [34.2, 12.0]}">
+        <Coords points="1056,3465 1095,3465 1131,3465 1164,3465 1200,3465 1233,3465 1269,3465 1302,3465 1338,3465 1380,3465 1380,3419 1338,3419 1302,3419 1269,3419 1233,3419 1200,3419 1164,3419 1131,3419 1095,3419 1056,3419 1056,3465"/>
+        <Baseline points="1056,3453 1095,3453 1131,3453 1164,3453 1200,3453 1233,3453 1269,3453 1302,3453 1338,3453 1380,3453"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Prag, 29. Juni.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eaefbdc2-8c75-484f-9485-00d29ff260ca" index="73" custom="{&quot;heights&quot;: [33.9, 11.9]}">
+        <Coords points="1056,3507 1158,3507 1254,3510 1353,3510 1449,3510 1545,3510 1644,3510 1740,3510 1836,3510 1941,3510 1941,3464 1836,3464 1740,3464 1644,3464 1545,3464 1449,3464 1353,3464 1254,3464 1159,3461 1056,3461 1056,3507"/>
+        <Baseline points="1056,3495 1158,3495 1254,3498 1353,3498 1449,3498 1545,3498 1644,3498 1740,3498 1836,3498 1941,3498"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Auch heute bildet die furchtbare Tat den einzigen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="5ae44a77-f374-4ed3-9500-a9950e028a4f" index="74" custom="{&quot;heights&quot;: [33.8, 12.0]}">
+        <Coords points="1017,3552 1119,3552 1221,3555 1323,3555 1425,3555 1527,3555 1629,3555 1731,3555 1833,3555 1941,3555 1941,3509 1833,3509 1731,3509 1629,3509 1527,3509 1425,3509 1323,3509 1221,3509 1120,3506 1018,3506 1017,3552"/>
+        <Baseline points="1017,3540 1119,3540 1221,3543 1323,3543 1425,3543 1527,3543 1629,3543 1731,3543 1833,3543 1941,3543"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Gesprächsstoff der Bevölkerung, welche ihrem Ensetzen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="4f05a379-ba68-4a8a-928d-bfec128c3d82" index="75" custom="{&quot;heights&quot;: [33.7, 12.0]}">
+        <Coords points="1017,3600 1119,3600 1221,3600 1323,3600 1425,3600 1527,3600 1629,3600 1731,3600 1833,3600 1941,3600 1941,3554 1833,3554 1731,3554 1629,3554 1527,3554 1425,3554 1323,3554 1221,3554 1119,3554 1017,3554 1017,3600"/>
+        <Baseline points="1017,3588 1119,3588 1221,3588 1323,3588 1425,3588 1527,3588 1629,3588 1731,3588 1833,3588 1941,3588"/>
+        <TextEquiv conf="1.000">
+          <Unicode>über die Tat und ihrem tiefen Mitgefühl für den</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="252b3ef6-7b79-4763-b4e9-eacea639d43c" index="76" custom="{&quot;heights&quot;: [33.8, 11.7]}">
+        <Coords points="1016,3645 1119,3645 1221,3645 1323,3645 1425,3645 1524,3645 1626,3645 1728,3645 1830,3645 1938,3645 1938,3599 1830,3599 1728,3599 1626,3599 1524,3599 1425,3599 1323,3599 1221,3599 1119,3599 1017,3599 1016,3645"/>
+        <Baseline points="1016,3633 1119,3633 1221,3633 1323,3633 1425,3633 1524,3633 1626,3633 1728,3633 1830,3633 1938,3633"/>
+        <TextEquiv conf="1.000">
+          <Unicode>hartgeprüften Monarchen und die Familie des dahin-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="5d32d653-269c-4113-aefc-44e032c41be1" index="77" custom="{&quot;heights&quot;: [33.7, 11.7]}">
+        <Coords points="1016,3693 1095,3693 1173,3690 1251,3690 1329,3690 1407,3690 1485,3690 1563,3690 1641,3690 1725,3690 1725,3644 1641,3644 1563,3644 1485,3644 1407,3644 1329,3644 1251,3644 1173,3644 1094,3647 1016,3647 1016,3693"/>
+        <Baseline points="1016,3681 1095,3681 1173,3678 1251,3678 1329,3678 1407,3678 1485,3678 1563,3678 1641,3678 1725,3678"/>
+        <TextEquiv conf="1.000">
+          <Unicode>geschiedenen hohen Paares Ausdruck gibt.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="c3f3b11a-f6c7-4567-a799-c9888c495510" index="78" custom="{&quot;heights&quot;: [34.3, 11.8]}">
+        <Coords points="1056,3738 1095,3738 1129,3738 1164,3735 1197,3735 1230,3735 1266,3735 1299,3735 1332,3735 1374,3735 1374,3689 1332,3689 1299,3689 1266,3689 1230,3689 1197,3689 1164,3689 1125,3692 1095,3692 1056,3692 1056,3738"/>
+        <Baseline points="1056,3726 1095,3726 1128,3726 1164,3723 1197,3723 1230,3723 1266,3723 1299,3723 1332,3723 1374,3723"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Prag, 29. Juni.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eb0dfe3e-0c41-42f8-952e-e7b0538679af" index="79" custom="{&quot;heights&quot;: [34.4, 11.6]}">
+        <Coords points="1056,3783 1158,3783 1254,3783 1350,3783 1446,3783 1545,3783 1641,3783 1737,3783 1833,3786 1938,3786 1938,3740 1833,3740 1738,3737 1641,3737 1545,3737 1446,3737 1350,3737 1254,3737 1158,3737 1056,3737 1056,3783"/>
+        <Baseline points="1056,3771 1158,3771 1254,3771 1350,3771 1446,3771 1545,3771 1641,3771 1737,3771 1833,3774 1938,3774"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Auch heute wurden die Vorstellungen in den</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="e5f2b111-35f3-41f0-ba84-b230663db150" index="80" custom="{&quot;heights&quot;: [34.1, 12.1]}">
+        <Coords points="1015,3828 1119,3828 1221,3828 1323,3828 1425,3828 1524,3828 1626,3828 1728,3828 1830,3831 1938,3831 1938,3785 1830,3785 1729,3782 1626,3782 1524,3782 1425,3782 1323,3782 1221,3782 1119,3782 1015,3782 1015,3828"/>
+        <Baseline points="1015,3816 1119,3816 1221,3816 1323,3816 1425,3816 1524,3816 1626,3816 1728,3816 1830,3819 1938,3819"/>
+        <TextEquiv conf="1.000">
+          <Unicode>beiden Landestheatern und im Weinberger</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="a8577257-14e5-49f6-81cc-8b203025086c" index="81" custom="{&quot;heights&quot;: [33.9, 11.8]}">
+        <Coords points="1014,3873 1084,3876 1146,3873 1208,3873 1272,3876 1336,3876 1397,3873 1462,3876 1524,3873 1593,3873 1593,3827 1524,3827 1459,3830 1400,3827 1333,3830 1272,3830 1211,3827 1146,3827 1081,3830 1015,3827 1015,3845 1014,3873"/>
+        <Baseline points="1015,3861 1083,3864 1146,3861 1209,3861 1272,3864 1335,3864 1398,3861 1461,3864 1524,3861 1593,3861"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Stadttheater abgesagt.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="c8432dcb-e773-4f42-abc9-45a501aea885" index="82" custom="{&quot;heights&quot;: [34.2, 11.9]}">
+        <Coords points="1056,3921 1095,3921 1128,3921 1164,3921 1197,3921 1233,3921 1266,3921 1302,3921 1335,3921 1377,3921 1377,3875 1335,3875 1302,3875 1266,3875 1233,3875 1197,3875 1164,3875 1128,3875 1095,3875 1056,3875 1056,3921"/>
+        <Baseline points="1056,3909 1095,3909 1128,3909 1164,3909 1197,3909 1233,3909 1266,3909 1302,3909 1335,3909 1377,3909"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Prag, 29. Juni.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="0c6a3cf2-8f05-45a3-9d5c-1a2102455401" index="83" custom="{&quot;heights&quot;: [34.4, 11.9]}">
+        <Coords points="1059,3963 1161,3966 1257,3966 1353,3966 1449,3966 1545,3966 1641,3966 1737,3966 1833,3966 1935,3966 1935,3920 1833,3920 1737,3920 1641,3920 1545,3920 1449,3920 1353,3920 1257,3920 1161,3920 1060,3917 1059,3963"/>
+        <Baseline points="1059,3951 1161,3954 1257,3954 1353,3954 1449,3954 1545,3954 1641,3954 1737,3954 1833,3954 1935,3954"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Sofort nach dem Bekanntwerden der Schreckens-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="71d3ff1e-93c3-4ec0-8352-836ce1170709" index="84" custom="{&quot;heights&quot;: [34.0, 11.9]}">
+        <Coords points="1014,4011 1119,4011 1221,4011 1323,4011 1422,4011 1524,4011 1626,4011 1725,4011 1827,4011 1935,4008 1934,3962 1826,3965 1725,3965 1626,3965 1524,3965 1422,3965 1323,3965 1221,3965 1119,3965 1014,3965 1014,4011"/>
+        <Baseline points="1014,3999 1119,3999 1221,3999 1323,3999 1422,3999 1524,3999 1626,3999 1725,3999 1827,3999 1935,3996"/>
+        <TextEquiv conf="1.000">
+          <Unicode>nachricht von Sarajevo fanden sich zahlreiche Persön-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="3274b320-cc93-45ff-8479-0d88ae9c0c63" index="85" custom="{&quot;heights&quot;: [33.8, 11.9]}">
+        <Coords points="1014,4056 1119,4056 1221,4056 1323,4056 1422,4056 1524,4056 1626,4056 1725,4056 1827,4056 1935,4059 1936,4013 1828,4010 1725,4010 1626,4010 1524,4010 1422,4010 1323,4010 1221,4010 1119,4010 1014,4010 1014,4056"/>
+        <Baseline points="1014,4044 1119,4044 1221,4044 1323,4044 1422,4044 1524,4044 1626,4044 1725,4044 1827,4044 1935,4047"/>
+        <TextEquiv conf="1.000">
+          <Unicode>lichkeiten im Gebäude der Statthalterei ein, wo sie</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="e9c14a64-62b3-46e4-8d8a-ebdbdc858074" index="86" custom="{&quot;heights&quot;: [33.7, 11.7]}">
+        <Coords points="1013,4101 1113,4101 1212,4101 1311,4101 1410,4101 1509,4101 1608,4101 1707,4101 1806,4101 1911,4104 1912,4058 1807,4055 1707,4055 1608,4055 1509,4055 1410,4055 1311,4055 1212,4055 1113,4055 1013,4055 1013,4101"/>
+        <Baseline points="1013,4089 1113,4089 1212,4089 1311,4089 1410,4089 1509,4089 1608,4089 1707,4089 1806,4089 1911,4092"/>
+        <TextEquiv conf="1.000">
+          <Unicode>ihren Namen in den aufliegenden Bogen eintrugen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="4fc0501d-5ae9-4827-9d29-7f9f9f6c5d69" index="87" custom="{&quot;heights&quot;: [34.7, 12.2]}">
+        <Coords points="1053,4146 1104,4146 1149,4146 1194,4146 1239,4146 1284,4146 1329,4146 1374,4146 1419,4146 1473,4146 1473,4099 1419,4099 1374,4099 1329,4099 1284,4099 1239,4099 1194,4099 1149,4099 1104,4099 1053,4099 1053,4146"/>
+        <Baseline points="1053,4134 1104,4134 1149,4134 1194,4134 1239,4134 1284,4134 1329,4134 1374,4134 1419,4134 1473,4134"/>
+        <TextEquiv conf="0.999">
+          <Unicode>Beneschau, 29. Juni.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="0244aae7-f189-4e0f-9327-a07e10dd931e" index="88" custom="{&quot;heights&quot;: [34.3, 11.7]}">
+        <Coords points="1050,4191 1152,4191 1248,4191 1344,4191 1440,4191 1539,4191 1635,4191 1731,4191 1827,4191 1932,4191 1932,4145 1827,4145 1731,4145 1635,4145 1539,4145 1440,4145 1344,4145 1248,4145 1152,4145 1050,4145 1050,4191"/>
+        <Baseline points="1050,4179 1152,4179 1248,4179 1344,4179 1440,4179 1539,4179 1635,4179 1731,4179 1827,4179 1932,4179"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Die Schreckensnachricht rief unter der hiesigen Be-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eb191195-3e40-483a-95a9-115a91094a8b" index="89" custom="{&quot;heights&quot;: [34.3, 11.8]}">
+        <Coords points="1011,4239 1116,4239 1218,4239 1320,4239 1422,4239 1521,4236 1623,4236 1725,4239 1827,4239 1935,4239 1935,4193 1827,4193 1725,4193 1624,4190 1521,4190 1421,4193 1320,4193 1218,4193 1116,4193 1012,4193 1011,4239"/>
+        <Baseline points="1011,4227 1116,4227 1218,4227 1320,4227 1422,4227 1521,4224 1623,4224 1725,4227 1827,4227 1935,4227"/>
+        <TextEquiv conf="1.000">
+          <Unicode>völkerung einen niederschmetternden Eindruck hervor.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="9acc860a-9e5c-493b-8b1b-265de3109b1e" index="90" custom="{&quot;heights&quot;: [34.8, 11.5]}">
+        <Coords points="1910,4281 1935,4281 1935,4272 1934,4234 1826,4237 1725,4237 1623,4237 1521,4237 1422,4237 1320,4237 1218,4237 1116,4237 1012,4234 1011,4264 1011,4281 1030,4281 1528,4284 1623,4284 1671,4284 1910,4281"/>
+        <Baseline points="1011,4269 1116,4272 1218,4272 1320,4272 1422,4272 1521,4272 1623,4272 1725,4272 1827,4272 1935,4269"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Tränenden Auges besprachen dichte Gruppen die ver-</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="a31f501b-37f2-4ca1-9cb6-e773f43c5877">
+      <Coords points="2148,1605 2346,1608 2403,1563 2919,1569 2925,797 2943,158 2017,140 1988,1602 2148,1605"/>
+      <TextLine id="ac3ac21a-3b18-4d02-9194-35c448c4d486" index="0" custom="{&quot;heights&quot;: [34.2, 12.1]}">
+        <Coords points="2943,158 2932,158 2835,158 2734,155 2647,152 2469,149 2427,149 2325,149 2224,146 2122,143 2039,140 2017,140 2016,186 2121,189 2223,192 2325,195 2427,195 2529,195 2631,198 2733,201 2835,204 2942,204 2943,158"/>
+        <Baseline points="2016,174 2121,177 2223,180 2325,183 2427,183 2529,183 2631,186 2733,189 2835,192 2942,192"/>
+        <TextEquiv conf="1.000">
+          <Unicode>abscheuungswürdige Tat. Alle Konzerte und Ver-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="bad50641-3cda-4fe4-8da0-147d4777ae83" index="1" custom="{&quot;heights&quot;: [33.5, 11.8]}">
+        <Coords points="2015,234 2118,237 2220,237 2322,240 2424,243 2526,243 2628,246 2730,249 2832,249 2940,249 2940,203 2832,203 2730,203 2629,200 2527,197 2424,197 2323,194 2221,191 2118,191 2016,189 2015,234"/>
+        <Baseline points="2015,222 2118,225 2220,225 2322,228 2424,231 2526,231 2628,234 2730,237 2832,237 2940,237"/>
+        <TextEquiv conf="1.000">
+          <Unicode>anstaltungen wurden sofort abgebrochen. Auf sämt-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="d348b6cd-7887-4390-ba8d-6368714589bd" index="2" custom="{&quot;heights&quot;: [33.8, 11.8]}">
+        <Coords points="2014,279 2118,282 2220,282 2322,285 2424,285 2523,288 2625,291 2727,294 2829,297 2937,297 2937,251 2829,251 2728,248 2626,245 2524,242 2425,239 2322,239 2221,236 2118,236 2015,233 2014,279"/>
+        <Baseline points="2014,267 2118,270 2220,270 2322,273 2424,273 2523,276 2625,279 2727,282 2829,285 2937,285"/>
+        <TextEquiv conf="1.000">
+          <Unicode>lichen Amts- und Gemeindegebäuden und auf zahl-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="906e4b08-5328-4c52-91d9-2159e616d91c" index="3" custom="{&quot;heights&quot;: [34.1, 11.9]}">
+        <Coords points="2013,324 2118,327 2220,327 2322,330 2421,333 2523,333 2625,336 2724,339 2826,342 2934,345 2935,299 2827,296 2725,293 2626,290 2524,287 2421,287 2323,284 2221,281 2118,281 2014,278 2013,324"/>
+        <Baseline points="2014,312 2118,315 2220,315 2322,318 2421,321 2523,321 2625,324 2724,327 2826,330 2934,333"/>
+        <TextEquiv conf="1.000">
+          <Unicode>reichen Privathäusern wurden Trauerflaggen gehißt.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="6b0b4dab-10c5-455e-b30a-744383b9499d" index="4" custom="{&quot;heights&quot;: [34.3, 12.2]}">
+        <Coords points="2012,372 2115,372 2217,375 2319,375 2421,378 2520,378 2622,381 2724,384 2826,387 2934,387 2934,341 2826,341 2725,338 2623,335 2521,332 2421,332 2320,329 2217,329 2116,326 2013,326 2012,372"/>
+        <Baseline points="2013,360 2115,360 2217,363 2319,363 2421,366 2520,366 2622,369 2724,372 2826,375 2934,375"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Der Stadtrat hat für heute vormittag eine Trauer-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="5c996583-e960-4147-875c-a11db12554f8" index="5" custom="{&quot;heights&quot;: [33.9, 12.2]}">
+        <Coords points="2011,420 2049,420 2082,420 2115,420 2148,420 2181,420 2214,420 2247,420 2279,420 2321,423 2324,377 2282,374 2247,374 2214,374 2181,374 2148,374 2115,374 2082,374 2049,374 2012,374 2011,420"/>
+        <Baseline points="2012,408 2049,408 2082,408 2115,408 2148,408 2181,408 2214,408 2247,408 2280,408 2322,411"/>
+        <TextEquiv conf="1.000">
+          <Unicode>sitzung einberufen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="e6366f9e-1fcb-49c7-b9c9-f54af51fec18" index="6" custom="{&quot;heights&quot;: [34.2, 12.6]}">
+        <Coords points="2052,466 2100,466 2142,466 2184,466 2225,466 2268,469 2310,469 2352,469 2393,469 2444,472 2447,425 2396,422 2352,422 2310,422 2268,422 2228,419 2184,419 2142,419 2100,419 2052,419 2052,466"/>
+        <Baseline points="2052,453 2100,453 2142,453 2184,453 2226,453 2268,456 2310,456 2352,456 2394,456 2445,459"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Troppau, 29. Juni.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="2604ff82-56b3-4c4f-a6c7-3218736f430a" index="7" custom="{&quot;heights&quot;: [35.0, 12.2]}">
+        <Coords points="2049,507 2151,510 2247,513 2343,513 2439,516 2538,519 2634,519 2730,522 2826,525 2931,525 2931,478 2826,478 2731,475 2635,472 2538,472 2440,469 2344,466 2247,466 2152,463 2050,460 2049,507"/>
+        <Baseline points="2049,495 2151,498 2247,501 2343,501 2439,504 2538,507 2634,507 2730,510 2826,513 2931,513"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Anläßlich des schlesischen Sängerbundes-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="91a3f6ec-3eff-471c-8217-431e0172aec1" index="8" custom="{&quot;heights&quot;: [34.0, 12.1]}">
+        <Coords points="2933,524 2827,521 2724,521 2623,518 2521,515 2418,515 2317,512 2214,512 2113,509 2010,509 2009,555 2112,555 2214,558 2316,558 2418,561 2520,561 2622,564 2724,567 2826,567 2931,570 2933,524"/>
+        <Baseline points="2009,543 2112,543 2214,546 2316,546 2418,549 2520,549 2622,552 2724,555 2826,555 2932,558"/>
+        <TextEquiv conf="1.000">
+          <Unicode>festes, das auf zwei Tage anberaumt war, sollte</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="75513c49-6958-4265-898d-e9acd75a4fdc" index="9" custom="{&quot;heights&quot;: [33.4, 12.0]}">
+        <Coords points="2931,584 2931,570 2823,570 2722,567 2620,564 2518,561 2418,561 2317,558 2214,558 2113,555 2009,555 2008,600 2112,600 2214,603 2316,603 2418,606 2517,606 2619,609 2721,612 2823,615 2930,615 2931,584"/>
+        <Baseline points="2008,588 2112,588 2214,591 2316,591 2418,594 2517,594 2619,597 2721,600 2823,603 2930,603"/>
+        <TextEquiv conf="1.000">
+          <Unicode>gestern abend in der neu erbauten Sängerhalle ein</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="b6341bbd-771e-4aab-971e-b1ccfbda8dd7" index="10" custom="{&quot;heights&quot;: [33.7, 11.8]}">
+        <Coords points="2930,617 2824,614 2722,611 2620,608 2518,605 2418,605 2317,602 2214,602 2112,602 2008,599 2008,608 2007,645 2112,648 2214,648 2316,648 2418,651 2517,651 2619,654 2721,657 2823,660 2929,663 2930,617"/>
+        <Baseline points="2007,633 2112,636 2214,636 2316,636 2418,639 2517,639 2619,642 2721,645 2823,648 2929,651"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Begrüßungsabend stattfinden. Als die Trauerbotschaft</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="1c3c5e07-17c0-46ef-8df6-4b00d76704f5" index="11" custom="{&quot;heights&quot;: [33.7, 11.8]}">
+        <Coords points="2929,662 2821,659 2719,656 2617,653 2514,653 2416,650 2314,647 2211,647 2109,647 2007,644 2006,690 2109,693 2211,693 2313,693 2415,696 2514,699 2616,699 2718,702 2820,705 2928,708 2929,662"/>
+        <Baseline points="2006,678 2109,681 2211,681 2313,681 2415,684 2514,687 2616,687 2718,690 2820,693 2928,696"/>
+        <TextEquiv conf="1.000">
+          <Unicode>aus Sarajevo eintraf, wurde statt der geplanten</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="8f74218f-dfca-480d-8afc-33bb35e45488" index="12" custom="{&quot;heights&quot;: [33.9, 11.9]}">
+        <Coords points="2928,704 2820,704 2719,701 2616,701 2515,698 2416,695 2313,695 2212,692 2109,692 2006,692 2005,738 2109,738 2211,738 2313,741 2415,741 2514,744 2616,747 2718,747 2820,750 2926,750 2928,704"/>
+        <Baseline points="2005,726 2109,726 2211,726 2313,729 2415,729 2514,732 2616,735 2718,735 2820,738 2927,738"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Feierlichkeit eine Trauerkundgebung veran-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="a4c62424-6cc9-4121-ac5a-282398d6c6e3" index="13" custom="{&quot;heights&quot;: [34.1, 11.8]}">
+        <Coords points="2004,780 2109,783 2211,783 2313,786 2412,786 2514,789 2616,792 2715,792 2817,795 2925,798 2926,752 2818,749 2716,746 2616,746 2515,743 2413,740 2313,740 2212,737 2109,737 2005,734 2004,780"/>
+        <Baseline points="2005,768 2109,771 2211,771 2313,774 2412,774 2514,777 2616,780 2715,780 2817,783 2925,786"/>
+        <TextEquiv conf="1.000">
+          <Unicode>staltet. Der Obmann des Bundes, Landesbuchhalter</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="d4829708-6ecb-4afa-b4eb-5ad4ff2bdf8c" index="14" custom="{&quot;heights&quot;: [34.0, 11.8]}">
+        <Coords points="2925,797 2817,797 2717,791 2616,791 2515,788 2415,788 2314,785 2214,785 2113,782 2008,779 2007,825 2112,828 2214,831 2313,831 2415,834 2514,834 2616,837 2714,837 2817,843 2925,843 2925,797"/>
+        <Baseline points="2007,813 2112,816 2214,819 2313,819 2415,822 2514,822 2616,825 2715,825 2817,831 2925,831"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Strauß eröffnete die Sitzung und machte von dem</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="75414462-6eff-4ad2-805b-66c8f3b9c574" index="15" custom="{&quot;heights&quot;: [34.4, 11.9]}">
+        <Coords points="2925,842 2817,842 2716,839 2617,836 2515,833 2412,833 2314,830 2211,830 2109,830 2005,827 2004,873 2109,876 2211,876 2313,876 2412,879 2514,879 2616,882 2715,885 2817,888 2924,888 2925,842"/>
+        <Baseline points="2004,861 2109,864 2211,864 2313,864 2412,867 2514,867 2616,870 2715,873 2817,876 2924,876"/>
+        <TextEquiv conf="1.000">
+          <Unicode>traurigen Ereignisse Mitteilung. Sodann ergriff Vize-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="7fd18b25-6c75-4945-910b-67657a7a057a" index="16" custom="{&quot;heights&quot;: [34.2, 11.9]}">
+        <Coords points="2924,890 2818,887 2716,884 2614,881 2511,881 2413,878 2310,878 2209,875 2106,875 2002,872 2002,918 2106,921 2208,921 2310,924 2412,924 2511,927 2613,927 2715,930 2817,933 2924,936 2924,890"/>
+        <Baseline points="2002,906 2106,909 2208,909 2310,912 2412,912 2511,915 2613,915 2715,918 2817,921 2924,924"/>
+        <TextEquiv conf="1.000">
+          <Unicode>bürgermeister Dr. Kromer das Wort, um dem</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="ee91a847-d178-4319-b5be-9d447be5b05a" index="17" custom="{&quot;heights&quot;: [34.2, 12.0]}">
+        <Coords points="2924,932 2817,932 2716,929 2614,926 2511,926 2413,923 2310,923 2208,923 2107,920 2002,917 2001,961 2001,963 2106,966 2208,969 2310,969 2412,969 2511,972 2613,972 2715,975 2817,978 2924,978 2924,932"/>
+        <Baseline points="2001,951 2106,954 2208,957 2310,957 2412,957 2511,960 2613,960 2715,963 2817,966 2924,966"/>
+        <TextEquiv conf="1.000">
+          <Unicode>tiefen Schmerze der Bevölkerung über das</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="3e67d580-4f27-46c8-914c-f9680e020f38" index="18" custom="{&quot;heights&quot;: [34.3, 12.0]}">
+        <Coords points="2924,980 2818,977 2716,974 2613,974 2512,971 2412,971 2311,968 2208,968 2107,965 2002,962 2001,1008 2106,1011 2208,1014 2310,1014 2412,1017 2511,1017 2613,1020 2715,1020 2817,1023 2923,1026 2924,980"/>
+        <Baseline points="2001,996 2106,999 2208,1002 2310,1002 2412,1005 2511,1005 2613,1008 2715,1008 2817,1011 2923,1014"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Attentat Ausdruck zu geben. Nach ihm sprach</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="90aba747-c73f-4a73-8af6-00b301b38439" index="19" custom="{&quot;heights&quot;: [34.2, 12.0]}">
+        <Coords points="2923,1025 2818,1022 2716,1019 2613,1019 2512,1016 2409,1016 2308,1013 2205,1013 2104,1010 2000,1010 1999,1056 2103,1056 2205,1059 2307,1059 2409,1062 2511,1062 2613,1065 2715,1065 2817,1068 2923,1071 2923,1025"/>
+        <Baseline points="1999,1044 2103,1044 2205,1047 2307,1047 2409,1050 2511,1050 2613,1053 2715,1053 2817,1056 2923,1059"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Reichsrats-Abgeordneter Dr. Sommer, der in einer</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="310cdac1-de09-4389-be3f-0aefe3ebaa08" index="20" custom="{&quot;heights&quot;: [33.8, 12.0]}">
+        <Coords points="2923,1070 2818,1067 2715,1067 2614,1064 2512,1061 2409,1061 2308,1058 2205,1058 2104,1055 1999,1055 1998,1098 1998,1101 2103,1101 2205,1104 2307,1104 2409,1107 2511,1107 2613,1110 2715,1113 2817,1113 2923,1116 2923,1070"/>
+        <Baseline points="1998,1089 2103,1089 2205,1092 2307,1092 2409,1095 2511,1095 2613,1098 2715,1101 2817,1101 2923,1104"/>
+        <TextEquiv conf="1.000">
+          <Unicode>patriotischen Rede des schweren Verlustes gedachte, den</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="3df544f7-aa1c-45f5-bb65-27dd6a59caa9" index="21" custom="{&quot;heights&quot;: [34.0, 12.1]}">
+        <Coords points="2923,1115 2815,1112 2712,1112 2611,1109 2508,1109 2410,1106 2307,1106 2206,1103 2104,1100 1998,1100 1998,1146 2103,1146 2205,1149 2307,1152 2409,1152 2508,1155 2610,1155 2712,1158 2814,1158 2922,1161 2922,1136 2923,1115"/>
+        <Baseline points="1998,1134 2103,1134 2205,1137 2307,1140 2409,1140 2508,1143 2610,1143 2712,1146 2814,1146 2922,1149"/>
+        <TextEquiv conf="1.000">
+          <Unicode>die Monarchie erlitten hat, und insbesondere dem</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="06087215-ab81-40da-b622-927143d2fda1" index="22" custom="{&quot;heights&quot;: [34.3, 12.2]}">
+        <Coords points="2922,1183 2922,1160 2814,1160 2713,1157 2610,1157 2509,1154 2410,1151 2307,1151 2205,1151 2104,1148 1999,1145 1998,1191 2103,1194 2205,1197 2307,1197 2409,1197 2508,1200 2610,1203 2712,1203 2814,1206 2922,1206 2922,1183"/>
+        <Baseline points="1998,1179 2103,1182 2205,1185 2307,1185 2409,1185 2508,1188 2610,1191 2712,1191 2814,1194 2922,1194"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Mitgefühl der Bevölkerung für Se. Majestät</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="8577eb0c-64a5-4efe-a38a-c332e6859ac2" index="23" custom="{&quot;heights&quot;: [34.3, 12.0]}">
+        <Coords points="1998,1239 2103,1239 2205,1242 2307,1242 2406,1242 2508,1245 2610,1248 2709,1248 2811,1251 2919,1254 2920,1208 2812,1205 2710,1202 2610,1202 2509,1199 2407,1196 2307,1196 2205,1196 2104,1193 1998,1193 1998,1239"/>
+        <Baseline points="1998,1227 2103,1227 2205,1230 2307,1230 2406,1230 2508,1233 2610,1236 2709,1236 2811,1239 2919,1242"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Ausdruck gab. Sodann sang die ganze Versammlung</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="c8627554-373c-463a-ae5e-64bd35f4879c" index="24" custom="{&quot;heights&quot;: [34.4, 12.1]}">
+        <Coords points="1998,1287 2061,1287 2121,1287 2181,1287 2241,1287 2301,1287 2360,1287 2421,1290 2481,1290 2547,1290 2547,1244 2481,1244 2421,1244 2363,1241 2301,1241 2241,1241 2181,1241 2121,1241 2061,1241 1998,1241 1998,1287"/>
+        <Baseline points="1998,1275 2061,1275 2121,1275 2181,1275 2241,1275 2301,1275 2361,1275 2421,1278 2481,1278 2547,1278"/>
+        <TextEquiv conf="1.000">
+          <Unicode>zwei Strophen der Volkshymne.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="77b49bcf-ea55-4cb3-993d-e99e12f44ffb" index="25" custom="{&quot;heights&quot;: [34.3, 12.0]}">
+        <Coords points="2037,1332 2139,1332 2235,1332 2331,1332 2427,1335 2526,1335 2622,1338 2717,1338 2814,1344 2919,1344 2919,1298 2814,1298 2720,1292 2622,1292 2527,1289 2427,1289 2332,1286 2235,1286 2139,1286 2037,1286 2037,1332"/>
+        <Baseline points="2037,1320 2139,1320 2235,1320 2331,1320 2427,1323 2526,1323 2622,1326 2718,1326 2814,1332 2919,1332"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Hierauf verdolmetschte der Delegierte des Deutschen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="092377c2-04ed-4d54-ba1a-dfe355277bd1" index="26" custom="{&quot;heights&quot;: [34.0, 12.1]}">
+        <Coords points="1998,1377 2103,1377 2205,1377 2307,1380 2406,1380 2508,1383 2610,1383 2709,1386 2811,1389 2919,1389 2919,1343 2811,1343 2710,1340 2611,1337 2508,1337 2407,1334 2307,1334 2206,1331 2103,1331 1998,1331 1998,1377"/>
+        <Baseline points="1998,1365 2103,1365 2205,1365 2307,1368 2406,1368 2508,1371 2610,1371 2709,1374 2811,1377 2919,1377"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Sängerbundes Biller (Breslau) in warmen Worten.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="128eb4dc-4706-4b58-a151-021c9b417cd0" index="27" custom="{&quot;heights&quot;: [34.0, 12.2]}">
+        <Coords points="1995,1422 2082,1422 2163,1422 2247,1425 2328,1425 2409,1428 2493,1428 2574,1431 2655,1431 2745,1431 2745,1385 2655,1385 2574,1385 2494,1382 2409,1382 2329,1379 2247,1379 2164,1376 2082,1376 1995,1376 1995,1422"/>
+        <Baseline points="1995,1410 2082,1410 2163,1410 2247,1413 2328,1413 2409,1416 2493,1416 2574,1419 2655,1419 2745,1419"/>
+        <TextEquiv conf="1.000">
+          <Unicode>das Beileid der reichsdeutschen Bevölkerung.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="3bf7b0d2-41b9-4877-b019-edebd9919149" index="28" custom="{&quot;heights&quot;: [34.2, 12.2]}">
+        <Coords points="2034,1467 2136,1467 2232,1470 2328,1470 2424,1473 2523,1473 2619,1476 2715,1479 2811,1479 2916,1482 2917,1436 2812,1433 2715,1433 2620,1430 2524,1427 2424,1427 2329,1424 2232,1424 2137,1421 2034,1421 2034,1467"/>
+        <Baseline points="2034,1455 2136,1455 2232,1458 2328,1458 2424,1461 2523,1461 2619,1464 2715,1467 2811,1467 2916,1470"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Schließlich wurden sowohl seitens der Bürgerschaft</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="b4455e31-d7f7-46f5-98a5-a4a106b7f6dc" index="29" custom="{&quot;heights&quot;: [34.0, 12.2]}">
+        <Coords points="2920,1481 2812,1478 2709,1478 2608,1475 2506,1472 2403,1472 2302,1469 2199,1469 2097,1469 1993,1466 1992,1512 2097,1515 2199,1515 2301,1515 2403,1518 2505,1518 2607,1521 2709,1524 2811,1524 2919,1527 2920,1494 2920,1481"/>
+        <Baseline points="1992,1500 2097,1503 2199,1503 2301,1503 2403,1506 2505,1506 2607,1509 2709,1512 2811,1512 2919,1515"/>
+        <TextEquiv conf="1.000">
+          <Unicode>von Troppau als seitens der deutschen Sängerschaft</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="95c78461-991f-4c23-bb2c-150dc9ee084e" index="30" custom="{&quot;heights&quot;: [34.3, 12.4]}">
+        <Coords points="2403,1563 2919,1569 2919,1523 2811,1523 2709,1523 2608,1520 2505,1520 2404,1517 2301,1517 2199,1517 2098,1514 1993,1511 1992,1557 2097,1560 2199,1563 2301,1563 2402,1563 2403,1563"/>
+        <Baseline points="1992,1545 2097,1548 2199,1551 2301,1551 2403,1551 2505,1554 2607,1554 2709,1557 2811,1557 2919,1557"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Schlesiens an die Allerhöchste Kabinettskanzlei Beileids-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="de6eb8bb-2380-4cd1-90f0-37ff2181a20e" index="31" custom="{&quot;heights&quot;: [33.3, 12.1]}">
+        <Coords points="2152,1605 2183,1605 2191,1606 2346,1608 2346,1563 2301,1563 2262,1563 2223,1563 2187,1560 2148,1560 2109,1560 2070,1560 2031,1560 1991,1557 1988,1602 2148,1605 2152,1605"/>
+        <Baseline points="1989,1590 2031,1593 2070,1593 2109,1593 2148,1593 2184,1593 2223,1596 2262,1596 2301,1596 2346,1596"/>
+        <TextEquiv conf="1.000">
+          <Unicode>telegramme gerichtet.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="50bfb65e-7b04-409a-8c5a-5d5304aca598">
+      <Coords points="1956,4055 1959,4284 2775,4287 2883,4239 2880,4103 2892,3648 2889,3370 2898,3270 2895,2999 2910,2817 2904,2298 2920,1753 2917,1707 2769,1633 2124,1627 2032,1689 1990,1738 1956,4055"/>
+      <TextLine id="6db07486-7fe9-4a9f-bd5a-0b57f672652f" index="0" custom="{&quot;heights&quot;: [41.0, 14.5]}">
+        <Coords points="2453,1630 2409,1630 2340,1630 2309,1629 2128,1627 2124,1627 2124,1682 2199,1682 2267,1682 2340,1685 2409,1685 2480,1685 2550,1688 2622,1688 2691,1688 2769,1688 2769,1633 2691,1633 2622,1633 2550,1633 2490,1630 2453,1630"/>
+        <Baseline points="2124,1668 2199,1668 2268,1668 2340,1671 2409,1671 2481,1671 2550,1674 2622,1674 2691,1674 2769,1674"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Die Teilnahme des Auslandes.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="27e798ef-79d9-475a-82bc-a665a34d11d4" index="1" custom="{&quot;heights&quot;: [35.6, 12.3]}">
+        <Coords points="2031,1737 2133,1740 2229,1743 2328,1743 2424,1743 2520,1746 2619,1749 2715,1749 2811,1752 2916,1755 2917,1707 2812,1704 2716,1701 2619,1701 2521,1698 2425,1695 2328,1695 2229,1695 2134,1692 2032,1689 2031,1737"/>
+        <Baseline points="2031,1725 2133,1728 2229,1731 2328,1731 2424,1731 2520,1734 2619,1737 2715,1737 2811,1740 2916,1743"/>
+        <TextEquiv conf="0.998">
+          <Unicode>Aus Berlin ist nachstehende Depesche an Se. Ex-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="48edf89e-1217-4060-ac0a-a44044dfbe80" index="2" custom="{&quot;heights&quot;: [34.7, 12.2]}">
+        <Coords points="2919,1771 2920,1753 2812,1750 2709,1750 2608,1747 2506,1744 2403,1744 2301,1744 2200,1741 2097,1741 1990,1738 1989,1785 2097,1788 2199,1788 2301,1791 2403,1791 2505,1791 2607,1794 2709,1797 2811,1797 2919,1800 2919,1771"/>
+        <Baseline points="1989,1773 2097,1776 2199,1776 2301,1779 2403,1779 2505,1779 2607,1782 2709,1785 2811,1785 2919,1788"/>
+        <TextEquiv conf="1.000">
+          <Unicode>zellenz den Herrn Bürgermeister Dr. Weiskirchner</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="86b94f0a-8436-4f2a-b869-9a7e46656bb2" index="3" custom="{&quot;heights&quot;: [34.4, 11.9]}">
+        <Coords points="1989,1830 2094,1833 2196,1836 2298,1836 2400,1836 2502,1836 2604,1839 2706,1842 2808,1842 2916,1845 2917,1799 2809,1796 2706,1796 2605,1793 2503,1790 2400,1790 2298,1790 2196,1790 2095,1787 1990,1784 1989,1830"/>
+        <Baseline points="1989,1818 2094,1821 2196,1824 2298,1824 2400,1824 2502,1824 2604,1827 2706,1830 2808,1830 2916,1833"/>
+        <TextEquiv conf="1.000">
+          <Unicode>eingelangt: Die erschütternde Nachricht von dem</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="92f0395a-c2d6-4015-a580-33c01c514a15" index="4" custom="{&quot;heights&quot;: [34.1, 11.9]}">
+        <Coords points="1989,1878 2094,1878 2196,1881 2298,1878 2400,1881 2499,1884 2601,1884 2703,1887 2805,1890 2913,1890 2913,1844 2805,1844 2704,1841 2602,1838 2499,1838 2401,1835 2299,1832 2195,1835 2095,1832 1989,1832 1989,1878"/>
+        <Baseline points="1989,1866 2094,1866 2196,1869 2298,1866 2400,1869 2499,1872 2601,1872 2703,1875 2805,1878 2913,1878"/>
+        <TextEquiv conf="1.000">
+          <Unicode>jähen Hinscheiden des im ganzen Deutschen Reiche so</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="d1bf90e7-42fc-49ad-9d1d-53616ca78b5d" index="5" custom="{&quot;heights&quot;: [34.3, 11.9]}">
+        <Coords points="1987,1923 2091,1923 2193,1923 2295,1926 2397,1926 2499,1929 2601,1932 2703,1932 2805,1935 2913,1938 2914,1892 2806,1889 2704,1886 2601,1886 2500,1883 2398,1880 2295,1880 2194,1877 2091,1877 1988,1877 1987,1923"/>
+        <Baseline points="1987,1911 2091,1911 2193,1911 2295,1914 2397,1914 2499,1917 2601,1920 2703,1920 2805,1923 2913,1926"/>
+        <TextEquiv conf="1.000">
+          <Unicode>hochverehrten Thronfolgers und seiner Gemahlin hat</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="8ea33362-8b6f-436d-828c-956564db7c6f" index="6" custom="{&quot;heights&quot;: [34.2, 11.8]}">
+        <Coords points="1987,1968 2091,1971 2193,1968 2295,1971 2397,1974 2499,1974 2601,1977 2703,1977 2805,1980 2913,1983 2914,1937 2806,1934 2704,1931 2601,1931 2500,1928 2397,1928 2296,1925 2194,1922 2090,1925 1987,1922 1987,1968"/>
+        <Baseline points="1987,1956 2091,1959 2193,1956 2295,1959 2397,1962 2499,1962 2601,1965 2703,1965 2805,1968 2913,1971"/>
+        <TextEquiv conf="1.000">
+          <Unicode>die Bürgerschaft Berlins in schmerzlichste</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="c959d9e0-ce3b-46b1-933e-1584fe622f0d" index="7" custom="{&quot;heights&quot;: [33.9, 11.8]}">
+        <Coords points="2913,1982 2806,1979 2704,1976 2601,1976 2499,1976 2398,1973 2296,1970 2193,1970 2091,1970 1987,1967 1986,2013 2091,2016 2193,2016 2295,2016 2397,2019 2499,2022 2601,2022 2703,2022 2805,2025 2912,2028 2913,1982"/>
+        <Baseline points="1986,2001 2091,2004 2193,2004 2295,2004 2397,2007 2499,2010 2601,2010 2703,2010 2805,2013 2912,2016"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Empörung und tiefste Trauer versetzt, die sich auch</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="e27a24c8-5387-4441-a564-d50caaa70ae6" index="8" custom="{&quot;heights&quot;: [33.8, 11.6]}">
+        <Coords points="1985,2061 2088,2061 2190,2061 2292,2064 2394,2064 2496,2067 2598,2067 2700,2070 2802,2070 2910,2073 2911,2027 2803,2024 2700,2024 2599,2021 2496,2021 2395,2018 2292,2018 2191,2015 2088,2015 1986,2015 1985,2061"/>
+        <Baseline points="1985,2049 2088,2049 2190,2049 2292,2052 2394,2052 2496,2055 2598,2055 2700,2058 2802,2058 2910,2061"/>
+        <TextEquiv conf="1.000">
+          <Unicode>äußerlich im Leben der Reichshauptstadt kundtut.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="dd3098a5-f0da-455a-8995-8996d07bb05f" index="9" custom="{&quot;heights&quot;: [33.4, 11.6]}">
+        <Coords points="2911,2072 2806,2070 2703,2070 2602,2067 2499,2067 2398,2064 2295,2064 2194,2061 2091,2061 1985,2061 1985,2106 2091,2106 2193,2106 2295,2109 2397,2109 2499,2112 2601,2112 2703,2115 2805,2115 2909,2117 2911,2072"/>
+        <Baseline points="1985,2094 2091,2094 2193,2094 2295,2097 2397,2097 2499,2100 2601,2100 2703,2103 2805,2103 2910,2106"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Mit der verschwisterten Kaiserstadt vom Herzen sich</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="f4265649-5f97-43a2-9de5-90f9afba4d5f" index="10" custom="{&quot;heights&quot;: [34.0, 11.7]}">
+        <Coords points="2909,2117 2802,2117 2701,2114 2599,2111 2496,2111 2395,2108 2292,2108 2191,2105 2088,2105 1985,2105 1984,2151 2088,2151 2190,2151 2292,2154 2394,2154 2496,2157 2598,2157 2700,2160 2802,2163 2908,2163 2909,2117"/>
+        <Baseline points="1984,2139 2088,2139 2190,2139 2292,2142 2394,2142 2496,2145 2598,2145 2700,2148 2802,2151 2908,2151"/>
+        <TextEquiv conf="1.000">
+          <Unicode>eins fühlend, sendet Berlin den Ausdruck innigsten</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="595a3de5-7771-4e48-beb9-01a5fbe0750a" index="11" custom="{&quot;heights&quot;: [34.3, 11.7]}">
+        <Coords points="2908,2162 2802,2162 2701,2159 2598,2159 2497,2156 2394,2156 2293,2153 2190,2153 2089,2150 1984,2150 1983,2196 2088,2196 2190,2199 2292,2199 2394,2202 2496,2202 2598,2205 2700,2205 2802,2208 2907,2208 2908,2162"/>
+        <Baseline points="1983,2184 2088,2184 2190,2187 2292,2187 2394,2190 2496,2190 2598,2193 2700,2193 2802,2196 2907,2196"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Anteils an dem schweren Leide Österreich-Ungarns</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="fce12d10-5e3b-4732-a91d-68218725b062" index="12" custom="{&quot;heights&quot;: [34.4, 11.7]}">
+        <Coords points="2907,2207 2799,2207 2698,2204 2595,2204 2494,2201 2391,2201 2289,2201 2188,2198 2085,2198 1983,2195 1983,2241 2085,2244 2187,2244 2289,2247 2391,2247 2493,2247 2595,2250 2697,2250 2799,2253 2905,2253 2907,2207"/>
+        <Baseline points="1983,2229 2085,2232 2187,2232 2289,2235 2391,2235 2493,2235 2595,2238 2697,2238 2799,2241 2906,2241"/>
+        <TextEquiv conf="1.000">
+          <Unicode>und seines in Gottes Heimsuchungen so treu bewährten</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="ac757f70-0202-4412-93bc-d8a208897a99" index="13" custom="{&quot;heights&quot;: [34.2, 11.7]}">
+        <Coords points="1982,2289 2085,2289 2187,2289 2289,2292 2391,2292 2490,2292 2592,2295 2694,2295 2796,2298 2904,2298 2904,2252 2796,2252 2695,2249 2592,2249 2491,2246 2391,2246 2289,2246 2188,2243 2085,2243 1983,2243 1982,2289"/>
+        <Baseline points="1982,2277 2085,2277 2187,2277 2289,2280 2391,2280 2490,2280 2592,2283 2694,2283 2796,2286 2904,2286"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Herrschers. Magistrat und Stadtverordneten-Ver-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="048a0852-a2e0-4837-81b2-b75b200487bb" index="14" custom="{&quot;heights&quot;: [34.9, 12.1]}">
+        <Coords points="1981,2334 2085,2334 2187,2334 2289,2337 2391,2337 2490,2340 2592,2340 2694,2343 2796,2346 2904,2346 2904,2299 2796,2299 2695,2296 2593,2293 2490,2293 2392,2290 2289,2290 2188,2287 2085,2287 1982,2287 1981,2334"/>
+        <Baseline points="1981,2322 2085,2322 2187,2322 2289,2325 2391,2325 2490,2328 2592,2328 2694,2331 2796,2334 2904,2334"/>
+        <TextEquiv conf="0.996">
+          <Unicode>sammlung der Haupt- und Residenzstadt: Wermuth.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="dcdc2b23-c006-4f12-a747-46f5a525047b" index="15" custom="{&quot;heights&quot;: [35.2, 12.1]}">
+        <Coords points="1981,2379 2019,2379 2055,2379 2094,2379 2130,2379 2165,2379 2210,2382 2213,2335 2168,2332 2130,2332 2094,2332 2055,2332 2019,2332 1981,2332 1981,2379"/>
+        <Baseline points="1981,2367 2019,2367 2055,2367 2094,2367 2130,2367 2166,2367 2211,2370"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Michelet.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="b2074dfa-8cd5-4f62-b841-a758cb35db39" index="16" custom="{&quot;heights&quot;: [36.1, 12.4]}">
+        <Coords points="2019,2433 2061,2433 2097,2433 2133,2433 2168,2433 2208,2436 2244,2436 2280,2436 2315,2436 2360,2439 2363,2391 2318,2388 2280,2388 2244,2388 2208,2388 2172,2385 2133,2385 2097,2385 2061,2385 2019,2385 2019,2433"/>
+        <Baseline points="2019,2421 2061,2421 2097,2421 2133,2421 2169,2421 2208,2424 2244,2424 2280,2424 2316,2424 2361,2427"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Paris, 29. Juni.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="adbf1b60-ffa2-4b9b-b762-ea7fe3402a68" index="17" custom="{&quot;heights&quot;: [35.2, 12.1]}">
+        <Coords points="2019,2478 2121,2481 2217,2481 2316,2481 2412,2484 2508,2487 2607,2487 2703,2487 2799,2487 2904,2487 2904,2440 2799,2440 2703,2440 2607,2440 2508,2440 2413,2437 2317,2434 2217,2434 2121,2434 2020,2431 2019,2478"/>
+        <Baseline points="2019,2466 2121,2469 2217,2469 2316,2469 2412,2472 2508,2475 2607,2475 2703,2475 2799,2475 2904,2475"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Unterstaatssekretär Abel Ferry sprach dem öster-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="02d79f62-2e1c-45d1-b416-35a2af5d0a9b" index="18" custom="{&quot;heights&quot;: [34.8, 12.2]}">
+        <Coords points="1978,2523 2082,2526 2184,2526 2286,2529 2388,2529 2490,2532 2592,2532 2694,2532 2796,2535 2904,2535 2904,2488 2796,2488 2695,2485 2592,2485 2490,2485 2389,2482 2286,2482 2185,2479 2082,2479 1979,2476 1978,2523"/>
+        <Baseline points="1979,2511 2082,2514 2184,2514 2286,2517 2388,2517 2490,2520 2592,2520 2694,2520 2796,2523 2904,2523"/>
+        <TextEquiv conf="1.000">
+          <Unicode>reichisch-ungarischen Botschafter Grafen Szeesen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="4f769b88-fca9-492d-8f75-534e602bb5ae" index="19" custom="{&quot;heights&quot;: [34.5, 12.2]}">
+        <Coords points="2907,2570 2906,2531 2798,2534 2698,2531 2595,2531 2493,2531 2392,2528 2289,2528 2188,2525 2085,2525 1979,2522 1978,2568 2085,2571 2187,2571 2289,2574 2391,2574 2493,2577 2595,2577 2697,2577 2799,2580 2907,2577 2907,2570"/>
+        <Baseline points="1978,2556 2085,2559 2187,2559 2289,2562 2391,2562 2493,2565 2595,2565 2697,2565 2799,2568 2907,2565"/>
+        <TextEquiv conf="1.000">
+          <Unicode>im Namen des von Paris abwesenden Minister-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="0c3f58e7-08f7-41bd-b008-177d23db734f" index="20" custom="{&quot;heights&quot;: [35.0, 12.3]}">
+        <Coords points="1977,2616 2067,2616 2157,2616 2247,2619 2337,2619 2424,2622 2514,2622 2604,2622 2694,2625 2790,2625 2790,2578 2694,2578 2605,2575 2514,2575 2424,2575 2338,2572 2247,2572 2158,2569 2067,2569 1978,2569 1977,2616"/>
+        <Baseline points="1977,2604 2067,2604 2157,2604 2247,2607 2337,2607 2424,2610 2514,2610 2604,2610 2694,2613 2790,2613"/>
+        <TextEquiv conf="1.000">
+          <Unicode>präsidenten Viviani das tiefste Beileid aus.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="4cb4b94c-ff82-49b5-8f70-5cbe4a94dd57" index="21" custom="{&quot;heights&quot;: [35.9, 12.3]}">
+        <Coords points="2016,2670 2058,2670 2094,2670 2130,2670 2165,2670 2205,2673 2241,2673 2277,2673 2313,2673 2358,2673 2358,2625 2313,2625 2277,2625 2241,2625 2205,2625 2169,2622 2130,2622 2094,2622 2058,2622 2016,2622 2016,2670"/>
+        <Baseline points="2016,2658 2058,2658 2094,2658 2130,2658 2166,2658 2205,2661 2241,2661 2277,2661 2313,2661 2358,2661"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Paris, 28. Juni.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="6f6d9de9-5a9f-4c9c-a37d-88de8161748a" index="22" custom="{&quot;heights&quot;: [35.3, 12.5]}">
+        <Coords points="2013,2721 2115,2718 2214,2722 2313,2722 2409,2721 2508,2725 2607,2725 2703,2724 2802,2728 2907,2724 2906,2677 2801,2680 2704,2677 2607,2677 2508,2677 2410,2674 2313,2674 2214,2674 2116,2671 2012,2674 2013,2721"/>
+        <Baseline points="2013,2709 2115,2706 2214,2709 2313,2709 2409,2709 2508,2712 2607,2712 2703,2712 2802,2715 2907,2712"/>
+        <TextEquiv conf="1.000">
+          <Unicode>In den auf der österreichisch-ungaris</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="1deab170-7a97-40ee-a713-936ba563a143" index="23" custom="{&quot;heights&quot;: [34.5, 12.3]}">
+        <Coords points="2909,2725 2800,2722 2697,2722 2595,2722 2494,2719 2391,2719 2289,2719 2187,2719 2086,2716 1977,2716 1977,2763 2085,2763 2187,2766 2289,2766 2391,2766 2493,2766 2595,2769 2697,2769 2799,2769 2909,2772 2909,2725"/>
+        <Baseline points="1977,2751 2085,2751 2187,2754 2289,2754 2391,2754 2493,2754 2595,2757 2697,2757 2799,2757 2909,2760"/>
+        <TextEquiv conf="1.000">
+          <Unicode>schen Botschaft aufgelegten Bogen haben sich</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="0492d235-fd2d-4160-99b5-9b447036dd6a" index="24" custom="{&quot;heights&quot;: [34.1, 12.3]}">
+        <Coords points="2910,2817 2909,2771 2799,2771 2697,2771 2596,2768 2494,2765 2388,2765 2286,2765 2184,2765 2083,2762 1975,2762 1974,2808 2082,2808 2184,2811 2286,2811 2388,2811 2493,2811 2595,2814 2697,2817 2799,2817 2910,2817 2910,2817"/>
+        <Baseline points="1974,2796 2082,2796 2184,2799 2286,2799 2388,2799 2493,2799 2595,2802 2697,2805 2799,2805 2910,2805"/>
+        <TextEquiv conf="1.000">
+          <Unicode>bereits zahlreiche Persönlichkeiten eingetragen, darunter</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="bc2cc9e7-fd1d-4c89-91b6-845529137849" index="25" custom="{&quot;heights&quot;: [34.2, 12.2]}">
+        <Coords points="2907,2853 2907,2816 2796,2816 2694,2816 2593,2813 2491,2810 2385,2810 2283,2810 2181,2810 2080,2807 1974,2807 1974,2853 2079,2853 2181,2856 2283,2856 2385,2856 2490,2856 2592,2859 2694,2862 2796,2862 2906,2862 2907,2853"/>
+        <Baseline points="1974,2841 2079,2841 2181,2844 2283,2844 2385,2844 2490,2844 2592,2847 2694,2850 2796,2850 2907,2850"/>
+        <TextEquiv conf="1.000">
+          <Unicode>der Pariser Militärgouverneur General Michel, der</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="eaecd733-9d01-43c3-8a30-08cd5876eedb" index="26" custom="{&quot;heights&quot;: [34.1, 12.2]}">
+        <Coords points="2906,2861 2796,2861 2694,2861 2593,2858 2490,2858 2389,2855 2286,2855 2184,2855 2083,2852 1974,2852 1974,2898 2082,2898 2184,2901 2286,2901 2388,2901 2490,2904 2592,2904 2694,2907 2796,2907 2903,2907 2906,2861"/>
+        <Baseline points="1974,2886 2082,2886 2184,2889 2286,2889 2388,2889 2490,2892 2592,2892 2694,2895 2796,2895 2904,2895"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Polizeipräfekt, die Gesandten Brasiliens, Serbiens und</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="f9d2faa2-46c5-4ce8-822c-5a0c03f6bf3e" index="27" custom="{&quot;heights&quot;: [33.9, 12.1]}">
+        <Coords points="1974,2946 2020,2946 2058,2943 2097,2943 2145,2943 2145,2897 2097,2897 2058,2897 2016,2900 1974,2900 1974,2946"/>
+        <Baseline points="1974,2934 2019,2934 2058,2931 2097,2931 2145,2931"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Ecuadors.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="be4493b1-3f97-4d51-bb66-f7ebd5dfd726" index="28" custom="{&quot;heights&quot;: [34.7, 12.2]}">
+        <Coords points="2010,2991 2052,2991 2091,2991 2130,2991 2169,2991 2208,2991 2246,2991 2286,2994 2325,2994 2370,2994 2370,2947 2325,2947 2286,2947 2250,2944 2208,2944 2169,2944 2130,2944 2091,2944 2052,2944 2010,2944 2010,2991"/>
+        <Baseline points="2010,2979 2052,2979 2091,2979 2130,2979 2169,2979 2208,2979 2247,2979 2286,2982 2325,2982 2370,2982"/>
+        <TextEquiv conf="0.999">
+          <Unicode>Brüssel, 29. Juni.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="2850b53a-aa44-4903-aa63-86a6203038f1" index="29" custom="{&quot;heights&quot;: [34.4, 12.0]}">
+        <Coords points="2895,2999 2790,2999 2695,2996 2598,2996 2503,2993 2403,2993 2308,2990 2211,2990 2115,2990 2013,2990 2013,3036 2115,3036 2211,3036 2307,3036 2403,3039 2502,3039 2598,3042 2694,3042 2790,3045 2895,3045 2895,2999 2895,2999"/>
+        <Baseline points="2013,3024 2115,3024 2211,3024 2307,3024 2403,3027 2502,3027 2598,3030 2694,3030 2790,3033 2895,3033"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Zahlreiche Persönlichkeiten, darunter die Mitglieder</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="c68dbec0-1fc3-402d-b3c5-f76082c8004a" index="30" custom="{&quot;heights&quot;: [33.9, 12.0]}">
+        <Coords points="2895,3044 2790,3044 2689,3041 2587,3038 2484,3038 2382,3038 2281,3035 2178,3035 2076,3035 1971,3035 1970,3081 2076,3081 2178,3081 2280,3081 2382,3084 2484,3084 2586,3084 2688,3087 2790,3090 2896,3090 2895,3044"/>
+        <Baseline points="1970,3069 2076,3069 2178,3069 2280,3069 2382,3072 2484,3072 2586,3072 2688,3075 2790,3078 2896,3078"/>
+        <TextEquiv conf="1.000">
+          <Unicode>des diplomatischen Korps sowie die Minister, haben</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="a03414dd-1103-47e1-98de-a19c79dcb405" index="31" custom="{&quot;heights&quot;: [34.1, 12.0]}">
+        <Coords points="2896,3089 2790,3089 2689,3086 2587,3083 2484,3083 2382,3083 2280,3083 2179,3080 2076,3080 1971,3080 1971,3126 2076,3126 2178,3126 2280,3129 2382,3129 2484,3129 2586,3129 2688,3132 2790,3135 2897,3135 2896,3089"/>
+        <Baseline points="1971,3114 2076,3114 2178,3114 2280,3117 2382,3117 2484,3117 2586,3117 2688,3120 2790,3123 2896,3123"/>
+        <TextEquiv conf="1.000">
+          <Unicode>in der österreichisch-ungarischen Gesandtschaft ihre</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="23e5bae9-4e1b-429d-9041-fa61239ff0f4" index="32" custom="{&quot;heights&quot;: [34.1, 11.9]}">
+        <Coords points="2896,3134 2790,3134 2689,3131 2586,3131 2484,3131 2383,3128 2280,3128 2178,3128 2076,3128 1970,3125 1969,3171 2076,3174 2178,3174 2280,3174 2382,3174 2484,3177 2586,3177 2688,3177 2790,3180 2897,3180 2896,3134"/>
+        <Baseline points="1969,3159 2076,3162 2178,3162 2280,3162 2382,3162 2484,3165 2586,3165 2688,3165 2790,3168 2897,3168"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Karten abgegeben. Der belgische Gesandte in Wien</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="3cf5edaf-4d0d-4d04-9ec0-3ef8e0e570a9" index="33" custom="{&quot;heights&quot;: [33.9, 11.9]}">
+        <Coords points="2897,3179 2790,3179 2688,3179 2586,3179 2485,3176 2382,3176 2281,3173 2178,3173 2076,3173 1971,3173 1971,3219 2076,3219 2178,3219 2280,3219 2382,3222 2484,3222 2586,3225 2688,3225 2790,3225 2898,3225 2897,3179"/>
+        <Baseline points="1971,3207 2076,3207 2178,3207 2280,3207 2382,3210 2484,3210 2586,3213 2688,3213 2790,3213 2897,3213"/>
+        <TextEquiv conf="1.000">
+          <Unicode>ist beauftragt worden, der österreichisch-ungarischen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="426cffa7-eb74-47da-bc00-43a738bdfeb7" index="34" custom="{&quot;heights&quot;: [34.0, 12.1]}">
+        <Coords points="2898,3270 2897,3224 2790,3224 2688,3224 2586,3224 2485,3221 2382,3221 2281,3218 2178,3218 2076,3218 1969,3215 1968,3261 2076,3264 2178,3264 2280,3264 2382,3267 2484,3267 2586,3270 2688,3270 2790,3270 2898,3270 2898,3270"/>
+        <Baseline points="1968,3249 2076,3252 2178,3252 2280,3252 2382,3255 2484,3255 2586,3258 2688,3258 2790,3258 2898,3258"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Regierung das Beileid der belgischen Regierung zum</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="5a3b5da6-c1f2-4c55-851e-b3b2b2627692" index="35" custom="{&quot;heights&quot;: [34.5, 12.0]}">
+        <Coords points="1968,3309 2013,3309 2055,3309 2096,3309 2136,3312 2178,3312 2220,3312 2259,3312 2301,3312 2349,3312 2349,3266 2301,3266 2259,3266 2220,3266 2178,3266 2136,3266 2100,3263 2055,3263 2013,3263 1968,3263 1968,3309"/>
+        <Baseline points="1968,3297 2013,3297 2055,3297 2097,3297 2136,3300 2178,3300 2220,3300 2259,3300 2301,3300 2349,3300"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Ausdrucke zu bringen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="538c4340-a4b0-4f34-9b20-499557c32a08" index="36" custom="{&quot;heights&quot;: [34.9, 12.5]}">
+        <Coords points="2004,3363 2049,3363 2088,3363 2129,3363 2169,3366 2208,3366 2250,3366 2289,3366 2328,3366 2376,3366 2376,3319 2328,3319 2289,3319 2250,3319 2208,3319 2169,3319 2133,3316 2088,3316 2049,3316 2004,3316 2004,3363"/>
+        <Baseline points="2004,3351 2049,3351 2088,3351 2130,3351 2169,3354 2208,3354 2250,3354 2289,3354 2328,3354 2376,3354"/>
+        <TextEquiv conf="1.000">
+          <Unicode>London, 28. Juni.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="c7951d88-e793-4211-bab1-855d448243fb" index="37" custom="{&quot;heights&quot;: [34.9, 12.0]}">
+        <Coords points="2004,3411 2106,3411 2202,3414 2301,3414 2397,3414 2493,3414 2592,3414 2688,3417 2784,3417 2889,3417 2889,3370 2784,3370 2688,3370 2593,3367 2493,3367 2397,3367 2301,3367 2202,3367 2107,3364 2004,3364 2004,3411"/>
+        <Baseline points="2004,3399 2106,3399 2202,3402 2301,3402 2397,3402 2493,3402 2592,3402 2688,3405 2784,3405 2889,3405"/>
+        <TextEquiv conf="1.000">
+          <Unicode>König Georg hat für den verblichenen Herrn</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="63d9c5d1-67ca-4cd3-845c-03aef8ccf863" index="38" custom="{&quot;heights&quot;: [34.2, 12.1]}">
+        <Coords points="2889,3416 2784,3416 2682,3416 2581,3413 2478,3413 2376,3413 2274,3413 2172,3413 2071,3410 1965,3410 1965,3456 2070,3456 2172,3459 2274,3459 2376,3459 2478,3459 2580,3459 2682,3462 2784,3462 2890,3462 2889,3416"/>
+        <Baseline points="1965,3444 2070,3444 2172,3447 2274,3447 2376,3447 2478,3447 2580,3447 2682,3450 2784,3450 2890,3450"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Erzherzog Franz Ferdinand eine einwöchige</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="c284358e-4b9e-4e5e-a383-42900654a3bf" index="39" custom="{&quot;heights&quot;: [34.1, 12.0]}">
+        <Coords points="2890,3464 2785,3461 2682,3461 2581,3458 2478,3458 2376,3458 2274,3458 2172,3458 2071,3455 1965,3458 1964,3504 2070,3501 2172,3504 2274,3504 2376,3504 2478,3504 2580,3504 2682,3507 2784,3507 2891,3510 2890,3464"/>
+        <Baseline points="1964,3492 2070,3489 2172,3492 2274,3492 2376,3492 2478,3492 2580,3492 2682,3495 2784,3495 2890,3498"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Hoftrauer angeordnet. Der Hofball, der Montag</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="639734c8-f9ed-4a8b-8bf6-154effbf9cc3" index="40" custom="{&quot;heights&quot;: [34.6, 12.2]}">
+        <Coords points="1964,3511 1965,3549 2040,3546 2111,3546 2181,3549 2253,3549 2322,3549 2394,3549 2463,3549 2535,3549 2613,3549 2613,3502 2535,3502 2463,3502 2394,3502 2322,3502 2253,3502 2181,3502 2114,3499 2040,3499 1964,3502 1964,3511"/>
+        <Baseline points="1965,3537 2040,3534 2112,3534 2181,3537 2253,3537 2322,3537 2394,3537 2463,3537 2535,3537 2613,3537"/>
+        <TextEquiv conf="1.000">
+          <Unicode>stattfinden sollte, ist abgesagt worden.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="f886f277-6131-4e0f-87ff-18469ca6e6c1" index="41" custom="{&quot;heights&quot;: [35.1, 12.5]}">
+        <Coords points="2004,3601 2064,3601 2118,3601 2175,3601 2229,3601 2283,3601 2340,3601 2394,3601 2448,3601 2511,3601 2511,3553 2448,3553 2394,3553 2340,3553 2283,3553 2229,3553 2175,3553 2118,3553 2064,3553 2004,3553 2004,3601"/>
+        <Baseline points="2004,3588 2064,3588 2118,3588 2175,3588 2229,3588 2283,3588 2340,3588 2394,3588 2448,3588 2511,3588"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Konstantinopel, 28. Juni.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="6a1f6c11-aa49-43a2-ad0f-753e15614ccb" index="42" custom="{&quot;heights&quot;: [34.2, 12.1]}">
+        <Coords points="2892,3648 2892,3629 2891,3602 2786,3605 2691,3605 2593,3602 2496,3602 2397,3602 2301,3602 2203,3599 2106,3599 2004,3599 2004,3645 2106,3645 2202,3645 2301,3648 2397,3648 2496,3648 2592,3648 2691,3651 2787,3651 2892,3648 2892,3648"/>
+        <Baseline points="2004,3633 2106,3633 2202,3633 2301,3636 2397,3636 2496,3636 2592,3636 2691,3639 2787,3639 2892,3636"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Die Nachricht vom Attentat wurde hier Abends be-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="9d9145eb-5f3b-47ed-8cb6-4b62b21f8306" index="43" custom="{&quot;heights&quot;: [34.0, 12.0]}">
+        <Coords points="1962,3646 1962,3690 2058,3690 2148,3690 2241,3693 2331,3693 2424,3693 2514,3693 2607,3696 2697,3696 2796,3696 2796,3650 2697,3650 2607,3650 2515,3647 2424,3647 2331,3647 2241,3647 2149,3644 2058,3644 1962,3644 1962,3646"/>
+        <Baseline points="1962,3678 2058,3678 2148,3678 2241,3681 2331,3681 2424,3681 2514,3681 2607,3684 2697,3684 2796,3684"/>
+        <TextEquiv conf="1.000">
+          <Unicode>kannt und rief überall tiefe Anteilnahme hervor.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="54762389-66f2-4b69-8fe3-58fda6fb506c" index="44" custom="{&quot;heights&quot;: [34.0, 11.9]}">
+        <Coords points="2004,3735 2106,3735 2202,3738 2301,3738 2397,3738 2493,3741 2592,3741 2688,3741 2784,3741 2889,3741 2889,3695 2784,3695 2688,3695 2592,3695 2493,3695 2398,3692 2301,3692 2202,3692 2107,3689 2004,3689 2004,3735"/>
+        <Baseline points="2004,3723 2106,3723 2202,3726 2301,3726 2397,3726 2493,3729 2592,3729 2688,3729 2784,3729 2889,3729"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Athen, 28. Juni. (Meldung der Agence</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="187d62e3-5178-4139-a133-be88a964b403" index="45" custom="{&quot;heights&quot;: [34.6, 12.1]}">
+        <Coords points="1962,3780 2004,3780 2039,3780 2076,3783 2112,3783 2157,3783 2157,3736 2112,3736 2076,3736 2043,3734 2004,3733 1962,3733 1962,3780"/>
+        <Baseline points="1962,3768 2004,3768 2040,3768 2076,3771 2112,3771 2157,3771"/>
+        <TextEquiv conf="0.883">
+          <Unicode>d'Athenes.)</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="57e73e8d-86ee-4dcf-ae2e-dfd239c760b6" index="46" custom="{&quot;heights&quot;: [34.5, 12.0]}">
+        <Coords points="2001,3828 2103,3828 2199,3828 2298,3828 2394,3831 2490,3831 2589,3831 2685,3831 2781,3831 2886,3831 2886,3785 2781,3785 2685,3785 2589,3785 2490,3785 2394,3785 2299,3782 2199,3782 2103,3782 2001,3782 2001,3828"/>
+        <Baseline points="2001,3816 2103,3816 2199,3816 2298,3816 2394,3819 2490,3819 2589,3819 2685,3819 2781,3819 2886,3819"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Die Nachricht von dem furchtbaren, verabscheuungs-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="31d8d66e-af8d-4285-94f9-41a8a185271d" index="47" custom="{&quot;heights&quot;: [33.9, 11.9]}">
+        <Coords points="2886,3876 2886,3833 2778,3833 2677,3830 2574,3830 2473,3827 2370,3827 2268,3827 2166,3827 2064,3827 1959,3827 1959,3851 1959,3873 2064,3873 2166,3873 2268,3873 2370,3873 2472,3873 2574,3876 2676,3876 2778,3879 2886,3879 2886,3876"/>
+        <Baseline points="1959,3861 2064,3861 2166,3861 2268,3861 2370,3861 2472,3861 2574,3864 2676,3864 2778,3867 2886,3867"/>
+        <TextEquiv conf="1.000">
+          <Unicode>würdigen Verbrechen, das in Sarajevo begangen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="2e017adc-0ee6-4674-ba24-e4d9c115ba9b" index="48" custom="{&quot;heights&quot;: [33.6, 11.7]}">
+        <Coords points="1959,3918 2064,3918 2166,3918 2268,3921 2370,3921 2469,3921 2571,3921 2673,3921 2775,3924 2883,3924 2883,3878 2775,3878 2674,3875 2571,3875 2469,3875 2370,3875 2268,3875 2167,3872 2064,3872 1959,3872 1959,3918"/>
+        <Baseline points="1959,3906 2064,3906 2166,3906 2268,3909 2370,3909 2469,3909 2571,3909 2673,3909 2775,3912 2883,3912"/>
+        <TextEquiv conf="1.000">
+          <Unicode>worden ist und Österreich-Ungarn sowie die ganze</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="3fc6aefd-dea9-403b-bd9b-9083c3e1ee8d" index="49" custom="{&quot;heights&quot;: [33.8, 11.6]}">
+        <Coords points="1962,3966 2067,3963 2169,3963 2271,3963 2370,3966 2472,3966 2574,3966 2673,3969 2775,3969 2883,3969 2883,3923 2775,3923 2673,3923 2575,3920 2472,3920 2370,3920 2272,3917 2169,3917 2067,3917 1961,3920 1962,3966"/>
+        <Baseline points="1962,3954 2067,3951 2169,3951 2271,3951 2370,3954 2472,3954 2574,3954 2673,3957 2775,3957 2883,3957"/>
+        <TextEquiv conf="1.000">
+          <Unicode>zivilisierte Welt in tiefe Trauer versetzt, hat hier</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="f19ad757-5ed5-4fe0-8161-9f8567aa80d0" index="50" custom="{&quot;heights&quot;: [33.9, 11.6]}">
+        <Coords points="1959,4011 2064,4011 2166,4011 2268,4011 2367,4011 2469,4011 2571,4011 2670,4014 2772,4014 2880,4014 2880,3968 2772,3968 2670,3968 2572,3965 2469,3965 2367,3965 2268,3965 2166,3965 2064,3965 1959,3965 1959,4011"/>
+        <Baseline points="1959,3999 2064,3999 2166,3999 2268,3999 2367,3999 2469,3999 2571,3999 2670,4002 2772,4002 2880,4002"/>
+        <TextEquiv conf="1.000">
+          <Unicode>allgemeine, tiefe, schmerzliche Bewegung hervorgerufen.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="86a92d71-3b8a-4622-a8e8-3bd3f03bc606" index="51" custom="{&quot;heights&quot;: [33.6, 11.4]}">
+        <Coords points="2882,4013 2778,4013 2682,4013 2587,4010 2487,4010 2391,4010 2295,4010 2196,4010 2100,4010 1998,4010 1998,4055 2100,4055 2196,4055 2295,4055 2391,4055 2487,4055 2586,4055 2682,4058 2778,4058 2881,4058 2882,4013"/>
+        <Baseline points="1998,4044 2100,4044 2196,4044 2295,4044 2391,4044 2487,4044 2586,4044 2682,4047 2778,4047 2881,4047"/>
+        <TextEquiv conf="1.000">
+          <Unicode>König Konstantin erfuhr im Stadion, wo er</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="24a46032-fbda-4dc6-98ec-6fb7d30718d3" index="52" custom="{&quot;heights&quot;: [33.6, 11.7]}">
+        <Coords points="1957,4101 2061,4101 2163,4101 2265,4101 2367,4101 2466,4101 2568,4104 2670,4104 2772,4104 2880,4104 2880,4103 2880,4058 2772,4058 2670,4058 2568,4058 2467,4055 2367,4055 2265,4055 2163,4055 2061,4055 1956,4055 1957,4101"/>
+        <Baseline points="1956,4089 2061,4089 2163,4089 2265,4089 2367,4089 2466,4089 2568,4092 2670,4092 2772,4092 2880,4092"/>
+        <TextEquiv conf="1.000">
+          <Unicode>den Wettrennen beiwohnte, die Trauernachricht, die</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="3173cece-1586-45e8-96ef-2700b6e00dd3" index="53" custom="{&quot;heights&quot;: [33.8, 11.7]}">
+        <Coords points="1957,4146 2061,4146 2163,4146 2265,4146 2367,4146 2466,4146 2568,4149 2670,4149 2772,4149 2880,4149 2880,4103 2772,4103 2670,4103 2568,4103 2467,4100 2367,4100 2265,4100 2163,4100 2061,4100 1957,4100 1957,4146"/>
+        <Baseline points="1957,4134 2061,4134 2163,4134 2265,4134 2367,4134 2466,4134 2568,4137 2670,4137 2772,4137 2880,4137"/>
+        <TextEquiv conf="1.000">
+          <Unicode>auf ihn einen niederschmetternden Eindruck machte.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="33a00589-a181-4c73-81af-a1140c4ee525" index="54" custom="{&quot;heights&quot;: [34.4, 11.8]}">
+        <Coords points="1959,4191 2064,4191 2166,4191 2268,4191 2367,4191 2469,4194 2571,4194 2670,4194 2772,4194 2880,4191 2879,4145 2771,4148 2670,4148 2571,4148 2469,4148 2368,4145 2268,4145 2166,4145 2064,4145 1959,4145 1959,4191"/>
+        <Baseline points="1959,4179 2064,4179 2166,4179 2268,4179 2367,4179 2469,4182 2571,4182 2670,4182 2772,4182 2880,4179"/>
+        <TextEquiv conf="1.000">
+          <Unicode>Die allgemeine Teilnahme wendet sich dem verehrungs-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="dfe272df-726d-4d58-940e-503671a1d9f6" index="55" custom="{&quot;heights&quot;: [34.6, 11.9]}">
+        <Coords points="1958,4239 2061,4239 2163,4239 2265,4239 2367,4239 2469,4239 2571,4239 2673,4242 2775,4242 2883,4239 2882,4192 2774,4195 2673,4195 2572,4192 2469,4192 2367,4192 2265,4192 2163,4192 2061,4192 1958,4192 1958,4239"/>
+        <Baseline points="1958,4227 2061,4227 2163,4227 2265,4227 2367,4227 2469,4227 2571,4227 2673,4230 2775,4230 2883,4227"/>
+        <TextEquiv conf="1.000">
+          <Unicode>würdigen Monarchen Österreich-Ungarns zu, Der von</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="bd17a0ff-681c-43bf-ae4f-19d544ada3c2" index="56" custom="{&quot;heights&quot;: [34.8, 11.7]}">
+        <Coords points="2694,4287 2775,4287 2775,4240 2679,4240 2589,4240 2500,4237 2409,4237 2322,4237 2232,4237 2142,4237 2052,4237 1959,4237 1959,4284 2052,4284 2142,4284 2232,4284 2322,4284 2409,4284 2499,4284 2576,4286 2694,4287"/>
+        <Baseline points="1959,4272 2052,4272 2142,4272 2232,4272 2322,4272 2409,4272 2499,4272 2589,4275 2679,4275 2775,4275"/>
+        <TextEquiv conf="1.000">
+          <Unicode>einer so schweren Prüfung betroffen worden ist.</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

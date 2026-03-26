@@ -1,0 +1,4 @@
+<points x1="654" y1="788" alt="Page header showing issue number, publication name, date, and pricing information">Page header showing issue number, publication name, date, and pricing information</points>
+<points x1="631" y1="279" alt="Page body containing various news articles and announcements">
+Page body containing various news articles and announcements
+</points>

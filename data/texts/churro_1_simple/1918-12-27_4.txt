@@ -1,0 +1,418 @@
+<HistoricalDocument xmlns="http://example.com/historicaldocument">
+  <Metadata>
+    <Language>German</Language>
+    <WritingDirection>ltr</WritingDirection>
+    <PhysicalDescription>Newspaper page, printed.</PhysicalDescription>
+    <Description>Viener Abendpost Nr. 296, December 1918. Contains news articles from various European and international sources.</Description>
+    <Script>Latin (Fraktur variant)</Script>
+  </Metadata>
+  <Page>
+    <Header>
+      <Heading type="running_title">
+        <Line>Wiener Abendpoſt Nr. 296.</Line>
+      </Heading>
+      <PageNumber>4</PageNumber>
+      <Heading type="other">
+        <Line>Freitag, den 27. Dezember 1918.</Line>
+      </Heading>
+    </Header>
+    <Body>
+      <Paragraph>
+        <Line>Wiens zu gedenken, damit ſofort nach den Feier-</Line>
+        <Line>tagen, ſobald das Zürcher Hilfskomitee mit ſeiner</Line>
+        <Line>Sammeltätigkeit beginnt, den Hungernden in Wien,</Line>
+        <Line>in der denkbar kürzeſten Zeit geholfen werden könne.</Line>
+        <Line>Es ſoll große und ganze Arbeit geleiſtet werden, um</Line>
+        <Line>bem erſten Zuge der ſchweizeriſchen Hilfe volle Fracht</Line>
+        <Line>mit auf den Weg zu geben. Überall in der Schweiz</Line>
+        <Line>ſei für das darbende Wien Mitteid laut geworden,</Line>
+        <Line>und Zürich ſolle die erſte Stadt ſein, die dorthin</Line>
+        <Line>Hilfe bringt.</Line>
+      </Paragraph>
+      <RecordEntry date="1918-12-26">
+        <DateLine>
+          <Line>Bern, 26. Dezember.</Line>
+        </DateLine>
+        <Paragraph>
+          <Line>(Meldung der Schweitzeriſchen</Line>
+          <Line>Depeſchen-Agentur.)</Line>
+        </Paragraph>
+        <Paragraph>
+          <Line>Unter Mithilfe des eidgenöſſiſchen Ernährungs-</Line>
+          <Line>amtes in Bern und mit Einverſtändnis der zu-</Line>
+          <Line>ſtändigen Organe der Alliierten ſind die Vorbereitungen</Line>
+          <Line>für die Hilfeleiſtung für die Stadt Wien</Line>
+          <Line>im Gange. Dienstag iſt ein ſchweizeriſches Komitee</Line>
+          <Line>für die Hilfeleiſtung für Wien und zur Unterſtützung</Line>
+          <Line>der Schütterausſpeiſung in der Schweiz gebildet worden,</Line>
+          <Line>in dem alle Kantone und Volksſchichten vertreten</Line>
+          <Line>ſind. Das Komitee wird in den nächſten Tagen</Line>
+          <Line>einen Aufruf an das ſchweizeriſche Volk richten,</Line>
+          <Line>worin nähere Direktiven für die Durchführung der</Line>
+          <Line>Hilfeleiſtungen enthalten ſein werden. Es handelt ſich</Line>
+          <Line>dabei in erſter Linie um die Erſparung von Karten-</Line>
+          <Line>abſchnitten bei den rationierten Lebensmitteln, Brot,</Line>
+          <Line>Mehl, Käſe und Fett, ſowie bei den kantonalen</Line>
+          <Line>Monopolwaren, Reis, Teigwaren, Haferprodukten,</Line>
+          <Line>Zucker. Es iſt auch die Sammlung von Geld und</Line>
+          <Line>nichtrationierten Waren in Ausſicht genommen.</Line>
+          <Line>Die Sammlung ſoll im Laufe des Jänner be-</Line>
+          <Line>ginnen. Damit die Hilfeleiſtung keine Ver-</Line>
+          <Line>zögerung erleide, gewährt das eidgenöſſiſche Er-</Line>
+          <Line>nährungsamt auf die Sammlung hin einen Vorſchuß</Line>
+          <Line>von zirka hundert Waggons verſchiedener Lebens-</Line>
+          <Line>mittel, die bereits nach Wien unterwegs ſind. Die</Line>
+          <Line>Inſtruktionen des eidgenöſſiſchen Lebensmittelamtes</Line>
+          <Line>an die kantonalen Lebensmittelämter werden zu Ende</Line>
+          <Line>des Jahres im Beſitze der kantonalen Behörden ſein.</Line>
+          <Line>Die kantonalen Hilfskomitees werden die nötigen</Line>
+          <Line>Verlautbarungen über die Organiſation der Samm-</Line>
+          <Line>lung und die Bezeichnung der Gemeindeſammelſtellen</Line>
+          <Line>in den nächſten Tagen veröffentlichen.</Line>
+        </Paragraph>
+      </RecordEntry>
+      <RecordEntry date="1918-12-24">
+        <DateLine>
+          <Line>Bern, 24. Dezember.</Line>
+        </DateLine>
+        <Paragraph>
+          <Line>Der amerikaniſche Preſſedienſt ſtellt jeſt, daß die</Line>
+          <Line>Berichte über die Anweſenheit des amerikani-</Line>
+          <Line>ſchen Nahrungsmitteklkommiſſärs Hoover nicht</Line>
+          <Line>zutreffen.</Line>
+        </Paragraph>
+      </RecordEntry>
+      <RecordEntry date="1918-12-26">
+        <DateLine>
+          <Line>Bern, 26. Dezember.</Line>
+        </DateLine>
+        <Paragraph>
+          <Line>(Meldung der Schweitzeri-</Line>
+          <Line>ſchen Depeſchen-Agentur.)</Line>
+        </Paragraph>
+        <Paragraph>
+          <Line>Der Bundesrat hat beſchloſſen, den militäri-</Line>
+          <Line>ſchen Inſtruktionsdienſt im Jahre 1919 erſt</Line>
+          <Line>dann beginnen zu laſſen, wenn die jetzt herrſchende</Line>
+          <Line>Grippe für die Truppen keine Gefahr mehr bildet.</Line>
+          <Line>In die Rekrutenſchulen ſind für 1919 nur Rekruten</Line>
+          <Line>einzuberufen, die im Jahre 1918 wegen Grippe gar</Line>
+          <Line>nicht oder nur unvollkommen ausgebildet werden</Line>
+          <Line>konnten. Rekruten, die 1919 einrückungspflichtig</Line>
+          <Line>wären, werden mit Ausnahme des Jahrganges 1898</Line>
+          <Line>und früherer erſt 1920 zur Rekrutenſchule ein-</Line>
+          <Line>berufen. Die Kaderkurſe werden dementsprechend ein-</Line>
+          <Line>geſchränkt und nur im allernotwendigſten Rahmen</Line>
+          <Line>abgehalten werden.</Line>
+        </Paragraph>
+      </RecordEntry>
+      <Heading type="main">
+        <Line>Frankreich.</Line>
+      </Heading>
+      <RecordEntry date="1918-12-25">
+        <DateLine>
+          <Line>Paris, 25. Dezember.</Line>
+        </DateLine>
+        <Paragraph>
+          <Line>(Meldung der Agence Havas.)</Line>
+        </Paragraph>
+        <Paragraph>
+          <Line>Im Kammerausſchuſſe für auswärtige Ange-</Line>
+          <Line>legenheiten legte Miniſter des Äußern Pichon die</Line>
+          <Line>Maßnahmen dar, die getroffen wurden, um die ört-</Line>
+          <Line>lichen Regierungen in Rußland in ihrem Beſtreben,</Line>
+          <Line>dem Bolſchewismus den Boden zu entziehen, zu</Line>
+          <Line>unterſtützen. Die Verbündeten hätten die Abſicht,</Line>
+          <Line>dieſe Politik fortzuſetzen, jedoch ohne ihr eine neue</Line>
+          <Line>Ausdehnung in der Form einer militäriſchen Inter-</Line>
+          <Line>vention zu geben, da die einzige Abſicht der Ver-</Line>
+          <Line>bündeten darin beſtehe, den Bolſchewismus in Ruß-</Line>
+          <Line>land auszurottiren.</Line>
+        </Paragraph>
+      </RecordEntry>
+      <RecordEntry date="1918-12-26">
+        <DateLine>
+          <Line>Paris, 26. Dezember.</Line>
+        </DateLine>
+        <Paragraph>
+          <Line>(Meldung der Agence Havas.)</Line>
+        </Paragraph>
+        <Paragraph>
+          <Line>In der Kammer gab bei der Verhandlung über</Line>
+          <Line>das Penſionsgeſetz Unterſtaatsſekretär Abramí nach-</Line>
+          <Line>ſtehende Überſicht über die franzöſiſchen Verluſte bis</Line>
+          <Line>zum 1. November 1918 bekannt: Geſamzahl der</Line>
+          <Line>Toten, Gefangenen und Vermißten: 42.600 Offiziere,</Line>
+          <Line>1,789.000 Mann. Hievon ſind tot 31.300 Offiziere,</Line>
+          <Line>1,040.000 Mann, vermißt 3000 Offiziere, 311.000</Line>
+          <Line>Mann, am Leben befindliche Gefangene 8300 Offi-</Line>
+          <Line>ziere, 438.000 Mann.</Line>
+        </Paragraph>
+      </RecordEntry>
+      <Heading type="main">
+        <Line>Präſident Wilson in Europa.</Line>
+      </Heading>
+      <RecordEntry date="1918-12-25">
+        <DateLine>
+          <Line>Chaumont, 25. Dezember.</Line>
+        </DateLine>
+        <Paragraph>
+          <Line>(Meldung der Agence</Line>
+          <Line>Havas.)</Line>
+        </Paragraph>
+        <Paragraph>
+          <Line>Präſident Wilson iſt heute früh hier eingetroffen.</Line>
+          <Line>Bevor er zu den amerikaniſchen Truppen fuhr, begab</Line>
+          <Line>er ſich in das Rathaus. Auf dem ganzen Wege wurde</Line>
+          <Line>er von patriotiſchen Vereinen mit Fahnen und</Line>
+          <Line>Bannern ſowie einer zahlreichen Menſchenmenge</Line>
+          <Line>herzlich akklamiert. Geleitet vom Zonenkommandanten</Line>
+          <Line>General Wirbel, dem Präfekten des Departements</Line>
+          <Line>Haute Marne und dem Bürgermeiſter, wurde der</Line>
+          <Line>Präſident mit Gemahlin, den Generalen Perſhing</Line>
+          <Line>und Hartz, dem Botſchafter Juſſerand und Gemahlin</Line>
+          <Line>ſowie dem Admiral Grayſon im Rathaus von der</Line>
+          <Line>Muniſzipalität empfangen. General Wirbel, der</Line>
+          <Line>Präfekt des Departement Haute Marne und der</Line>
+          <Line>Bürgermeiſter hielten Begrüßungsanſprachen.</Line>
+        </Paragraph>
+        <Paragraph>
+          <Line>Präſident Wilson dankte den Rednern mit be-</Line>
+          <Line>wegten Worten. Als er das Rathaus verließ, be-</Line>
+          <Line>reitete ihm die zahlreiche Menſchenmenge begeiſterte</Line>
+          <Line>Ovationen.</Line>
+        </Paragraph>
+        <Paragraph>
+          <Line>Der Präſident begab ſich hierauf mit ſeiner Be-</Line>
+          <Line>leitung auf das Plateau von Langres, wo eine</Line>
+          <Line>Truppenrevue ſtattfand. Er nahm auf einer Tribüne</Line>
+          <Line>Platz, umgeben von zahlreichen Generalen, darunter</Line>
+          <Line>Perſhing, Logan und Mac Andrew.</Line>
+        </Paragraph>
+        <Paragraph>
+          <Line>Nach einigen eindrucksvollen Worten Perſhings</Line>
+          <Line>ſchilderte Präſident Wilson den Stolz und das</Line>
+          <Line>herzliche Vertrauen, womit das amerikaniſche Volk</Line>
+          <Line>jede Bewegung der amerikaniſchen Soldaten verfolgt</Line>
+          <Line>habe, beglückwünſchte die Soldaten zu der Art, wie</Line>
+          <Line>ſie ihre Pflicht und mehr als ihre Pflicht getan</Line>
+          <Line>haben, und fuhr ſodann fort:</Line>
+        </Paragraph>
+        <Paragraph>
+          <Line>Ich weiß, was meine Mitbürger von mir er-</Line>
+          <Line>warten. Ich bin glücklich, Euch ſagen zu können,</Line>
+          <Line>daß ich im Geiſte der großen Führer, mit denen ich</Line>
+          <Line>heute zu heraſchlagen das Vorrecht genieße, keinerlei</Line>
+          <Line>Meinungsverſchiedenheit finde. Die Aufgabe, die</Line>
+          <Line>Friedensurkunde aufzuſtellen, iſt Amerika zugefallen.</Line>
+          <Line>Dieſe Aufgabe iſt um ſo leichter, als die intereffier-</Line>
+          <Line>ten Nationen dieſe Urkunde angenommen haben und</Line>
+          <Line>die Anwendung der Grundſätze, die ſie aufzählt,</Line>
+          <Line>ſchon aus ihrer Darlegung fließt. Die ganze Welt</Line>
+          <Line>weiß ſchon jetzt, daß die Nationen, die an dem</Line>
+          <Line>Kriege teilgenommen haben, bereit ſind, ihr Werk zu</Line>
+          <Line>vervollſtändigen nicht bloß durch Forderungen ihrer</Line>
+          <Line>eigenen Intereſſen, ſondern auch durch die Herſtel-</Line>
+          <Line>lung eines Friedens, der auf den dauernden Grund-</Line>
+          <Line>lagen des Rechtes und der Gerechtigkeit beruht. Da</Line>
+          <Line>der Krieg ein Völkerkrieg iſt, muß der Friede ein</Line>
+          <Line>Völkerfriede ſein. Nichts darf vernachläſſigt werden,</Line>
+          <Line>um die Fragen zu regeln, die der Krieg aufgeworfen</Line>
+          <Line>hat. (Beifall.)</Line>
+        </Paragraph>
+        <Paragraph>
+          <Line>Hierauf defilierten die Truppen, die ſich aus den</Line>
+          <Line>Beſtänden zuſammenſetzten, die ſiegreich in den</Line>
+          <Line>Argonnen gekämpft hatten.</Line>
+        </Paragraph>
+        <Paragraph>
+          <Line>Unter neuerlichen Ovationen verließ der Präſident</Line>
+          <Line>mit ſeiner Begleitung die Tribüne und begab ſich in</Line>
+          <Line>das Hauptquartier der 26. Diviſion im Schulgebäude</Line>
+          <Line>in Montigny-le-Roi, wo er mit den Soldaten am</Line>
+          <Line>Weihnachtsfeſtfeſſen teilnahm. Hierauf kehrte der Prä-</Line>
+          <Line>ſident nach Chaumont zurück. Auf dem Wege dahin</Line>
+          <Line>machte er in einigen Lagern halt und plauderte</Line>
+          <Line>freundlich mit den Soldaten.</Line>
+        </Paragraph>
+      </RecordEntry>
+      <RecordEntry date="1918-12-25">
+        <DateLine>
+          <Line>Paris, 25. Dezember.</Line>
+        </DateLine>
+        <Paragraph>
+          <Line>(Meldung der Agence</Line>
+          <Line>Havas.)</Line>
+        </Paragraph>
+        <Paragraph>
+          <Line>Präſident Wilson hat an das Weiße Haus in</Line>
+          <Line>Waſhington eine Botſchaft gerichtet, worin er zunächſt</Line>
+          <Line>den Amerikanern von dem guten Geſundheitszuſtand</Line>
+          <Line>ihrer auf europäiſchem Boden weilenden Mitbürger</Line>
+          <Line>Mitteilung macht und die hohe Achtung ſowie das</Line>
+          <Line>Vertrauen hervorhebt, deren ſie ſich überall erfreuen</Line>
+          <Line>und ſodann fortfährt:</Line>
+        </Paragraph>
+        <Paragraph>
+          <Line>Ich bin deſſen gewiß, daß Euch auch die Ver-</Line>
+          <Line>ſicherung ſtärken wird, daß die öffentliche Meinung</Line>
+          <Line>aller großen Nationen, mit denen wir im Kriege ver-</Line>
+          <Line>bunden waren, entſchieden an allen Vorſchlägen feſt-</Line>
+          <Line>hält, die einen gerechten, dauernden Frieden und ein</Line>
+          <Line>inniges Zuſammenarbeiten der ſich ſelbſt regierenden</Line>
+          <Line>Völker der Welt zum Ziele haben und den Frieden</Line>
+          <Line>auf eine feſte Grundlage ſtellen werden, ſobald die</Line>
+          <Line>im Zuge befindlichen Vereinbarungen feſtgelegt ſein</Line>
+          <Line>werden. Nichts kann unſere Zuverſicht in dieſen Weih-</Line>
+          <Line>nachtstag mehr ſtärken als die Stimmung, die er findet</Line>
+          <Line>und die überall vorherrſcht.</Line>
+        </Paragraph>
+      </RecordEntry>
+      <RecordEntry date="1918-12-26">
+        <DateLine>
+          <Line>Bern, 26. Dezember.</Line>
+        </DateLine>
+        <Paragraph>
+          <Line>In Erwiderung der Einladung des Bundesrates</Line>
+          <Line>zum Beſuche der Schweiz ließ Präſident Wilson</Line>
+          <Line>mitteilen, es ſei ihm augenblicklich noch nicht möglich,</Line>
+          <Line>zu entſcheiden, ob dieſer Beſuch ausgeführt werden</Line>
+          <Line>könne. Jed enfalls ſehe er die Einladung als ſehr</Line>
+          <Line>erfreulichen Freundſchaftsbeweis der Republik an, mit</Line>
+          <Line>der die Vereinigten Staaten ſtets ſo freundſchaftliche</Line>
+          <Line>und herzliche Beziehungen unterhalten haben.</Line>
+        </Paragraph>
+      </RecordEntry>
+      <Heading type="main">
+        <Line>Hang, 24. Dezember.</Line>
+      </Heading>
+      <Paragraph>
+        <Line>Wie das Korreſpondenz-Bureau jetzt meldet, hat</Line>
+        <Line>Präſident Wilson auf eine Einladung der</Line>
+        <Line>Königin, Holland zu beſuchen, am 3. d. M. ge-</Line>
+        <Line>antwortet, daß er darüber noch nichts Beſtimmtes</Line>
+        <Line>ſagen könne, daß er und Frau Wilson aber ſpäter</Line>
+        <Line>mitteilen würden, ob ihnen der Beſuch möglich ſein</Line>
+        <Line>werde.</Line>
+      </Paragraph>
+      <Heading type="main">
+        <Line>Portugal.</Line>
+      </Heading>
+      <RecordEntry date="1918-12-25">
+        <DateLine>
+          <Line>Liſſabon, 25. Dezember.</Line>
+        </DateLine>
+        <Paragraph>
+          <Line>(Meldung der Agence</Line>
+          <Line>Havas.)</Line>
+        </Paragraph>
+        <Paragraph>
+          <Line>Das neue Kabinett wird demnächſt dem Parlament</Line>
+          <Line>ſein politiſches Programm unterbreiten. Im Lande</Line>
+          <Line>herrſcht Ruhe. Die fremden Kriegsſchiffe, die anläß-</Line>
+          <Line>lich des Leichenbegängniſſes des Präſidenten Sidonio</Line>
+          <Line>Paes in den Tejo eingefahren waren, haben Liſſabon</Line>
+          <Line>wieder verlaſſen.</Line>
+        </Paragraph>
+        <Paragraph>
+          <Line>Der Miniſterrat hat beſchloſſen, der Sache der</Line>
+          <Line>Alliierten treu zu bleiben und ihnen weiterhin jeden</Line>
+          <Line>Beiſtand zu leihten, den ſie von Portugal fordern</Line>
+          <Line>würden.</Line>
+        </Paragraph>
+      </RecordEntry>
+      <Heading type="main">
+        <Line>Belgien.</Line>
+      </Heading>
+      <RecordEntry date="1918-12-23">
+        <DateLine>
+          <Line>Brüſſel, 23. Dezember.</Line>
+        </DateLine>
+        <Paragraph>
+          <Line>Der belgiſche Miniſterpräſident reiſt Donnerstag in</Line>
+          <Line>Begleitung des Kolonienminiſters nach London, um</Line>
+          <Line>mit Lloyd-George und dem engliſchen Schatz-</Line>
+          <Line>kanzler zuſammenzutreffen.</Line>
+        </Paragraph>
+      </RecordEntry>
+      <RecordEntry date="1918-12-25">
+        <DateLine>
+          <Line>Brüſſel, 25. Dezember.</Line>
+        </DateLine>
+        <Paragraph>
+          <Line>Der unter dem Vorſitze des Königs abgehaltene</Line>
+          <Line>Miniſterrat hat die Wahlreformvorlage, durch die das</Line>
+          <Line>allgemeine Wahlrecht eingeführt wird, an-</Line>
+          <Line>genommen.</Line>
+        </Paragraph>
+      </RecordEntry>
+      <RecordEntry date="1918-12-24">
+        <DateLine>
+          <Line>Amſterdam, 24. Dezember.</Line>
+        </DateLine>
+        <Paragraph>
+          <Line>Nach einem Telegramme des Reuterſchen Bureaus</Line>
+          <Line>berichtet „Daily Chronicle“, daß die Meldung,</Line>
+          <Line>wonach die britiſche Regierung Holland ihre Abſicht</Line>
+          <Line>mitgeteilt habe, die Kölner Front auf dem Wege</Line>
+          <Line>Schelde—Antwerpen—Holländiſch-Limburg zu ver-</Line>
+          <Line>ſorgen, wahrſcheinlich richtig ſei. Belgien habe Grund,</Line>
+          <Line>einige Reviſionen des holländiſch-belgiſchen Vertrages</Line>
+          <Line>vom Jahre 1839 zu beanſpruchen, und es müßte</Line>
+          <Line>ihm, wenn nichts anderes erreicht würde, wenigſtens</Line>
+          <Line>das unbeſchränkte Recht zugeſprochen werden, in Krieg</Line>
+          <Line>und Frieden die Schelde zu befahren.</Line>
+        </Paragraph>
+      </RecordEntry>
+      <RecordEntry date="1918-12-24">
+        <DateLine>
+          <Line>London, 24. Dezember.</Line>
+        </DateLine>
+        <Paragraph>
+          <Line>Mit Bezug auf den Bericht aus Brüſſel, daß die</Line>
+          <Line>britiſche Regierung Holland mitgeteilt habe, daß ſie</Line>
+          <Line>die Abſicht hege, die britiſche Beſatzungsarmee am</Line>
+          <Line>Rhein über die Schelde und Holländiſch-Limburg</Line>
+          <Line>zu verſorgen, erfährt das Reuterſche Bureau,</Line>
+          <Line>daß vor einiger Zeit infolge des Vorgehens</Line>
+          <Line>Hollands, das die Durchfuhr von deutſchen</Line>
+          <Line>Truppen und Kriegsmaterial durch holländi-</Line>
+          <Line>ſches Gebiet geſtattete, die belgiſche Regierung</Line>
+          <Line>um ähnliche Erleichterungen erſucht habe und dieſes</Line>
+          <Line>Anſuchen von den Alliierten unterſtützt worden ſei.</Line>
+          <Line>Da dieſe Frage heikel Punkte des Völkerrechtes be-</Line>
+          <Line>rühre, erſcheine eine ſofortige Entſcheidung unwahr-</Line>
+          <Line>ſcheinlich. Man halte es aber für ſehr gut möglich,</Line>
+          <Line>daß Holland angeſichts der bei den alliierten</Line>
+          <Line>Mächten herrſchenden Anſicht, daß ihnen eine ähnliche</Line>
+          <Line>Behandlung wie Deutſchland eingeräumt werden</Line>
+          <Line>ſolle, nur formelle Einwendungen erheben werde.</Line>
+        </Paragraph>
+      </RecordEntry>
+      <Heading type="main">
+        <Line>Großbritannien.</Line>
+      </Heading>
+      <RecordEntry date="1918-12-24">
+        <DateLine>
+          <Line>Berlin, 24. Dezember.</Line>
+        </DateLine>
+        <Paragraph>
+          <Line>Wie eine Berliner Korreſpondenz meldet, wurde</Line>
+          <Line>folgender Befehl ſeitens der engliſchen</Line>
+          <Line>Admiralität an die deutſche Flotte erlaſſen:</Line>
+        </Paragraph>
+        <List type="ordered">
+          <Item>
+            <Line>1. Schiffe mit roter Flagge werden ohne Warnung</Line>
+            <Line>verſenkt.</Line>
+          </Item>
+          <Item>
+            <Line>2. Wenn ein Mann bei bolſchewikiſcher Propaganda</Line>
+            <Line>ertappt wird, ſo wird die geſamte Beſatzung des</Line>
+            <Line>betreffenden Schiffes ſtandrechtlich erſchoſſen.</Line>
+          </Item>
+        </List>
+      </RecordEntry>
+    </Body>
+  </Page>
+</HistoricalDocument>

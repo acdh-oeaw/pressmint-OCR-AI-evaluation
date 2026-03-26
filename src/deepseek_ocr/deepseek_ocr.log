@@ -1,0 +1,50 @@
+2025-12-18 / 12:36:34: deepseek_ocr start
+nproc
+16
+free h
+              total        used        free      shared  buff/cache   available
+Mem:           503G         10G         85G        925M        407G        490G
+Swap:            0B          0B          0B
+nvidia-smi
+Thu Dec 18 12:36:36 2025       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.183.01             Driver Version: 535.183.01   CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA A100-SXM4-40GB          On  | 00000000:17:00.0 Off |                    0 |
+| N/A   31C    P0              51W / 400W |      0MiB / 40960MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+INFO:    User not listed in /etc/subuid, trying root-mapped namespace
+INFO:    Using fakeroot command combined with root-mapped namespace
+You are using a model of type deepseek_vl_v2 to instantiate a model of type DeepseekOCR. This is not supported for all configurations of models and can yield errors.
+You are attempting to use Flash Attention 2.0 without specifying a torch dtype. This might lead to unexpected behaviour
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+Some weights of DeepseekOCRForCausalLM were not initialized from the model checkpoint at deepseek-ai/DeepSeek-OCR and are newly initialized: ['model.vision_model.embeddings.position_ids']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+image_path_list=['/pressmint-ground-truth/data/texts/images/1914-06-29_1.jpg', '/pressmint-ground-truth/data/texts/images/1914-06-29_2.jpg', '/pressmint-ground-truth/data/texts/images/1914-06-29_3.jpg']
+output_path='/pressmint-ground-truth/data/texts/deepseek_ocr_4_one_shot_all_output/1914-06-29_3'
+error: [Errno 2] No such file or directory: "['/pressmint-ground-truth/data/texts/images/1914-06-29_1.jpg', '/pressmint-ground-truth/data/texts/images/1914-06-29_2.jpg', '/pressmint-ground-truth/data/texts/images/1914-06-29_3.jpg']"
+Traceback (most recent call last):
+  File "/pressmint-ground-truth/src/deepseek_ocr/src/DeepSeek-OCR-master/DeepSeek-OCR-hf/run_dpsk_ocr.py", line 69, in <module>
+    res = model.infer(
+          ^^^^^^^^^^^^
+  File "/root/.cache/huggingface/modules/transformers_modules/deepseek-ai/DeepSeek-OCR/9f30c71f441d010e5429c532364a86705536c53a/modeling_deepseekocr.py", line 745, in infer
+    images = load_pil_images(conversation)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.cache/huggingface/modules/transformers_modules/deepseek-ai/DeepSeek-OCR/9f30c71f441d010e5429c532364a86705536c53a/modeling_deepseekocr.py", line 300, in load_pil_images
+    pil_img = pil_img.convert("RGB")
+              ^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'convert'
+2025-12-18 / 12:38:13: deepseek_ocr done

@@ -1,0 +1,48 @@
+Provide my with a bash script for performing ocr_to_gs_formatter.pyon bunches of files:
+run_ocr_to_gs_formatter.sh  GOLDSTANDARDFOLDER OCRFOLDER OUTPUTFOLDER
+
+Look for all matching pairs of filenames in GOLDSTANDARDFOLDER and OCRFOLDER 
+perform ocr_to_gs_formatter.py for each file-pair 
+write the output to OCRFOLDER
+if OCRFOLDER does not yet exist: create it
+if no OCRFOLDER is supplied: create and use   default output-directory with the name "<OCRFOLDER>_ocr2gs"
+3:59 PM
+Here's a bash script for batch processing:
+
+run_ocr_to_gs_formatter.sh
+Code 
+I've created a bash script that:
+
+Features:
+
+✓ Finds all files in OCRFOLDER
+✓ Matches them with files in GOLDSTANDARDFOLDER (by filename)
+✓ Runs ocr_to_gs_formatter.py on each pair
+✓ Writes output to OUTPUTFOLDER
+✓ Creates OUTPUTFOLDER if it doesn't exist
+✓ Uses default <OCRFOLDER>_ocr2gs if no OUTPUTFOLDER specified
+✓ Provides detailed progress output
+✓ Shows summary statistics at the end
+✓ Tries to find the Python script in common locations
+Usage:
+
+bash
+# Make executable
+chmod +x run_ocr_to_gs_formatter.sh
+
+# With default output folder (creates "ocr_folder_ocr2gs")
+./run_ocr_to_gs_formatter.sh /path/to/goldstandard /path/to/ocr
+
+# With custom output folder
+./run_ocr_to_gs_formatter.sh /path/to/goldstandard /path/to/ocr /path/to/output
+The script automatically finds matching file pairs by comparing filenames in both folders.
+
+
+Good start, but the scrip only processed the *first* matching pair and then stopped without any error
+
+4:06 PM
+Let me fix the counter increment syntax - bash requires different syntax for incrementing variables:
+
+run_ocr_to_gs_formatter.sh
+Code ∙ Version 2 
+I've fixed the counter increment syntax from ((var++)) to var=$((var + 1)) which is more portable across different bash versions. The set -e at the top might have been causing the script to exit on the arithmetic error. The script should now process all matching pairs correctly.

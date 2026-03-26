@@ -1,0 +1,10 @@
+services:
+  pressmint_ocr_comparisons:
+    build: .
+    command: jupyter lab --allow-root --ip='*' --NotebookApp.token='' --NotebookApp.password=''
+    ports:
+      - 8888:8888
+    working_dir: /repo/
+    volumes:
+      - ./:/repo/
+

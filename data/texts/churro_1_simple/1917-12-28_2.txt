@@ -1,0 +1,348 @@
+<HistoricalDocument xmlns="http://example.com/historicaldocument">
+  <Metadata>
+    <Language>German</Language>
+    <WritingDirection>ltr</WritingDirection>
+    <PhysicalDescription>Newspaper page, printed in Fraktur.</PhysicalDescription>
+    <Description>Excerpt from a German-language newspaper dated December 28, 1917, containing various news articles and reports from around the world.</Description>
+    <Script>Latin</Script>
+  </Metadata>
+  <Page>
+    <Header>
+      <Heading type="other">
+        <Line>Expedi. Abendpost Nr. 296.</Line>
+      </Heading>
+      <Heading type="other">
+        <Line>Freitag, den 28. Dezember 1917.</Line>
+      </Heading>
+    </Header>
+    <Body>
+      <Heading type="main">
+        <Line>Das czechiſch-ſlovaſiſche Heer.</Line>
+      </Heading>
+      <Paragraph>
+        <Line>Lugano, 27. Dezember.</Line>
+        <Line>Der ſpanische Nationalraet hat durch den</Line>
+        <Line>Generalſtreik des Edouard Penez an das Prä-</Line>
+        <Line>ſidium der ihleniſchen Repräſentatiſtikammer ein Bank-</Line>
+        <Line>telegramme über die Ernährung an das Czechiſch-</Line>
+        <Line>ſlowakiſche Heer in Frankreich geſandt. Das Telegramm</Line>
+        <Line>ſpricht vom Triumph über den gemeinſamen Feind.</Line>
+      </Paragraph>
+      <Heading type="main">
+        <Line>Meldungen</Line>
+        <Line>des</Line>
+        <Line>Telegraphen-Korreſpondenz-Bureaus.</Line>
+      </Heading>
+      <Heading type="sub">
+        <Line>Deutſches Reich.</Line>
+      </Heading>
+      <Paragraph>
+        <Line>Eine Außerung des Feldmarſchalls</Line>
+        <Line>von Mackenſen.</Line>
+      </Paragraph>
+      <Paragraph>
+        <Line>Berlin, 28. Dezember.</Line>
+        <Line>Generalfeldmarſchall von Mackensen ſagte in einem</Line>
+        <Line>Dankſchreiben an den Bürgermeiſter einer Stadt, die</Line>
+        <Line>ihm das Ehrenbürgerrecht verliehen hat: Hoffentlich</Line>
+        <Line>kehrt die friedliche Zeit bald wieder. Wie die Sonne</Line>
+        <Line>ſcheint auch der Weltfriede von Oſten kommen zu</Line>
+        <Line>wollen. Der deutſche Soldat wird ihn ſiegreich er-</Line>
+        <Line>kämpfen, voll Zuverſicht.</Line>
+      </Paragraph>
+      <Heading type="main">
+        <Line>Bulgarien.</Line>
+      </Heading>
+      <Heading type="sub">
+        <Line>Gedenkfeier.</Line>
+      </Heading>
+      <Paragraph>
+        <Line>Sofia, 27. Dezember. (Meldung der Bulgariſchen</Line>
+        <Line>Telegraphen-Agentur.)</Line>
+        <Line>In den erſten Dezembertagen hat die Bevölkerung der</Line>
+        <Line>mazedoniſchen Städte Resna, Ochrida und Struga</Line>
+        <Line>durch rührende Kundgebungen den zweiten Jahrestag</Line>
+        <Line>ihrer Befreiung vom ſerbiſchen Joche gefeiert. Für die</Line>
+        <Line>im Kampf um die Freiheit Macedoniens gefallenen</Line>
+        <Line>Helden wurden Trauergottesdienſte abgehalten.</Line>
+      </Paragraph>
+      <Heading type="main">
+        <Line>Türkei.</Line>
+      </Heading>
+      <Heading type="sub">
+        <Line>Freier Deviſenverkehr mit Deutſchland.</Line>
+      </Heading>
+      <Paragraph>
+        <Line>Konſtantinopel, 27. Dezember.</Line>
+        <Line>Das Finanzminiſterium teilt mit, daß der Deviſen-</Line>
+        <Line>verkehr mit Deutſchland vom 1. Jänner an wieder</Line>
+        <Line>frei wird.</Line>
+      </Paragraph>
+      <Heading type="sub">
+        <Line>Tod Schemſeddin Paſchas.</Line>
+      </Heading>
+      <Paragraph>
+        <Line>Konſtantinopel, 27. Dezember.</Line>
+        <Line>Der Naib-us-Sultan (Vertreter des Sultans</Line>
+        <Line>in Tripolitanien) Schemſeddin Paſcha iſt hier</Line>
+        <Line>geſtorben.</Line>
+      </Paragraph>
+      <Heading type="main">
+        <Line>Rußland.</Line>
+      </Heading>
+      <Heading type="sub">
+        <Line>Ein Stimmungsbericht.</Line>
+      </Heading>
+      <Paragraph>
+        <Line>Koſchwager, 27. Dezember.</Line>
+        <Line>"Sozialdemokraten" gibt eine Unterredung</Line>
+        <Line>nieder, die der Stockholmer Vertreter dieſes Blattes</Line>
+        <Line>mit dem ſchwediſchen ſozialiſtiſchen Reichstagsabge-</Line>
+        <Line>ordneten Hoeglund gehabt hat, der geſtern von</Line>
+        <Line>ſeiner Reiſe nach St. Petersburg zurückgekehrt iſt.</Line>
+        <Line>Hoeglund ſagte, daß die Nachrichten der Entente über</Line>
+        <Line>Unruhen in St. Petersburg vollkommen aus der Luft</Line>
+        <Line>gegriffen ſeien. Ebenſo falſch ſeien die Behauptungen,</Line>
+        <Line>daß die Regierungsmitglieder mit biktatoriſcher Gewalt</Line>
+        <Line>aufträten. Die Volkskommiſſäre ſeien dem Exekutiv-</Line>
+        <Line>komitee verantwoͤrtlich und jeder Miſſiſter habe ein</Line>
+        <Line>Kölliglum zur Seite, das bei allen Entſcheidungen</Line>
+        <Line>mitbeſtimmend ſei. Die Grundlage für die Macht der</Line>
+        <Line>Bolſchewiki-Regierung bilden zwei Millionen Soldaten</Line>
+        <Line>ſowie faſt die geſamte organiſierte Arbeiterſchaft. Die</Line>
+        <Line>gemäßigten ſozialiſtiſchen Parteien verfügen nur über</Line>
+        <Line>eine geringe Anzahl Stimmen.</Line>
+        <Line>Über die Ernährungsverhältniſſe ſagte Höglund, daß</Line>
+        <Line>natürlich in den Restaurants alles ſehr teuer, aber</Line>
+        <Line>eigentlich nicht teurer ſei als in Stockholm. Die Ver-</Line>
+        <Line>ſorgung mit Lebensmitteln ſei bedeutend beſſer ge-</Line>
+        <Line>worden, ſeit die Bolſchewiki zur Macht gelangt ſind.</Line>
+        <Line>Bedeutende Lebensmittelvorräte, die geheimgehalten</Line>
+        <Line>worden waren, wurden entdeckt und verteilt.</Line>
+      </Paragraph>
+      <Heading type="sub">
+        <Line>Der Eiſenbahnerkongreß für Lenin.</Line>
+      </Heading>
+      <Paragraph>
+        <Line>St. Petersburg, 27. Dezember (Meldung der</Line>
+        <Line>St. Petersburger Telegraphen-Agentur.)</Line>
+        <Line>Der Kongreß der Eiſenbahner, der mit der Auf-</Line>
+        <Line>gabe befaßt iſt, die ganze Eiſenbahnfrage zu regeln,</Line>
+        <Line>hat Lenin zu ſeinem Ehrenvertreter gewählt.</Line>
+      </Paragraph>
+      <Heading type="sub">
+        <Line>Der Bürgerkrieg.</Line>
+      </Heading>
+      <Paragraph>
+        <Line>Grosnyj, 27. Dezember. (Meldung der St.</Line>
+        <Line>Petersburger Telegraphen-Agentur.)</Line>
+        <Line>Die Bewegung der Truppen des Rates der Volks-</Line>
+        <Line>kommiſſäre gegen Roſtow von der kaukaſiſchen Front</Line>
+        <Line>her wächſt fortgeſetzt. Täglich kommen mehrere Züge</Line>
+        <Line>mit Soldaten durch Grosnyj. Koſaken verſuchten im</Line>
+        <Line>Bahnhof Mineralnija Wody die Durchfahrt der nach</Line>
+        <Line>Roſtow beſtimmten Truppen aufzuhalten. Der Verſuch</Line>
+        <Line>iſt mißglückt.</Line>
+      </Paragraph>
+      <Heading type="sub">
+        <Line>Demoralisation der Koſaken.</Line>
+      </Heading>
+      <Paragraph>
+        <Line>St. Petersburg, 27. Dezember. (Meldung der</Line>
+        <Line>St. Petersburger Telegraphen-Agentur.)</Line>
+        <Line>Die Koſaken befinden ſich in einem Zuſtande der</Line>
+        <Line>Demoralisation. Die Fronttruppen weigern ſich, gegen</Line>
+        <Line>die Regierungstruppen zu ziehen. Eine bei Alexandrowsk</Line>
+        <Line>ſtehende Diviſion hat die Waffen niedergelegt. Ihr</Line>
+        <Line>Beiſpiel iſt von anderen Regimentern befolgt worden.</Line>
+      </Paragraph>
+      <Heading type="main">
+        <Line>Requirierung einer Druckerei.</Line>
+      </Heading>
+      <Paragraph>
+        <Line>St. Petersburg, 27. Dezember. (Meldung des</Line>
+        <Line>Reuterſchen Bureaus.)</Line>
+        <Line>Die große Druckerei der „Viroſchewpja Wjedo-</Line>
+        <Line>moſki“ iſt für die Bedürfniſſe des Zentralkomitees</Line>
+        <Line>der Arbeiter- und Soldatenräte requirirt worden.</Line>
+      </Paragraph>
+      <Heading type="sub">
+        <Line>Die Vorgänge in Finnland.</Line>
+      </Heading>
+      <Paragraph>
+        <Line>Stockholm, 27. Dezember.</Line>
+        <Line>Aus Haparanda wird gemeldet: Die ruſſiſche</Line>
+        <Line>Ausgabe der finniſchen Verordnungen und Geſetze</Line>
+        <Line>iſt eingeſtellt worden. Die Poſtämter in Finnland</Line>
+        <Line>nehmen Abonnements auf deutſche Zeitungen an.</Line>
+      </Paragraph>
+      <Heading type="main">
+        <Line>Frankreich.</Line>
+      </Heading>
+      <Heading type="sub">
+        <Line>Kammer.</Line>
+      </Heading>
+      <Paragraph>
+        <Line>Paris, 27. Dezember. (Meldung der Agence Havas.)</Line>
+        <Line>Die Kammer hat am Schluſſe der Interpellations-</Line>
+        <Line>debatte über die Politik der Regierung hinſichtlich</Line>
+        <Line>Rußlands einſtimmig mit 384 Stimmen eine Tages-</Line>
+        <Line>ordnung angenommen, welche die Regierungserklärung</Line>
+        <Line>billigt.</Line>
+      </Paragraph>
+      <Heading type="main">
+        <Line>Rumänien.</Line>
+      </Heading>
+      <Heading type="sub">
+        <Line>Zu den Äußerungen Marghilomans.</Line>
+      </Heading>
+      <Paragraph>
+        <Line>Bukareſt, 27. Dezember.</Line>
+        <Line>Zum Interview, das Marghiloman einem</Line>
+        <Line>Mitarbeiter des Transozean-Nachrichtendienſtes gewährt</Line>
+        <Line>hatte, ſchreibt „Lumina“: Reich an trauriger und</Line>
+        <Line>ſchmerzlicher Erfahrung, ſieht Rumänien, daß es ſich</Line>
+        <Line>verirrt hat. Als Bedingung, daß es nicht wiederum</Line>
+        <Line>den rechten Weg verliert, wünſcht Marghiloman</Line>
+        <Line>zwiſchen den Mittelmächten und Rumänien eine innige</Line>
+        <Line>Verbindung von Volk zu Volk. Auch wir glauben,</Line>
+        <Line>daß alles getan werden muß, damit die Erneuerung</Line>
+        <Line>des alten Bündniſſes für das rumäniſche Volk</Line>
+        <Line>den Anfang einer neuen Ära bedeute. Das Rumänien</Line>
+        <Line>nach dem Kriege muß ganz verſchieden ſein vom alten</Line>
+        <Line>Rumänien. Zu dieſem Zwecke müſſen wir vor der</Line>
+        <Line>Wiederkehr der Unordnung, der Beſtechung und des</Line>
+        <Line>Alkoholismus bewahrt werden. Da all dies eine Folge-</Line>
+        <Line>erſcheinung des alten Syſtems war, muß eben dieſes</Line>
+        <Line>Syſtem verſchwinden. In dieſem Sinne will das ganze</Line>
+        <Line>rumäniſche Volk von der Regierung in Jaſſy nichts</Line>
+        <Line>wiſſen. Sie muß zurücktreten, und mit ihr muß das</Line>
+        <Line>ganze Syſtem verſchwinden, das ihr die Macht ge-</Line>
+        <Line>geben hat.</Line>
+      </Paragraph>
+      <Heading type="main">
+        <Line>Japan.</Line>
+      </Heading>
+      <Heading type="sub">
+        <Line>Audienzen beim Kaiſer.</Line>
+      </Heading>
+      <Paragraph>
+        <Line>Amſterdam, 27. Dezember.</Line>
+        <Line>Dem „Algemeen Handelsblad“ zufolge meldet</Line>
+        <Line>„Daily Chronicle“ aus Oſaka vom 22. d. M.:</Line>
+        <Line>Heute früh empfing der Kaiſer den Miniſter des</Line>
+        <Line>Äußern und drei Genſo-Mitglieder. Man mißt dieſer</Line>
+        <Line>Unterredung große Bedeutung bei, da man glaubt,</Line>
+        <Line>daß über die Haltung Japans gegenüber Rußland</Line>
+        <Line>im Falle eines Sonderfriedens beraten wurde.</Line>
+      </Paragraph>
+      <Heading type="main">
+        <Line>Kleine Chronik.</Line>
+      </Heading>
+      <Paragraph>
+        <Line>Wien, 28. Dezember.</Line>
+        <Line>(Spende.) Dem Kriegshilfsbureau des Mini-</Line>
+        <Line>ſteriums des Innern wurde von einer ungenannt ſein</Line>
+        <Line>wollenden Wiener Dame ein Betrag von 210.000</Line>
+        <Line>Kronen überwieſen; von dieſer Summe wurden der</Line>
+        <Line>Kriegsküchenaktion 100.000 Kronen und</Line>
+        <Line>der niederöſterreichiſchen Landeskommiſſion für heim-</Line>
+        <Line>kehrende Krieger 50.000 Kronen zugewendet.</Line>
+      </Paragraph>
+      <Paragraph>
+        <Line>(Perſonalnachricht.) Der Profeſſor für</Line>
+        <Line>Gynäkologie Dr. Bernhard S. Schulze, in Jena</Line>
+        <Line>begeht morgen ſein 90. Geburtstſeſt. Der Gelehrte gilt</Line>
+        <Line>als der Begründer der modernen Gynäkologie.</Line>
+      </Paragraph>
+      <Paragraph>
+        <Line>(Todesfälle.) In Graz iſt geſtern der Feld-</Line>
+        <Line>marſchallentnant i. R. Ludwig Sokol Ritter von</Line>
+        <Line>Jaladol, Ritter des Leopold-Ordens und des</Line>
+        <Line>Ordens der Eiſernen Krone dritter Klaſſe, im</Line>
+        <Line>88. Lebensjahre verſchieden. — Der Juſtizreferent und</Line>
+        <Line>Leiter der Abteilung für Strafgerichtsbarkeit des Mi-</Line>
+        <Line>litärgeneralgouvernements in Serbien Major-</Line>
+        <Line>auditior Dr. Heinrich Terfy, Ritter des Franz</Line>
+        <Line>Joſeph-Ordens, iſt, 43 Jahre alt, geſtorben. — Der</Line>
+        <Line>Direktor des Anatomiſchen Juſtituts an der Univer-</Line>
+        <Line>ſität in Leipzig, Geheimrat Profeſſor Karl Rabl,</Line>
+        <Line>ein gebürtiger Oberöſterreicher, iſt im 65. Lebens-</Line>
+        <Line>jahre geſtorben.</Line>
+      </Paragraph>
+      <Paragraph>
+        <Line>fanden ſich auch Leute, die gleich nebenan im „Sau-</Line>
+        <Line>winkel“ (heute: Auwinkel) wohnten. Die maleriſchen</Line>
+        <Line>Baſteihäuſchen mit den kleinen Vorgärten daselbſt</Line>
+        <Line>waren gar nicht übel.</Line>
+        <Line>Der erſte ſchöne Frühlingstag lockte die Wiener</Line>
+        <Line>vor die Tore der Stadt, wo ihnen der weite Wieſen-</Line>
+        <Line>plan der Glacis einen leichten Naturgenuß geſtattete.</Line>
+        <Line>War das Jahr dem Graswuchs günſtig, ſo fanden ſich</Line>
+        <Line>bald fleißige Mäher ein, und die Spaziergänger</Line>
+        <Line>atmeten den Duft des friſch gemähten Graſes.</Line>
+        <Line>Auf den Baſteien entwickelle ſich zwiſchen elf und</Line>
+        <Line>zwei Uhr ein Korſo, ähnlich dem heutigen Ring-</Line>
+        <Line>ſtraßenbummel zwiſchen Stuben- und Kärntnerring.</Line>
+        <Line>Hier flanierte der Müßiggänger um 12 Uhr nach</Line>
+        <Line>dem Frühſtück, die Nobleſſe um ein Uhr vor Tiſch</Line>
+        <Line>und der Bürger und Kaufmann um zwei Uhr nach</Line>
+        <Line>dem Eſſen.</Line>
+      </Paragraph>
+      <Paragraph>
+        <Line>Von hiſtoriſcher Bedeutung war beſonders die</Line>
+        <Line>Löwel- oder Löbelbaſtei (ſo benannt nach dem „Stadt-</Line>
+        <Line>Guardi-Obristen“ Löbel Freiherrn von Greinburg,</Line>
+        <Line>der im 17. Jahrhundert in dieſer Gegend ein</Line>
+        <Line>Haus beſaß), wo ſich 1683 die Wiener während</Line>
+        <Line>der Belagerung durch ihren Heldenmut ſo aus-</Line>
+        <Line>gezeichnet haben, daß ſie Kara Muſtapha den</Line>
+        <Line>„Zauberhaufen“ nannte. Aber auch der „Juden-</Line>
+        <Line>turm“ war einſt ein wichtiges Vertheidigungsobjekt,</Line>
+        <Line>von dem aus die „große Notſchlange“, der „Greif“</Line>
+        <Line>genannt, und zwei andere Geſchütze: „die Singerinnen“,</Line>
+        <Line>den Feinden viel Schaden zufügten.</Line>
+      </Paragraph>
+      <Paragraph>
+        <Line>Das älteſte der zwölf Stadttores war das „Ren-</Line>
+        <Line>tor“, das ſchon im Jahre 1851 abgebrochen wurde.</Line>
+        <Line>Der über dem Tor gegen die Stadt quer liegende</Line>
+      </Paragraph>
+      <Paragraph>
+        <Line>Stein — er hatte ein Gewicht von 164 Zentner</Line>
+        <Line>51 Pfund — galt für den größten Stein innerhalb</Line>
+        <Line>der Mauern Wiens. In der Nähe des Neutors</Line>
+        <Line>befanden ſich auch das Schanzel- und Fiſchertor,</Line>
+        <Line>alle drei nächſt der Donau. Eine Erinnerung an</Line>
+        <Line>das Fiſchertor bewahrt das Haus Fiſcherſtiege Nr. 3.</Line>
+        <Line>Eine verwitterte Taſel trägt die Inſchrift: „Vor</Line>
+        <Line>dieſem Hauſe ſtand bis zum Ende des 18. Jahr-</Line>
+        <Line>hunderts das Tor an der Fiſcherſtiege, ein Teil der</Line>
+        <Line>Ummwallung zur Zeit der Babenberger.“ Die</Line>
+        <Line>Chroniſten erzählen, daß die Schiffer ſchon im</Line>
+        <Line>8. Jahrhundert „Salz am ſteigen Aſer“ ausgeladen</Line>
+        <Line>haben und mit ihrer Ware über die Fiſcherſtiege in</Line>
+        <Line>die Stadt gegangen ſind. Außer den genannten</Line>
+        <Line>drei Toren gab es noch: das Burg-, Kärntner,</Line>
+        <Line>Seilerſtätter, Karolinen-, Stuben-, Rotenturm-,</Line>
+        <Line>Schotten-, Franzens- und Joſefſtädter Tor, die alle eine</Line>
+        <Line>wichtige Rolle ſpielten. Ein Wiener Schriftſteller</Line>
+        <Line>konnte noch in den Dreißigerjahren ernſthaft ver-</Line>
+        <Line>künden, das Stubentor führe durch die Vorſtadt</Line>
+        <Line>Landſtraße — „nach Ungarn“. In der Nähe des</Line>
+        <Line>Rotenturmtors fiel als erſtes Opfer der Stadt-</Line>
+        <Line>erweiterung das damals kleinſte Haus von Wien,</Line>
+        <Line>das ſogenannte „Brunnenhäuschen“ am Fuße der</Line>
+        <Line>Ruprechtsſtiege; der Volkswitz nannte das liliputaniſch</Line>
+        <Line>Gebäude den „Zwergelhof“. Dieſer älteſte Teil</Line>
+        <Line>Alt-Wiens iſt nun verſchwunden, und wo Alt-Wien</Line>
+        <Line>nur vereinſamte Stätten und menſchenleere Plätze auf-</Line>
+        <Line>zuweiſen hatte, ſehen wir heute ſchöne Gartenanlagen</Line>
+        <Line>und prächtige Paläſte.</Line>
+      </Paragraph>
+      <Paragraph>
+        <Line>Rudolf Kars.</Line>
+      </Paragraph>
+    </Body>
+  </Page>
+</HistoricalDocument>

@@ -1,0 +1,7 @@
+/data/keys/
+/data/jupyter/
+**/.ipynb_checkpoints
+/.virtual_documents/
+*.sif
+/src/deepseek_ocr/root_home/
+*.zip
