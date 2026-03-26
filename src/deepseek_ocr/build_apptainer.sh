@@ -1,4 +1,4 @@
 #!/bin/bash
 
-apptainer build deepseek_ocr.sif deepseek_ocr.def
+apptainer build --force deepseek_ocr.sif deepseek_ocr.def
 
