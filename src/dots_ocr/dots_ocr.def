@@ -1,14 +1,10 @@
 Bootstrap: docker
 From: rednotehilab/dots.ocr:vllm-openai-v0.9.1
 
-%files
-  ./src/ /pressmint-ground-truth/src/dots_ocr/
-
 %post
-  pip3 install PyMuPDF==1.26.5
-  pip3 install qwen-vl-utils
-  pip3 install transformers==4.51.3
-  cd /pressmint-ground-truth/src/dots_ocr/src/
-  export PYTHONPATH=/pressmint-ground-truth/src/dots_ocr/src/
-  python3 tools/download_model.py
+    # Install Python packages
+    pip3 install flash_attn==2.7.4.post1
+    pip3 install PyMuPDF==1.26.5
+    pip3 install qwen-vl-utils
+    pip3 install transformers==4.51.3
 

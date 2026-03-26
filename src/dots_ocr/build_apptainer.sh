@@ -1,4 +1,4 @@
 #!/bin/bash
 
-apptainer build --force dots_ocr.sif dots_ocr.def
+apptainer build dots_ocr.sif dots_ocr.def
 
