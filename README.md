@@ -428,6 +428,9 @@ messages.append({
 
 ### dots_ocr_9_three_shot
 
+Code, configuration, and log at time of inference: 
+[https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/de06b9454fd12a2506da4562777824504bf9c5c0/src/dots_ocr/](https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/de06b9454fd12a2506da4562777824504bf9c5c0/src/dots_ocr/)
+
 Same setup as `dots_ocr_8_one_shot`, but with three pairs of ground truth data.
 
 ### dots_ocr_10_one_shot_english_extensive
