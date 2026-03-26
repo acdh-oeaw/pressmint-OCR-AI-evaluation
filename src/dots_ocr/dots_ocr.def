@@ -2,8 +2,6 @@ Bootstrap: docker
 From: rednotehilab/dots.ocr:vllm-openai-v0.9.1
 
 %post
-    # Install Python packages
-    pip3 install flash_attn==2.7.4.post1
     pip3 install PyMuPDF==1.26.5
     pip3 install qwen-vl-utils
     pip3 install transformers==4.51.3
