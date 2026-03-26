@@ -163,6 +163,9 @@ DEFAULT_SYSTEM_MESSAGE = (
 
 ### churro_4_one_shot
 
+Code, configuration, and log at time of inference: 
+[https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/de2543f3734cf11aac09515ac6ac22fc93585d6c/src/churro/](https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/de2543f3734cf11aac09515ac6ac22fc93585d6c/src/churro/)
+
 - one shot with ground truth images
 
 prompt:
