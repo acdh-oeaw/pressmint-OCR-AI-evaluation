@@ -135,6 +135,9 @@ Default prompt:
 
 ### churro_2_german_extensive_2
 
+Code, configuration, and log at time of inference: 
+[https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/f6f4bcda1b75de39ac9d3f4564e3ff136855f8b5/src/churro/](https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/f6f4bcda1b75de39ac9d3f4564e3ff136855f8b5/src/churro/)
+
 ```
 DEFAULT_SYSTEM_MESSAGE = (
     "Transkribiere den Text aus dem folgenden historischen Dokument. Hierbei handelt es sich um "
