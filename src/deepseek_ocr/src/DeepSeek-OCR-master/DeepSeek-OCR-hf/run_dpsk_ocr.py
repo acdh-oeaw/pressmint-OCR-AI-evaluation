@@ -16,13 +16,13 @@ model = model.eval().cuda().to(torch.bfloat16)
 
 
 PROMPT = (
-    "<image>\n<|grounding|>Transkribiere den Text aus dem folgenden historischen Dokument. Hierbei "
-    "handelt es sich um eine deutsche Zeitung aus dem frühen 20. Jahrhundert in Frakturschrift. "
-    "Behalte die menschliche Leserichtung bei, also erkenne den Fluss in den Textblöcken. Der "
-    "Output soll reiner Text sein, ohne spezielle Kategorisierung oder Strukturierung."
+    "<image>\n<|grounding|>Transcribe the text of the following historic document. It is a german "
+    "newspaper from the early 20th century, printed in 'Fraktur'. Keep the human reading order, "
+    "meaning, that the natural flow of the text blocks must be respected. The output should only "
+    "be plain text, without any categories or special structure."
 )
 IN_FOLDER = "/pressmint-ground-truth/data/texts/images/"
-OUT_FOLDER = "/pressmint-ground-truth/data/texts/deepseek_ocr_2_german_extensive_2_all_output/"
+OUT_FOLDER = "/pressmint-ground-truth/data/texts/deepseek_ocr_3_english_extensive_2_all_output/"
 
 
 # infer(self, tokenizer, PROMPT='', image_file='', output_path = ' ', base_size = 1024, image_size = 640, crop_mode = True, test_compress = False, save_results = False):
