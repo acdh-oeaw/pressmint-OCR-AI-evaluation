@@ -168,7 +168,7 @@ Code, configuration, and log at time of inference:
 
 - one shot with ground truth images
 
-prompt:
+prompt and conversation:
 ```
 DEFAULT_SYSTEM_MESSAGE = (
     "Transcribe the document following the example shown. Keep the human reading order and "
