@@ -24,7 +24,7 @@ random.seed(42)
 
 DEFAULT_MODEL_ID = "stanford-oval/churro-3B"
 DEFAULT_SYSTEM_MESSAGE = "Transcribe these documents."
-OUT_FOLDER = "/pressmint-ground-truth/data/texts/churro_8_two_shot_zero_temperature"
+OUT_FOLDER = "/pressmint-ground-truth/data/texts/churro_9_two_shot_zero_temperature"
 IN_IMAGE_FOLDER = "/pressmint-ground-truth/data/texts/images/"
 IN_GROUND_TRUTH_FOLDER = "/pressmint-ground-truth/data/texts/transkribus_corrected/"
 
