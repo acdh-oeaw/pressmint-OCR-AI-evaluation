@@ -65,6 +65,9 @@ This plot shows the results per image averaged across workflows
 
 The following is a list of all configurations and parameters of the evaluated models.
 
+Their respective inference outputs are found at [./data/texts/](./data/texts/) respective their
+workflow name.
+
 ### anno
 
 This is the only "OCR workflow" that was not executed by us, but provided by
