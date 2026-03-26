@@ -149,6 +149,9 @@ DEFAULT_SYSTEM_MESSAGE = (
 
 ### churro_3_english_extensive_3
 
+Code, configuration, and log at time of inference: 
+[https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/f9f40ca545c242d32a37ece0f2116f3bb4cb9c27/src/churro/](https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/f9f40ca545c242d32a37ece0f2116f3bb4cb9c27/src/churro/)
+
 ```
 DEFAULT_SYSTEM_MESSAGE = (
     "Transcribe the text of the following historic document. It is a german newspaper from the "
