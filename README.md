@@ -381,6 +381,9 @@ extract all the text and keep the reading order. Also keep in mind that the writ
 
 ### dots_ocr_7_german_extensive_2
 
+Code, configuration, and log at time of inference: 
+[https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/f8f574102d1ae9fa01de9776c028908acf8ae562/src/dots_ocr/](https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/f8f574102d1ae9fa01de9776c028908acf8ae562/src/dots_ocr/)
+
 ```
 PROMPT = (
     "Transkribiere den Text aus dem folgenden historischen Dokument. Hierbei handelt es sich um "
