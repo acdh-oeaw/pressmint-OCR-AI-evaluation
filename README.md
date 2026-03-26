@@ -395,6 +395,9 @@ PROMPT = (
 
 ### dots_ocr_8_one_shot
 
+Code, configuration, and log at time of inference: 
+[https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/8649c0458779c18ab2a18f48355e430801cde5ce/src/dots_ocr/](https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/8649c0458779c18ab2a18f48355e430801cde5ce/src/dots_ocr/)
+
 same system prompt as `dots_ocr_7_german_extensive_2`. One shot learning adapted in code like this:
 
 ```
