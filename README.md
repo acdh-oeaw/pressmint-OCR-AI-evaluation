@@ -88,6 +88,9 @@ This is the only "OCR workflow" that was not executed by us, but provided by
 
 ### anthropic_1_simple
 
+executed directly by [./src/pressmint_ocr.ipynb](./src/pressmint_ocr.ipynb) at section `# OCR
+inferences`.
+
 This prompt is shared directly between openai_1_simple, google_gemini_1_simple, anthropic_1_simple.
 
 Very basic approach. Just throw a single prompt and image at AI.
@@ -99,6 +102,9 @@ prompt_simple = "Extrahiere den gesamten Text aus diesem Bild."
 ### anthropic_2_extensive
 
 **note: this prompt crashed and returned no results**
+
+executed directly by [./src/pressmint_ocr.ipynb](./src/pressmint_ocr.ipynb) at section `# OCR
+inferences`.
 
 This prompt is shared directly between openai_2_extensive, google_gemini_2_extensive,
 anthropic_2_extensive.
@@ -389,6 +395,9 @@ Same as `dots_ocr_10_one_shot_english_extensive` but with three ground truth sam
 
 ### google_gemini_1_simple
 
+executed directly by [./src/pressmint_ocr.ipynb](./src/pressmint_ocr.ipynb) at section `# OCR
+inferences`.
+
 This prompt is shared directly between openai_1_simple, google_gemini_1_simple, anthropic_1_simple.
 
 Very basic approach. Just throw a single prompt and image at AI.
@@ -398,6 +407,9 @@ prompt_simple = "Extrahiere den gesamten Text aus diesem Bild."
 ```
 
 ### google_gemini_2_extensive
+
+executed directly by [./src/pressmint_ocr.ipynb](./src/pressmint_ocr.ipynb) at section `# OCR
+inferences`.
 
 This prompt is shared directly between openai_2_extensive, google_gemini_2_extensive,
 anthropic_2_extensive.
@@ -418,6 +430,9 @@ prompt_extensive = (
 
 **note: this prompt crashed and returned no results**
 
+executed directly by [./src/pressmint_ocr.ipynb](./src/pressmint_ocr.ipynb) at section `# OCR
+inferences`.
+
 One Shot learning experiment, where an image with its gold data transcription is shown to the AI
 beforehand, with these prompts:
 
@@ -429,10 +444,16 @@ prompt_one_shot_ocr_inference = "Anhand von dem vorher gezeigten Beispielbild, e
 
 ### google_vision
 
+executed directly by [./src/pressmint_ocr.ipynb](./src/pressmint_ocr.ipynb) at section `# OCR
+inferences`.
+
 Google Cloud Vision API is not a LLM or Gemini, but an image analyser, which can be used for OCR
 too.
 
 ### openai_1_simple
+
+executed directly by [./src/pressmint_ocr.ipynb](./src/pressmint_ocr.ipynb) at section `# OCR
+inferences`.
 
 This prompt is shared directly between openai_1_simple, google_gemini_1_simple, anthropic_1_simple.
 
@@ -443,6 +464,9 @@ prompt_simple = "Extrahiere den gesamten Text aus diesem Bild."
 ```
 
 ### openai_2_extensive
+
+executed directly by [./src/pressmint_ocr.ipynb](./src/pressmint_ocr.ipynb) at section `# OCR
+inferences`.
 
 This prompt is shared directly between openai_2_extensive, google_gemini_2_extensive,
 anthropic_2_extensive.
@@ -460,6 +484,9 @@ prompt_extensive = (
 ```
 
 ### openai_3_one_shot_simple
+
+executed directly by [./src/pressmint_ocr.ipynb](./src/pressmint_ocr.ipynb) at section `# OCR
+inferences`.
 
 One Shot learning experiment, where an image with its gold data transcription is shown to the AI
 beforehand, with these prompts:
@@ -485,17 +512,25 @@ Falls nicht, dann würde ein einfacher Satz mit Verweis und Link reichen.
 
 ### tsk_openai_one_shot
 
+executed directly by [./src/pressmint_postprocessing.ipynb](./src/pressmint_postprocessing.ipynb).
+
 #TODO
 
 ### tsk_openai_three_shot
+
+executed directly by [./src/pressmint_postprocessing.ipynb](./src/pressmint_postprocessing.ipynb).
 
 #TODO
 
 ### tsk_openai_two_shot
 
+executed directly by [./src/pressmint_postprocessing.ipynb](./src/pressmint_postprocessing.ipynb).
+
 #TODO
 
 ### tsk_openai_zero_shot
+
+executed directly by [./src/pressmint_postprocessing.ipynb](./src/pressmint_postprocessing.ipynb).
 
 #TODO
 
