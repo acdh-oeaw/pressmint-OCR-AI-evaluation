@@ -1,12 +1,12 @@
-2025-12-18 / 12:36:34: deepseek_ocr start
+2025-12-06 / 11:40:19: deepseek_ocr__a100 start
 nproc
 16
 free h
               total        used        free      shared  buff/cache   available
-Mem:           503G         10G         85G        925M        407G        490G
+Mem:           356G        8.4G         28G        4.2G        318G        342G
 Swap:            0B          0B          0B
 nvidia-smi
-Thu Dec 18 12:36:36 2025       
+Sat Dec  6 11:40:19 2025       
 +---------------------------------------------------------------------------------------+
 | NVIDIA-SMI 535.183.01             Driver Version: 535.183.01   CUDA Version: 12.2     |
 |-----------------------------------------+----------------------+----------------------+
@@ -14,8 +14,8 @@ Thu Dec 18 12:36:36 2025
 | Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
 |                                         |                      |               MIG M. |
 |=========================================+======================+======================|
-|   0  NVIDIA A100-SXM4-40GB          On  | 00000000:17:00.0 Off |                    0 |
-| N/A   31C    P0              51W / 400W |      0MiB / 40960MiB |      0%      Default |
+|   0  NVIDIA A100-PCIE-40GB          On  | 00000000:00:09.0 Off |                    0 |
+| N/A   28C    P0              33W / 250W |      0MiB / 40960MiB |      0%      Default |
 |                                         |                      |             Disabled |
 +-----------------------------------------+----------------------+----------------------+
                                                                                          
@@ -33,18 +33,370 @@ You are attempting to use Flash Attention 2.0 without specifying a torch dtype. 
 You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
 Some weights of DeepseekOCRForCausalLM were not initialized from the model checkpoint at deepseek-ai/DeepSeek-OCR and are newly initialized: ['model.vision_model.embeddings.position_ids']
 You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
-image_path_list=['/pressmint-ground-truth/data/texts/images/1914-06-29_1.jpg', '/pressmint-ground-truth/data/texts/images/1914-06-29_2.jpg', '/pressmint-ground-truth/data/texts/images/1914-06-29_3.jpg']
-output_path='/pressmint-ground-truth/data/texts/deepseek_ocr_4_one_shot_all_output/1914-06-29_3'
-error: [Errno 2] No such file or directory: "['/pressmint-ground-truth/data/texts/images/1914-06-29_1.jpg', '/pressmint-ground-truth/data/texts/images/1914-06-29_2.jpg', '/pressmint-ground-truth/data/texts/images/1914-06-29_3.jpg']"
-Traceback (most recent call last):
-  File "/pressmint-ground-truth/src/deepseek_ocr/src/DeepSeek-OCR-master/DeepSeek-OCR-hf/run_dpsk_ocr.py", line 69, in <module>
-    res = model.infer(
-          ^^^^^^^^^^^^
-  File "/root/.cache/huggingface/modules/transformers_modules/deepseek-ai/DeepSeek-OCR/9f30c71f441d010e5429c532364a86705536c53a/modeling_deepseekocr.py", line 745, in infer
-    images = load_pil_images(conversation)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/root/.cache/huggingface/modules/transformers_modules/deepseek-ai/DeepSeek-OCR/9f30c71f441d010e5429c532364a86705536c53a/modeling_deepseekocr.py", line 300, in load_pil_images
-    pil_img = pil_img.convert("RGB")
-              ^^^^^^^^^^^^^^^
-AttributeError: 'NoneType' object has no attribute 'convert'
-2025-12-18 / 12:38:13: deepseek_ocr done
+/usr/local/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:590: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+The `seen_tokens` attribute is deprecated and will be removed in v4.41. Use the `cache_position` model input instead.
+`get_max_cache()` is deprecated for all Cache classes. Use `get_max_cache_shape()` instead. Calling `get_max_cache()` will raise error from v4.48
+The attention layers in this model are transitioning from computing the RoPE embeddings internally through `position_ids` (2D tensor with the indexes of the tokens), to using externally computed `position_embeddings` (Tuple of tensors, containing cos and sin). In v4.46 `position_ids` will be removed and `position_embeddings` will be mandatory.
+image_file='/pressmint-ground-truth/data/texts/images/1918-12-27_6.jpg'
+output_path='/pressmint-ground-truth/data/texts/deepseek_ocr/1918-12-27_6'
+=====================
+BASE:  torch.Size([1, 256, 1280])
+PATCHES:  torch.Size([6, 100, 1280])
+=====================
+
+==================================================
+image size:  (2968, 4395)
+valid image tokens:  772
+output texts tokens (valid):  1
+compression ratio:  0.0
+==================================================
+===============save results:===============
+image: 0it [00:00, ?it/s]image: 0it [00:00, ?it/s]
+other: 0it [00:00, ?it/s]other: 0it [00:00, ?it/s]
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+image_file='/pressmint-ground-truth/data/texts/images/1917-12-28_4.jpg'
+output_path='/pressmint-ground-truth/data/texts/deepseek_ocr/1917-12-28_4'
+=====================
+BASE:  torch.Size([1, 256, 1280])
+PATCHES:  torch.Size([6, 100, 1280])
+=====================
+
+==================================================
+image size:  (3000, 4429)
+valid image tokens:  773
+output texts tokens (valid):  1
+compression ratio:  0.0
+==================================================
+===============save results:===============
+image: 0it [00:00, ?it/s]image: 0it [00:00, ?it/s]
+other: 0it [00:00, ?it/s]other: 0it [00:00, ?it/s]
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+image_file='/pressmint-ground-truth/data/texts/images/1918-12-27_3.jpg'
+output_path='/pressmint-ground-truth/data/texts/deepseek_ocr/1918-12-27_3'
+=====================
+BASE:  torch.Size([1, 256, 1280])
+PATCHES:  torch.Size([6, 100, 1280])
+=====================
+
+==================================================
+image size:  (2968, 4395)
+valid image tokens:  772
+output texts tokens (valid):  1
+compression ratio:  0.0
+==================================================
+===============save results:===============
+image: 0it [00:00, ?it/s]image: 0it [00:00, ?it/s]
+other: 0it [00:00, ?it/s]other: 0it [00:00, ?it/s]
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+image_file='/pressmint-ground-truth/data/texts/images/1917-12-28_3.jpg'
+output_path='/pressmint-ground-truth/data/texts/deepseek_ocr/1917-12-28_3'
+=====================
+BASE:  torch.Size([1, 256, 1280])
+PATCHES:  torch.Size([6, 100, 1280])
+=====================
+
+==================================================
+image size:  (3000, 4429)
+valid image tokens:  773
+output texts tokens (valid):  1
+compression ratio:  0.0
+==================================================
+===============save results:===============
+image: 0it [00:00, ?it/s]image: 0it [00:00, ?it/s]
+other: 0it [00:00, ?it/s]other: 0it [00:00, ?it/s]
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+image_file='/pressmint-ground-truth/data/texts/images/1914-06-29_1.jpg'
+output_path='/pressmint-ground-truth/data/texts/deepseek_ocr/1914-06-29_1'
+=====================
+BASE:  torch.Size([1, 256, 1280])
+PATCHES:  torch.Size([6, 100, 1280])
+=====================
+
+==================================================
+image size:  (2991, 4382)
+valid image tokens:  774
+output texts tokens (valid):  1
+compression ratio:  0.0
+==================================================
+===============save results:===============
+image: 0it [00:00, ?it/s]image: 0it [00:00, ?it/s]
+other: 0it [00:00, ?it/s]other: 0it [00:00, ?it/s]
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+image_file='/pressmint-ground-truth/data/texts/images/1915-12-28_4.jpg'
+output_path='/pressmint-ground-truth/data/texts/deepseek_ocr/1915-12-28_4'
+=====================
+BASE:  torch.Size([1, 256, 1280])
+PATCHES:  torch.Size([6, 100, 1280])
+=====================
+
+==================================================
+image size:  (3053, 4599)
+valid image tokens:  769
+output texts tokens (valid):  1
+compression ratio:  0.0
+==================================================
+===============save results:===============
+image: 0it [00:00, ?it/s]image: 0it [00:00, ?it/s]
+other: 0it [00:00, ?it/s]other: 0it [00:00, ?it/s]
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+image_file='/pressmint-ground-truth/data/texts/images/1915-12-28_1.jpg'
+output_path='/pressmint-ground-truth/data/texts/deepseek_ocr/1915-12-28_1'
+=====================
+BASE:  torch.Size([1, 256, 1280])
+PATCHES:  torch.Size([6, 100, 1280])
+=====================
+
+==================================================
+image size:  (3053, 4599)
+valid image tokens:  769
+output texts tokens (valid):  1
+compression ratio:  0.0
+==================================================
+===============save results:===============
+image: 0it [00:00, ?it/s]image: 0it [00:00, ?it/s]
+other: 0it [00:00, ?it/s]other: 0it [00:00, ?it/s]
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+image_file='/pressmint-ground-truth/data/texts/images/1914-06-29_7.jpg'
+output_path='/pressmint-ground-truth/data/texts/deepseek_ocr/1914-06-29_7'
+=====================
+BASE:  torch.Size([1, 256, 1280])
+PATCHES:  torch.Size([6, 100, 1280])
+=====================
+
+==================================================
+image size:  (2991, 4382)
+valid image tokens:  774
+output texts tokens (valid):  1
+compression ratio:  0.0
+==================================================
+===============save results:===============
+image: 0it [00:00, ?it/s]image: 0it [00:00, ?it/s]
+other: 0it [00:00, ?it/s]other: 0it [00:00, ?it/s]
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+image_file='/pressmint-ground-truth/data/texts/images/1914-06-29_4.jpg'
+output_path='/pressmint-ground-truth/data/texts/deepseek_ocr/1914-06-29_4'
+=====================
+BASE:  torch.Size([1, 256, 1280])
+PATCHES:  torch.Size([6, 100, 1280])
+=====================
+
+==================================================
+image size:  (2991, 4382)
+valid image tokens:  774
+output texts tokens (valid):  1
+compression ratio:  0.0
+==================================================
+===============save results:===============
+image: 0it [00:00, ?it/s]image: 0it [00:00, ?it/s]
+other: 0it [00:00, ?it/s]other: 0it [00:00, ?it/s]
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+image_file='/pressmint-ground-truth/data/texts/images/1917-12-28_1.jpg'
+output_path='/pressmint-ground-truth/data/texts/deepseek_ocr/1917-12-28_1'
+=====================
+BASE:  torch.Size([1, 256, 1280])
+PATCHES:  torch.Size([6, 100, 1280])
+=====================
+
+==================================================
+image size:  (3000, 4429)
+valid image tokens:  773
+output texts tokens (valid):  1
+compression ratio:  0.0
+==================================================
+===============save results:===============
+image: 0it [00:00, ?it/s]image: 0it [00:00, ?it/s]
+other: 0it [00:00, ?it/s]other: 0it [00:00, ?it/s]
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+image_file='/pressmint-ground-truth/data/texts/images/1918-12-27_1.jpg'
+output_path='/pressmint-ground-truth/data/texts/deepseek_ocr/1918-12-27_1'
+=====================
+BASE:  torch.Size([1, 256, 1280])
+PATCHES:  torch.Size([6, 100, 1280])
+=====================
+
+==================================================
+image size:  (2968, 4395)
+valid image tokens:  772
+output texts tokens (valid):  1
+compression ratio:  0.0
+==================================================
+===============save results:===============
+image: 0it [00:00, ?it/s]image: 0it [00:00, ?it/s]
+other: 0it [00:00, ?it/s]other: 0it [00:00, ?it/s]
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+image_file='/pressmint-ground-truth/data/texts/images/1918-12-27_4.jpg'
+output_path='/pressmint-ground-truth/data/texts/deepseek_ocr/1918-12-27_4'
+=====================
+BASE:  torch.Size([1, 256, 1280])
+PATCHES:  torch.Size([6, 100, 1280])
+=====================
+
+==================================================
+image size:  (2968, 4395)
+valid image tokens:  772
+output texts tokens (valid):  1
+compression ratio:  0.0
+==================================================
+===============save results:===============
+image: 0it [00:00, ?it/s]image: 0it [00:00, ?it/s]
+other: 0it [00:00, ?it/s]other: 0it [00:00, ?it/s]
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+image_file='/pressmint-ground-truth/data/texts/images/1914-06-29_2.jpg'
+output_path='/pressmint-ground-truth/data/texts/deepseek_ocr/1914-06-29_2'
+=====================
+BASE:  torch.Size([1, 256, 1280])
+PATCHES:  torch.Size([6, 100, 1280])
+=====================
+
+==================================================
+image size:  (2991, 4382)
+valid image tokens:  774
+output texts tokens (valid):  1
+compression ratio:  0.0
+==================================================
+===============save results:===============
+image: 0it [00:00, ?it/s]image: 0it [00:00, ?it/s]
+other: 0it [00:00, ?it/s]other: 0it [00:00, ?it/s]
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+image_file='/pressmint-ground-truth/data/texts/images/1918-12-27_5.jpg'
+output_path='/pressmint-ground-truth/data/texts/deepseek_ocr/1918-12-27_5'
+=====================
+BASE:  torch.Size([1, 256, 1280])
+PATCHES:  torch.Size([6, 100, 1280])
+=====================
+
+==================================================
+image size:  (2968, 4395)
+valid image tokens:  772
+output texts tokens (valid):  1
+compression ratio:  0.0
+==================================================
+===============save results:===============
+image: 0it [00:00, ?it/s]image: 0it [00:00, ?it/s]
+other: 0it [00:00, ?it/s]other: 0it [00:00, ?it/s]
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+image_file='/pressmint-ground-truth/data/texts/images/1918-12-27_2.jpg'
+output_path='/pressmint-ground-truth/data/texts/deepseek_ocr/1918-12-27_2'
+=====================
+BASE:  torch.Size([1, 256, 1280])
+PATCHES:  torch.Size([6, 100, 1280])
+=====================
+
+==================================================
+image size:  (2968, 4395)
+valid image tokens:  772
+output texts tokens (valid):  1
+compression ratio:  0.0
+==================================================
+===============save results:===============
+image: 0it [00:00, ?it/s]image: 0it [00:00, ?it/s]
+other: 0it [00:00, ?it/s]other: 0it [00:00, ?it/s]
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+image_file='/pressmint-ground-truth/data/texts/images/1914-06-29_5.jpg'
+output_path='/pressmint-ground-truth/data/texts/deepseek_ocr/1914-06-29_5'
+=====================
+BASE:  torch.Size([1, 256, 1280])
+PATCHES:  torch.Size([6, 100, 1280])
+=====================
+
+==================================================
+image size:  (2991, 4382)
+valid image tokens:  774
+output texts tokens (valid):  1
+compression ratio:  0.0
+==================================================
+===============save results:===============
+image: 0it [00:00, ?it/s]image: 0it [00:00, ?it/s]
+other: 0it [00:00, ?it/s]other: 0it [00:00, ?it/s]
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+image_file='/pressmint-ground-truth/data/texts/images/1915-12-28_3.jpg'
+output_path='/pressmint-ground-truth/data/texts/deepseek_ocr/1915-12-28_3'
+=====================
+BASE:  torch.Size([1, 256, 1280])
+PATCHES:  torch.Size([6, 100, 1280])
+=====================
+
+==================================================
+image size:  (3053, 4599)
+valid image tokens:  769
+output texts tokens (valid):  1
+compression ratio:  0.0
+==================================================
+===============save results:===============
+image: 0it [00:00, ?it/s]image: 0it [00:00, ?it/s]
+other: 0it [00:00, ?it/s]other: 0it [00:00, ?it/s]
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+image_file='/pressmint-ground-truth/data/texts/images/1914-06-29_3.jpg'
+output_path='/pressmint-ground-truth/data/texts/deepseek_ocr/1914-06-29_3'
+=====================
+BASE:  torch.Size([1, 256, 1280])
+PATCHES:  torch.Size([6, 100, 1280])
+=====================
+
+==================================================
+image size:  (2991, 4382)
+valid image tokens:  774
+output texts tokens (valid):  1
+compression ratio:  0.0
+==================================================
+===============save results:===============
+image: 0it [00:00, ?it/s]image: 0it [00:00, ?it/s]
+other: 0it [00:00, ?it/s]other: 0it [00:00, ?it/s]
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+image_file='/pressmint-ground-truth/data/texts/images/1915-12-28_2.jpg'
+output_path='/pressmint-ground-truth/data/texts/deepseek_ocr/1915-12-28_2'
+=====================
+BASE:  torch.Size([1, 256, 1280])
+PATCHES:  torch.Size([6, 100, 1280])
+=====================
+
+==================================================
+image size:  (3053, 4599)
+valid image tokens:  769
+output texts tokens (valid):  1
+compression ratio:  0.0
+==================================================
+===============save results:===============
+image: 0it [00:00, ?it/s]image: 0it [00:00, ?it/s]
+other: 0it [00:00, ?it/s]other: 0it [00:00, ?it/s]
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+image_file='/pressmint-ground-truth/data/texts/images/1917-12-28_2.jpg'
+output_path='/pressmint-ground-truth/data/texts/deepseek_ocr/1917-12-28_2'
+=====================
+BASE:  torch.Size([1, 256, 1280])
+PATCHES:  torch.Size([6, 100, 1280])
+=====================
+
+==================================================
+image size:  (3000, 4429)
+valid image tokens:  773
+output texts tokens (valid):  1
+compression ratio:  0.0
+==================================================
+===============save results:===============
+image: 0it [00:00, ?it/s]image: 0it [00:00, ?it/s]
+other: 0it [00:00, ?it/s]other: 0it [00:00, ?it/s]
+2025-12-06 / 11:41:29: deepseek_ocr__a100 done
