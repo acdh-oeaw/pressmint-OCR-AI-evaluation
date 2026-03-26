@@ -3,7 +3,7 @@
 ## contents
 
 - [comparison results plot](#comparison-results-plot)
-- [OCR workflows](#individual-ocr-workflows)
+- [individual OCR workflows](#individual-ocr-workflows)
 - [comparison results details](#comparison-results-details)
 - [variance details](#variance-details)
 - [results per image](#results-per-image)
@@ -12,29 +12,57 @@
 This repo contains the builds, inferences and evaluations of all used OCR models.
 
 The notebookt at [./src/pressmint_ocr.ipynb](./src/pressmint_ocr.ipynb) contains all the evaluation
-logic and those OCR workflows directly, which were delegatable to LLM APIs, i.e. the heavy lifiting
-was outsourced (namely those of OpenAI, Antrhopic, and Google). Other OCR workflows involving open
-source models, which were executed on the [https://www.clip.science/](https://www.clip.science/) HPC
-are found under [./src](./src) and their results are only evaluated in the central notebook (namely
+logic and those OCR workflows directly that were delegatable to LLM APIs (namely those of OpenAI,
+Anthropic, and Google). Other OCR workflows involving open source models that were executed
+ourselves on [https://www.clip.science/](https://www.clip.science/) are found under [./src](./src)
+and their results are only evaluated in the central notebook (namely
 [churro](https://github.com/stanford-oval/Churro),
 [dots.ocr](https://github.com/rednote-hilab/dots.ocr),
 [deepseek-ocr](https://github.com/deepseek-ai/DeepSeek-OCR)). Models provided by
 [https://pero-ocr.fit.vutbr.cz/](https://pero-ocr.fit.vutbr.cz/), and
 [https://www.transkribus.org/](https://www.transkribus.org/) were tested separately through their
-UI, but its results are persisted and evaulated here like the others.
+UI with theirs results persisted and evaulated here like the others.
 
-## setup
+## how to reproduce
 
-To run the notebook, have docker installed (and docker compose, usually integrated into newer
-versions of docker) and do:
+### notebook
+
+To run the OCR worfklows via LLM APIs of Anthropic, Google, and OpenAI, use the respective functions
+in the jupyter notebook. For this, have docker installed (and docker compose, usually integrated
+into newer versions of docker) and do:
 ```
 docker compose up
 ```
 Then open the jupyterlab notebook at http://localhost:8888/lab/tree/src/pressmint_ocr.ipynb
 
-keys and tokens are necessary for their respective providers. This notebook assumes the keys to be
+Keys and tokens are necessary for their respective providers. This notebook assumes the keys to be
 persisted into the [./data/keys/](./data/keys/) folder, where templates can be found. The json files
 must be named `google_key.json` for the google API and `tokens.json` for OpenAI and Anthropic.
+
+The notebook also does all the evaluations of all models.
+
+### local open source models
+
+They were run on [https://www.clip.science/](https://www.clip.science/) on a single A100 GPU with
+[apptainer](https://apptainer.org/) and [slurm](https://slurm.schedmd.com/overview.html).
+
+To reproduce those, an equally strong GPU is required. If available, then the respective slurm
+scripts under [./src](./src) call the apptainer commands which can be extracted and called
+individually, e.g. with 
+
+```
+apptainer exec --fakeroot --containall --writable-tmpfs --nv \
+  --bind ../../data/:/pressmint-ground-truth/data/ \
+  --bind ./src/churro_transformers_infer.py:/pressmint-ground-truth/src/churro/src/churro_transformers_infer.py \
+  --bind ./churro.sh:/pressmint-ground-truth/src/churro/churro.sh \
+  churro.sif bash /pressmint-ground-truth/src/churro/churro.sh
+``` 
+
+### others
+
+[https://pero-ocr.fit.vutbr.cz/](https://pero-ocr.fit.vutbr.cz/), and
+[https://www.transkribus.org/](https://www.transkribus.org/) offer their own UIs. To reproduce, use
+these.
 
 ## comparison results plot
 
