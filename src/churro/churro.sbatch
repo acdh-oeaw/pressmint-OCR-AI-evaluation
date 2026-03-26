@@ -2,12 +2,12 @@
 
 #SBATCH --partition=g
 #SBATCH --cpus-per-task=8
-#SATCH  --mem=16G
+#SBATCH --mem=16G
 #SBATCH --gres=gpu:A100:1
 #SBATCH --time=06:00:00
 #SBATCH --output=churro.log
 
-title="churro__a100"
+title="churro"
 
 ntfy "${title} start"
 

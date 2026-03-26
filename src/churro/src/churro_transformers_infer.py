@@ -20,7 +20,14 @@ from transformers.image_utils import load_image
 
 
 DEFAULT_MODEL_ID = "stanford-oval/churro-3B"
-DEFAULT_SYSTEM_MESSAGE = "Transcribe the entiretly of this historical documents to txt format."
+DEFAULT_SYSTEM_MESSAGE = (
+    "Transkribiere den Text aus dem folgenden historischen Dokument. Hierbei handelt es sich um "
+    "eine deutsche Zeitung aus dem frühen 20. Jahrhundert in Frakturschrift. Behalte die "
+    "menschliche Leserichtung bei, also erkenne den Fluss in den Textblöcken. Der Output soll "
+    "reiner Text sein, ohne spezielle Kategorisierung oder Strukturierung."
+)
+OUT_FOLDER = "/pressmint-ground-truth/data/texts/churro_2_german_extensive_2/"
+
 MAX_IMAGE_DIM = 2500
 MIN_PIXELS = 512 * 28 * 28
 MAX_PIXELS = 5120 * 28 * 28
@@ -190,7 +197,7 @@ def main() -> None:
                 temperature=args.temperature,
             )
             print(transcription)
-            out_path = "/pressmint-ground-truth/data/texts/churro/" + image_file_name.replace(".jpg", ".txt")
+            out_path = OUT_FOLDER + image_file_name.replace(".jpg", ".txt")
             print(f"{out_path=}")
             with open(out_path, "w") as f:
                 f.write(transcription)
