@@ -454,6 +454,9 @@ PROMPT = (
 
 ### dots_ocr_11_three_shot_english_extensive
 
+Code, configuration, and log at time of inference: 
+[https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/9e84b4470c2449cb17bab07343e7959c1b0cea9e/src/dots_ocr/](https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/9e84b4470c2449cb17bab07343e7959c1b0cea9e/src/dots_ocr/)
+
 Same as `dots_ocr_10_one_shot_english_extensive` but with three ground truth samples.
 
 ### google_gemini_1_simple
