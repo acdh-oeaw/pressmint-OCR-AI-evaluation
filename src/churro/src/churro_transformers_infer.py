@@ -18,11 +18,13 @@ from PIL import Image
 import torch
 from transformers import AutoModelForImageTextToText, AutoProcessor
 from transformers.image_utils import load_image
+os.environ["TRANSFORMERS_VERBOSITY"] = "info"
+random.seed(42)
 
 
 DEFAULT_MODEL_ID = "stanford-oval/churro-3B"
 DEFAULT_SYSTEM_MESSAGE = "Transcribe these documents."
-OUT_FOLDER = "/pressmint-ground-truth/data/texts/churro_7_two_shot_prompts_adapted/"
+OUT_FOLDER = "/pressmint-ground-truth/data/texts/churro_8_two_shot_zero_temperature"
 IN_IMAGE_FOLDER = "/pressmint-ground-truth/data/texts/images/"
 IN_GROUND_TRUTH_FOLDER = "/pressmint-ground-truth/data/texts/transkribus_corrected/"
 
@@ -53,7 +55,7 @@ def _parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--temperature",
         type=float,
-        default=0.6,
+        default=0,
         help="Sampling temperature",
     )
     parser.add_argument(
@@ -215,8 +217,11 @@ def _run_generation(
         "max_new_tokens": max_new_tokens,
         "do_sample": temperature > 0,
     }
-    if temperature > 0:
-        generation_kwargs["temperature"] = temperature
+    print(f"{temperature=}")
+    # if temperature > 0:
+    # generation_kwargs["temperature"] = temperature
+    # else:
+    generation_kwargs["do_sample"] = False
     if processor.tokenizer.pad_token_id is not None:
         generation_kwargs.setdefault("pad_token_id", processor.tokenizer.pad_token_id)
     if processor.tokenizer.eos_token_id is not None:
@@ -268,7 +273,7 @@ def main() -> None:
 
     if args.image is None:
         infer_and_ground_truth_groups = _create_infer_and_ground_truth_groups(2)
-        # limit = 3
+        # limit = 1
         # current = 0
         for ground_truth_pair_list, image_file_infer in infer_and_ground_truth_groups:
             # if current == limit:
