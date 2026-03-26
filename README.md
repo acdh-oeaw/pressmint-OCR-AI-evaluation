@@ -231,6 +231,9 @@ conversation.append({
 
 ### churro_8_two_shot_zero_temperature
 
+Code, configuration, and log at time of inference: 
+[https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/b2e91e36a1fdbe0bcb40027acd3868bafa582e54/src/churro/](https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/b2e91e36a1fdbe0bcb40027acd3868bafa582e54/src/churro/)
+
 Same as `churro_7_two_shot_prompts_adapted` but with temperature set to 0.
 
 ### churro_9_two_shot_zero_temperature
