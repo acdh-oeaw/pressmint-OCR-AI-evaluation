@@ -246,7 +246,7 @@ Identical to `churro_8_two_shot_zero_temperature`, to check if results are the s
 ### deepseek_ocr_1_default
 
 Code, configuration, and log at time of inference: 
-[https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/b5edf9ee44d5b976a939c6ca3c07b188d9c36a4d/src/churro/](https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/b5edf9ee44d5b976a939c6ca3c07b188d9c36a4d/src/churro/)
+[https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/b5edf9ee44d5b976a939c6ca3c07b188d9c36a4d/src/deepseek_ocr/](https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/b5edf9ee44d5b976a939c6ca3c07b188d9c36a4d/src/deepseek_ocr/)
 
 Default prompt:
 
@@ -257,7 +257,7 @@ Default prompt:
 ### deepseek_ocr_2_german_extensive_2
 
 Code, configuration, and log at time of inference: 
-[https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/ae4ae6a9ef9b45f61829193cd243f5908a72954e/src/churro/](https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/ae4ae6a9ef9b45f61829193cd243f5908a72954e/src/churro/)
+[https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/ae4ae6a9ef9b45f61829193cd243f5908a72954e/src/deepseek_ocr/](https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/ae4ae6a9ef9b45f61829193cd243f5908a72954e/src/deepseek_ocr/)
 
 ```
 PROMPT = (
