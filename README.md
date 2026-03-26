@@ -246,7 +246,7 @@ Identical to `churro_8_two_shot_zero_temperature`, to check if results are the s
 ### deepseek_ocr_1_default
 
 Code, configuration, and log at time of inference: 
-[https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/b5edf9ee44d5b976a939c6ca3c07b188d9c36a4d/src/deepseek_ocr/](https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/b5edf9ee44d5b976a939c6ca3c07b188d9c36a4d/src/deepseek_ocr/)
+[https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/787dbbfac14d314e75233d4b243dc2dbbd4fba53/src/deepseek_ocr/](https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/787dbbfac14d314e75233d4b243dc2dbbd4fba53/src/deepseek_ocr/)
 
 Default prompt:
 
