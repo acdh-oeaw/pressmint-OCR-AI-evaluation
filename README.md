@@ -368,6 +368,9 @@ Beachte auch, dass die Schrift in Fraktur gehalten ist. Der Output soll nur der 
 
 ### dots_ocr_6_english_extensive
 
+Code, configuration, and log at time of inference: 
+[https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/0cccb80204cf9f08642259ef15691a5aba0c91ae/src/dots_ocr/](https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/0cccb80204cf9f08642259ef15691a5aba0c91ae/src/dots_ocr/)
+
 ```
 """
 This is a scan of a historic german newspaper from the early 20th century. Please do OCR on it, 
