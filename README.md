@@ -104,22 +104,6 @@ Their inference outputs are found at [./data/texts/](./data/texts/) respective t
 This is the only "OCR workflow" that was not executed by us, but provided by
 [https://anno.onb.ac.at/](https://anno.onb.ac.at/) and used as a comparision to evaluated against.
 
-### anno_openai_one_shot
-
-\#TODO-anno_*
-
-### anno_openai_three_shot
-
-\#TODO-anno_*
-
-### anno_openai_two_shot
-
-\#TODO-anno_*
-
-### anno_openai_zero_shot
-
-\#TODO-anno_*
-
 ### anthropic_1_simple
 
 executed directly by [./src/pressmint_ocr.ipynb](./src/pressmint_ocr.ipynb) at section `# OCR
@@ -612,30 +596,6 @@ Inferred by running manually on https://scribblesense.cz/.
 ### transrkibus
 
 \#TODO-transkribus
-
-### tsk_openai_one_shot
-
-executed directly by [./src/pressmint_postprocessing.ipynb](./src/pressmint_postprocessing.ipynb).
-
-\#TODO-tsk_*
-
-### tsk_openai_three_shot
-
-executed directly by [./src/pressmint_postprocessing.ipynb](./src/pressmint_postprocessing.ipynb).
-
-\#TODO-tsk_*
-
-### tsk_openai_two_shot
-
-executed directly by [./src/pressmint_postprocessing.ipynb](./src/pressmint_postprocessing.ipynb).
-
-\#TODO-tsk_*
-
-### tsk_openai_zero_shot
-
-executed directly by [./src/pressmint_postprocessing.ipynb](./src/pressmint_postprocessing.ipynb).
-
-\#TODO-tsk_*
 
 ## comparison results details
 
