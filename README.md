@@ -106,19 +106,19 @@ This is the only "OCR workflow" that was not executed by us, but provided by
 
 ### anno_openai_one_shot
 
-\#TODO-anno*
+\#TODO-anno_*
 
 ### anno_openai_three_shot
 
-\#TODO-anno*
+\#TODO-anno_*
 
 ### anno_openai_two_shot
 
-\#TODO-anno*
+\#TODO-anno_*
 
 ### anno_openai_zero_shot
 
-\#TODO-anno*
+\#TODO-anno_*
 
 ### anthropic_1_simple
 
