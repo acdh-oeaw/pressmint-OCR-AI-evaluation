@@ -9,17 +9,24 @@
 - [results per image](#results-per-image)
 - [all image results ranked](#all-image-results-ranked)
 
-This repo contains the builds, inferences and comparison of various OCR models.
+This repo contains the builds, inferences and evaluations of all used OCR models.
 
-Some OCR workflows are implemented in the jupyter notebook at 
-[./src/pressmint_ocr.ipynb](./src/pressmint_ocr.ipynb), while dots.ocr is implemented at 
-[./src/dots_ocr/](./src/dots_ocr/) and deepseek-ocr at [./src/dots_ocr/](./src/dots_ocr/)
-. The notebook aggregates all outcomes into the stats and plot embedded in this README.
+The notebookt at [./src/pressmint_ocr.ipynb](./src/pressmint_ocr.ipynb) contains all the evaluation
+logic and those OCR workflows directly, which were delegatable to LLM APIs, i.e. the heavy lifiting
+was outsourced (namely those of OpenAI, Antrhopic, and Google). Other OCR workflows involving open
+source models, which were executed on the [https://www.clip.science/](https://www.clip.science/) HPC
+are found under [./src](./src) and their results are only evaluated in the central notebook (namely
+[churro](https://github.com/stanford-oval/Churro),
+[dots.ocr](https://github.com/rednote-hilab/dots.ocr),
+[deepseek-ocr](https://github.com/deepseek-ai/DeepSeek-OCR)). Models provided by
+[https://pero-ocr.fit.vutbr.cz/](https://pero-ocr.fit.vutbr.cz/), and
+[https://www.transkribus.org/](https://www.transkribus.org/) were tested separately through their
+UI, but its results are persisted and evaulated here like the others.
 
 ## setup
 
-To run, have docker installed (and docker compose, usually integrated into newer versions of docker) 
-and do:
+To run the notebook, have docker installed (and docker compose, usually integrated into newer
+versions of docker) and do:
 ```
 docker compose up
 ```
@@ -55,6 +62,59 @@ This plot shows the results per image averaged across workflows
 - Llama vision is disallowed within the EU: https://huggingface.co/meta-llama/Llama-3.2-11B-Vision
 
 ## individual OCR workflows
+
+The following is a list of all configurations and parameters of the evaluated models.
+
+### anno
+
+This is the only "OCR workflow" that was not executed by us, but provided by
+[https://anno.onb.ac.at/](https://anno.onb.ac.at/) and used as a comparision to evaluated against.
+
+### anno_openai_one_shot
+
+#TODO
+
+### anno_openai_three_shot
+
+#TODO
+
+### anno_openai_two_shot
+
+#TODO
+
+### anno_openai_zero_shot
+
+#TODO
+
+### anthropic_1_simple
+
+This prompt is shared directly between openai_1_simple, google_gemini_1_simple, anthropic_1_simple.
+
+Very basic approach. Just throw a single prompt and image at AI.
+
+```
+prompt_simple = "Extrahiere den gesamten Text aus diesem Bild."
+```
+
+### anthropic_2_extensive
+
+**note: this prompt crashed and returned no results**
+
+This prompt is shared directly between openai_2_extensive, google_gemini_2_extensive,
+anthropic_2_extensive.
+
+Identical to simple workflows above, but with the prompt being a bit more extensive. Note 
+that `anthropic_2_extensive` didn't work due to time-outs.
+```
+prompt_extensive = (
+    "Das ist ein Scan einer deutschen historischen Zeitung aus dem frühen 20. Jahrhundert."
+    "Bitte führe OCR darauf aus. "
+    "Beachte dabei, dass die Schrift in Fraktur gehalten ist. "
+    "Versuche keine Interpretationen zu machen bezüglich der Wörter, sondern transkripiere jeden Buchstaben wie du ihn siehst. "
+    "Ohne irgendwelche Metabeschreibungen, nur den Text alleine."
+)
+```
+
 
 ### churro_1_simple
 
@@ -327,14 +387,20 @@ PROMPT = (
 
 Same as `dots_ocr_10_one_shot_english_extensive` but with three ground truth samples.
 
-### openai_1_simple, google_gemini_1_simple, anthropic_1_simple
+### google_gemini_1_simple
+
+This prompt is shared directly between openai_1_simple, google_gemini_1_simple, anthropic_1_simple.
 
 Very basic approach. Just throw a single prompt and image at AI.
+
 ```
 prompt_simple = "Extrahiere den gesamten Text aus diesem Bild."
 ```
 
-### openai_2_extensive, google_gemini_2_extensive, anthropic_2_extensive
+### google_gemini_2_extensive
+
+This prompt is shared directly between openai_2_extensive, google_gemini_2_extensive,
+anthropic_2_extensive.
 
 Identical to simple workflows above, but with the prompt being a bit more extensive. Note 
 that `anthropic_2_extensive` didn't work due to time-outs.
@@ -348,10 +414,55 @@ prompt_extensive = (
 )
 ```
 
-### openai_3_one_shot_simple, google_gemini_3_one_shot_simple
+### google_gemini_3_one_shot_simple
 
-One Shot learning experiment, where an image with its gold data transcription is shown to 
-the AI beforehand, with these prompts:
+**note: this prompt crashed and returned no results**
+
+One Shot learning experiment, where an image with its gold data transcription is shown to the AI
+beforehand, with these prompts:
+
+```
+prompt_one_shot_ground_truth = "Hier ist ein Beispielbild einer historischen Frakturschrift-Zeitung mit seiner korrekten Transkription:"
+prompt_one_shot_explanation = "Bitte beschreibe das folgende ähnliche Bild, so gut wie möglich."
+prompt_one_shot_ocr_inference = "Anhand von dem vorher gezeigten Beispielbild, extrahiere den Text aus dem folgenden Bild."
+```
+
+### google_vision
+
+Google Cloud Vision API is not a LLM or Gemini, but an image analyser, which can be used for OCR
+too.
+
+### openai_1_simple
+
+This prompt is shared directly between openai_1_simple, google_gemini_1_simple, anthropic_1_simple.
+
+Very basic approach. Just throw a single prompt and image at AI.
+
+```
+prompt_simple = "Extrahiere den gesamten Text aus diesem Bild."
+```
+
+### openai_2_extensive
+
+This prompt is shared directly between openai_2_extensive, google_gemini_2_extensive,
+anthropic_2_extensive.
+
+Identical to simple workflows above, but with the prompt being a bit more extensive. Note 
+that `anthropic_2_extensive` didn't work due to time-outs.
+```
+prompt_extensive = (
+    "Das ist ein Scan einer deutschen historischen Zeitung aus dem frühen 20. Jahrhundert."
+    "Bitte führe OCR darauf aus. "
+    "Beachte dabei, dass die Schrift in Fraktur gehalten ist. "
+    "Versuche keine Interpretationen zu machen bezüglich der Wörter, sondern transkripiere jeden Buchstaben wie du ihn siehst. "
+    "Ohne irgendwelche Metabeschreibungen, nur den Text alleine."
+)
+```
+
+### openai_3_one_shot_simple
+
+One Shot learning experiment, where an image with its gold data transcription is shown to the AI
+beforehand, with these prompts:
 
 ```
 prompt_one_shot_ground_truth = "Hier ist ein Beispielbild einer historischen Frakturschrift-Zeitung mit seiner korrekten Transkription:"
@@ -361,11 +472,32 @@ prompt_one_shot_ocr_inference = "Anhand von dem vorher gezeigten Beispielbild, e
 
 ### pero_ocr
 
-Inferred by running manually on https://pero-ocr.fit.vutbr.cz/ by Hannes.
+Inferred by running manually on https://pero-ocr.fit.vutbr.cz/.
 
 ### pero_scribblesense
 
-Inferred by running manually on https://scribblesense.cz/ by Hannes.
+Inferred by running manually on https://scribblesense.cz/.
+
+### transrkibus
+
+#TODO: gibt es hierzu Möglichkeiten den Workflow zu beschreiben (e.g. Konfigurationsparameter)?
+Falls nicht, dann würde ein einfacher Satz mit Verweis und Link reichen.
+
+### tsk_openai_one_shot
+
+#TODO
+
+### tsk_openai_three_shot
+
+#TODO
+
+### tsk_openai_two_shot
+
+#TODO
+
+### tsk_openai_zero_shot
+
+#TODO
 
 ## comparison results details
 
