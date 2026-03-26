@@ -12,16 +12,20 @@ from qwen_vl_utils import process_vision_info
 INFERENCE_ENABLED = True
 MAX_NEW_TOKENS = 8000
 
+FULL_RUN = True
+NUM_GROUND_TRUTH = 1
 PROMPT = (
-    "Transkribiere den Text aus dem folgenden historischen Dokument. Hierbei handelt es sich um "
-    "eine deutsche Zeitung aus dem frühen 20. Jahrhundert in Frakturschrift. Behalte die "
-    "menschliche Leserichtung bei, also erkenne den Fluss in den Textblöcken. Der Output soll "
-    "reiner Text sein, ohne spezielle Kategorisierung oder Strukturierung."
+    "You are an expert in historical German documents. Transcribe the text from "
+    "German newspapers from the early 20th century written in Fraktur script. "
+    "Follow these guidelines:\n"
+    "- Follow the natural reading direction (left to right, top to bottom)\n"
+    "- Recognize column layouts and logical text flow\n"
+    "- Output only plain text without metadata or structural markup\n"
+    "- Preserve paragraphs but add no additional formatting"
 )
 IN_IMAGE_FOLDER= "/pressmint-ground-truth/data/texts/images/"
 IN_GROUND_TRUTH_FOLDER = "/pressmint-ground-truth/data/texts/transkribus_corrected/"
-OUT_FOLDER = "/pressmint-ground-truth/data/texts/dots_ocr_9_three_shot_pkl/"
-
+OUT_FOLDER = "/pressmint-ground-truth/data/texts/dots_ocr_10_one_shot_english_extensive_pkl"
 
 def inference(model, processor, ground_truth_pair_list, image_file_infer):
     print("-- inference")
@@ -90,7 +94,7 @@ def inference(model, processor, ground_truth_pair_list, image_file_infer):
         pickle.dump(output_text, f)
 
 
-def create_infer_and_ground_truth_groups(num_ground_truth):
+def create_infer_and_ground_truth_groups():
     print("--- create_infer_and_ground_truth_groups")
     infer_and_ground_truth_groups = []
     image_file_list = os.listdir(IN_IMAGE_FOLDER)
@@ -98,7 +102,7 @@ def create_infer_and_ground_truth_groups(num_ground_truth):
         print(f"{image_file_infer=}")
         sample_pool = [i for i in image_file_list if i != image_file_infer]
         ground_truth_pair_list = []
-        for image_file_ground_truth in random.sample(sample_pool, num_ground_truth):
+        for image_file_ground_truth in random.sample(sample_pool, NUM_GROUND_TRUTH):
             text_file_ground_truth = image_file_ground_truth.replace(".jpg", ".txt")
             print(f"{text_file_ground_truth=}")
             print(f"{image_file_ground_truth=}")
@@ -125,13 +129,15 @@ if __name__ == "__main__":
         processor = None
     print("--- model and processor loaded")
 
-    infer_and_ground_truth_groups = create_infer_and_ground_truth_groups(3)
-    # limit = 3
-    # current = 0
+    infer_and_ground_truth_groups = create_infer_and_ground_truth_groups()
+    if not FULL_RUN:
+        limit = 3
+        current = 0
     for ground_truth_pair_list, image_file_infer in infer_and_ground_truth_groups:
-        # if current == limit:
-        #     break
-        # current += 1
+        if not FULL_RUN:
+            if current == limit:
+                break
+            current += 1
         print(f"{image_file_infer=}")
         inference(model, processor, ground_truth_pair_list, image_file_infer)
     
