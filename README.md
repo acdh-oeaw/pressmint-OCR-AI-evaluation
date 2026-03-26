@@ -270,6 +270,9 @@ PROMPT = (
 
 ### deepseek_ocr_3_english_extensive_2
 
+Code, configuration, and log at time of inference: 
+[https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/a2ab3101d2cbaa922935808d0af41c4719f86796/src/deepseek_ocr/](https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/a2ab3101d2cbaa922935808d0af41c4719f86796/src/deepseek_ocr/)
+
 ```
 PROMPT = (
     "<image>\n<|grounding|>Transcribe the text of the following historic document. It is a german "
