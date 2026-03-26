@@ -10,7 +10,6 @@ from __future__ import annotations
 
 import argparse
 import os
-import random
 from pathlib import Path
 from typing import Any
 
@@ -18,16 +17,10 @@ from PIL import Image
 import torch
 from transformers import AutoModelForImageTextToText, AutoProcessor
 from transformers.image_utils import load_image
-os.environ["TRANSFORMERS_VERBOSITY"] = "info"
-random.seed(42)
 
 
 DEFAULT_MODEL_ID = "stanford-oval/churro-3B"
-DEFAULT_SYSTEM_MESSAGE = "Transcribe these documents."
-OUT_FOLDER = "/pressmint-ground-truth/data/texts/churro_9_two_shot_zero_temperature"
-IN_IMAGE_FOLDER = "/pressmint-ground-truth/data/texts/images/"
-IN_GROUND_TRUTH_FOLDER = "/pressmint-ground-truth/data/texts/transkribus_corrected/"
-
+DEFAULT_SYSTEM_MESSAGE = "Transcribe the entiretly of this historical documents to txt format."
 MAX_IMAGE_DIM = 2500
 MIN_PIXELS = 512 * 28 * 28
 MAX_PIXELS = 5120 * 28 * 28
@@ -55,7 +48,7 @@ def _parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--temperature",
         type=float,
-        default=0,
+        default=0.6,
         help="Sampling temperature",
     )
     parser.add_argument(
@@ -103,85 +96,17 @@ def _select_device(preference: str) -> torch.device:
     return torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 
-def _load_and_prepare_image(image_path: str | Path) -> Image.Image:
-    """Load an image and prepare it for processing."""
-    image = load_image(str(image_path))
-    if not isinstance(image, Image.Image):  # pragma: no cover - defensive
-        raise TypeError(f"Unexpected image type: {type(image)!r}")
-    image = image.convert("RGB")
-    image = _resize_image_to_fit(image, MAX_IMAGE_DIM, MAX_IMAGE_DIM)
-    return image
-
-
-def _prepare_inputs_n_shot(
-    processor: AutoProcessor,
-    ground_truth_pair_list: list[str, str],
-    image_file_infer: str,
-    system_message: str,
-    device: torch.device,
-) -> dict[str, Any]:
-    print("--- _prepare_inputs_n_shot")
-    images = []
-    conversation = [
-        {"role": "system", "content": [{"type": "text", "text": system_message}]},
-    ]
-    for image_file_ground_truth, text_file_ground_truth in ground_truth_pair_list:
-        image_path_ground_truth = os.path.join(IN_IMAGE_FOLDER, image_file_ground_truth)
-        print(f"{image_path_ground_truth=}")
-        image_ground_truth = _load_and_prepare_image(image_path_ground_truth)
-        images.append(image_ground_truth)
-        conversation.append({
-            "role": "user",
-            "content": [
-                {"type": "text", "text": "transcribe this document:"},
-                {"type": "image", "image": image_ground_truth},
-            ]
-        })
-        text_path_ground_truth = os.path.join(IN_GROUND_TRUTH_FOLDER, text_file_ground_truth)
-        print(f"{text_path_ground_truth=}")
-        with open(text_path_ground_truth, "r") as f:
-            text_ground_truth = f.read()
-        conversation.append(
-            {"role": "assistant", "content": [{"type": "text", "text": text_ground_truth}]}
-        )
-    image_path_infer = os.path.join(IN_IMAGE_FOLDER, image_file_infer)
-    print(f"{image_path_infer=}")
-    image_infer = _load_and_prepare_image(image_path_infer)
-    images.append(image_infer)
-    conversation.append({
-        "role": "user",
-        "content": [
-            {"type": "text", "text": "transcribe this document:"},
-            {"type": "image", "image": image_infer},
-        ],
-    })
-    
-    prompt = processor.apply_chat_template(
-        conversation,
-        tokenize=False,
-        add_generation_prompt=True,
-    )
-    
-    encoded = processor(
-        text=[prompt],
-        images=images,
-        return_tensors="pt",
-    )
-    encoded = {
-        key: value.to(device) for key, value in encoded.items() if isinstance(value, torch.Tensor)
-    }
-    encoded["prompt_text"] = prompt
-    encoded["conversation"] = conversation
-    return encoded
-
-
 def _prepare_inputs(
     processor: AutoProcessor,
     image_path: Path,
     system_message: str,
     device: torch.device,
 ) -> dict[str, Any]:
-    image = _load_and_prepare_image(image_path)
+    image = load_image(str(image_path))
+    if not isinstance(image, Image.Image):  # pragma: no cover - defensive
+        raise TypeError(f"Unexpected image type: {type(image)!r}")
+    image = image.convert("RGB")
+    image = _resize_image_to_fit(image, MAX_IMAGE_DIM, MAX_IMAGE_DIM)
     conversation = [
         {"role": "system", "content": [{"type": "text", "text": system_message}]},
         {"role": "user", "content": [{"type": "image", "image": image}]},
@@ -217,11 +142,8 @@ def _run_generation(
         "max_new_tokens": max_new_tokens,
         "do_sample": temperature > 0,
     }
-    print(f"{temperature=}")
-    # if temperature > 0:
-    # generation_kwargs["temperature"] = temperature
-    # else:
-    generation_kwargs["do_sample"] = False
+    if temperature > 0:
+        generation_kwargs["temperature"] = temperature
     if processor.tokenizer.pad_token_id is not None:
         generation_kwargs.setdefault("pad_token_id", processor.tokenizer.pad_token_id)
     if processor.tokenizer.eos_token_id is not None:
@@ -237,25 +159,7 @@ def _run_generation(
     return transcription.strip()
 
 
-def _create_infer_and_ground_truth_groups(num_ground_truth: int) ->  list[tuple[list[tuple[str, str]], str]]:
-    print("--- _create_infer_and_ground_truth_groups")
-    infer_and_ground_truth_groups = []
-    image_file_list = os.listdir(IN_IMAGE_FOLDER)
-    for image_file_infer in image_file_list:
-        print(f"{image_file_infer=}")
-        sample_pool = [i for i in image_file_list if i != image_file_infer]
-        ground_truth_pair_list = []
-        for image_file_ground_truth in random.sample(sample_pool, num_ground_truth):
-            text_file_ground_truth = image_file_ground_truth.replace(".jpg", ".txt")
-            print(f"{text_file_ground_truth=}")
-            print(f"{image_file_ground_truth=}")
-            ground_truth_pair_list.append((image_file_ground_truth, text_file_ground_truth))
-        infer_and_ground_truth_groups.append((ground_truth_pair_list, image_file_infer))
-    return infer_and_ground_truth_groups
-
-
 def main() -> None:
-    print("--- main")
     args = _parse_args()
 
     device = _select_device(args.device)
@@ -272,22 +176,12 @@ def main() -> None:
     model.eval()
 
     if args.image is None:
-        infer_and_ground_truth_groups = _create_infer_and_ground_truth_groups(2)
-        # limit = 1
-        # current = 0
-        for ground_truth_pair_list, image_file_infer in infer_and_ground_truth_groups:
-            # if current == limit:
-            #     break
-            # current += 1
-            inputs = _prepare_inputs_n_shot(
-                processor,
-                ground_truth_pair_list,
-                image_file_infer,
-                args.system_message,
-                device,
-            )
-            print(inputs["prompt_text"])
-            print(f"Prompt length: {len(inputs['input_ids'][0])} tokens")
+        image_folder = "/pressmint-ground-truth/data/texts/images/"
+        for image_file_name in os.listdir(image_folder):
+            image_path = image_folder + image_file_name
+            print("--- new image")
+            print(f"{image_path=}")
+            inputs = _prepare_inputs(processor, image_path, args.system_message, device)
             transcription = _run_generation(
                 model,
                 processor,
@@ -295,14 +189,12 @@ def main() -> None:
                 max_new_tokens=args.max_new_tokens,
                 temperature=args.temperature,
             )
-            print(f"{transcription=}")
-            out_path = os.path.join(OUT_FOLDER, image_file_infer.replace(".jpg", ".txt"))
+            print(transcription)
+            out_path = "/pressmint-ground-truth/data/texts/churro/" + image_file_name.replace(".jpg", ".txt")
             print(f"{out_path=}")
-            os.makedirs(OUT_FOLDER, exist_ok=True)
-            with open(out_path, "w", encoding="utf-8") as f:
+            with open(out_path, "w") as f:
                 f.write(transcription)
     else:
-        # Single image processing (zero-shot)
         inputs = _prepare_inputs(processor, args.image, args.system_message, device)
         transcription = _run_generation(
             model,
@@ -312,6 +204,7 @@ def main() -> None:
             temperature=args.temperature,
         )
         print(transcription)
+
 
 
 if __name__ == "__main__":
