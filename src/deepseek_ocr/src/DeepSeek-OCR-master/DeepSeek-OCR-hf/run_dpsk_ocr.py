@@ -15,17 +15,13 @@ model = model.eval().cuda().to(torch.bfloat16)
 
 
 
-PROMPT = (
-    "<image>\n<|grounding|>Transcribe the text of the following historic document. It is a german "
-    "newspaper from the early 20th century, printed in 'Fraktur'. Keep the human reading order, "
-    "meaning, that the natural flow of the text blocks must be respected. The output should only "
-    "be plain text, without any categories or special structure."
-)
-IN_FOLDER = "/pressmint-ground-truth/data/texts/images/"
-OUT_FOLDER = "/pressmint-ground-truth/data/texts/deepseek_ocr_3_english_extensive_2_all_output/"
+# prompt = "<image>\nFree OCR. "
+prompt = "<image>\n<|grounding|>Convert the document to markdown. "
+# prompt = "<image>\n<|grounding|>Das ist ein Scan einer deutschen historischen Zeitung aus dem frühen 20. Jahrhundert. Bitte führe OCR darauf aus, also extrahiere den Text und behalte dabei die Leserichtung bei. Beachte auch, dass die Schrift in Fraktur gehalten ist. Der Output soll nur der Text alleine sein."
+# prompt = "<image>\n<|grounding|>This is a scan of a historic german newspaper from the early 20th century. Please do OCR on it, extract all the text and keep the reading order. Also keep in mind that the writing is in german 'Fraktur'. The output should only be text."
 
 
-# infer(self, tokenizer, PROMPT='', image_file='', output_path = ' ', base_size = 1024, image_size = 640, crop_mode = True, test_compress = False, save_results = False):
+# infer(self, tokenizer, prompt='', image_file='', output_path = ' ', base_size = 1024, image_size = 640, crop_mode = True, test_compress = False, save_results = False):
 
 # Tiny: base_size = 512, image_size = 512, crop_mode = False
 # Small: base_size = 640, image_size = 640, crop_mode = False
@@ -34,12 +30,14 @@ OUT_FOLDER = "/pressmint-ground-truth/data/texts/deepseek_ocr_3_english_extensiv
 
 # Gundam: base_size = 1024, image_size = 640, crop_mode = True
 
-for image_file_name in os.listdir(IN_FOLDER):
-    image_file = IN_FOLDER + image_file_name
+input_folder = "/pressmint-ground-truth/data/texts/images/"
+output_folder = "/pressmint-ground-truth/data/texts/deepseek_ocr/"
+for image_file_name in os.listdir(input_folder):
+    image_file = input_folder + image_file_name
     image_id = image_file_name.replace(".jpg", "")
-    output_path = OUT_FOLDER + image_id
+    output_path = output_folder + image_id
     print(f"{image_file=}")
     print(f"{output_path=}")
     os.makedirs(output_path, exist_ok=True)
-    res = model.infer(tokenizer, prompt=PROMPT, image_file=image_file, output_path = output_path, base_size = 1024, image_size = 640, crop_mode=True, save_results = True, test_compress = True)
+    res = model.infer(tokenizer, prompt=prompt, image_file=image_file, output_path = output_path, base_size = 1024, image_size = 640, crop_mode=True, save_results = True, test_compress = True)
 
