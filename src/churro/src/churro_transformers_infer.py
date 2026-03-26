@@ -21,11 +21,8 @@ from transformers.image_utils import load_image
 
 
 DEFAULT_MODEL_ID = "stanford-oval/churro-3B"
-DEFAULT_SYSTEM_MESSAGE = (
-    "Transcribe the document following the examples shown. Keep the human reading order and "
-    "natural flow of text blocks. Output only plain text without any special structure."
-)
-OUT_FOLDER = "/pressmint-ground-truth/data/texts/churro_6_two_shot/"
+DEFAULT_SYSTEM_MESSAGE = "Transcribe these documents."
+OUT_FOLDER = "/pressmint-ground-truth/data/texts/churro_7_two_shot_prompts_adapted/"
 IN_IMAGE_FOLDER = "/pressmint-ground-truth/data/texts/images/"
 IN_GROUND_TRUTH_FOLDER = "/pressmint-ground-truth/data/texts/transkribus_corrected/"
 
@@ -131,9 +128,13 @@ def _prepare_inputs_n_shot(
         print(f"{image_path_ground_truth=}")
         image_ground_truth = _load_and_prepare_image(image_path_ground_truth)
         images.append(image_ground_truth)
-        conversation.append(
-            {"role": "user", "content": [{"type": "image", "image": image_ground_truth}]}
-        )
+        conversation.append({
+            "role": "user",
+            "content": [
+                {"type": "text", "text": "transcribe this document:"},
+                {"type": "image", "image": image_ground_truth},
+            ]
+        })
         text_path_ground_truth = os.path.join(IN_GROUND_TRUTH_FOLDER, text_file_ground_truth)
         print(f"{text_path_ground_truth=}")
         with open(text_path_ground_truth, "r") as f:
@@ -145,9 +146,13 @@ def _prepare_inputs_n_shot(
     print(f"{image_path_infer=}")
     image_infer = _load_and_prepare_image(image_path_infer)
     images.append(image_infer)
-    conversation.append(
-        {"role": "user", "content": [{"type": "image", "image": image_infer}]},
-    )
+    conversation.append({
+        "role": "user",
+        "content": [
+            {"type": "text", "text": "transcribe this document:"},
+            {"type": "image", "image": image_infer},
+        ],
+    })
     
     prompt = processor.apply_chat_template(
         conversation,
@@ -276,6 +281,8 @@ def main() -> None:
                 args.system_message,
                 device,
             )
+            print(inputs["prompt_text"])
+            print(f"Prompt length: {len(inputs['input_ids'][0])} tokens")
             transcription = _run_generation(
                 model,
                 processor,
