@@ -25,7 +25,7 @@ UI with theirs results persisted and evaulated here like the others.
 
 ## how to reproduce
 
-#TODO: describe how to obtain the images.
+\#TODO-origin-images
 
 ### notebook
 
@@ -106,19 +106,19 @@ This is the only "OCR workflow" that was not executed by us, but provided by
 
 ### anno_openai_one_shot
 
-#TODO
+\#TODO-anno*
 
 ### anno_openai_three_shot
 
-#TODO
+\#TODO-anno*
 
 ### anno_openai_two_shot
 
-#TODO
+\#TODO-anno*
 
 ### anno_openai_zero_shot
 
-#TODO
+\#TODO-anno*
 
 ### anthropic_1_simple
 
@@ -599,40 +599,44 @@ prompt_one_shot_ocr_inference = "Anhand von dem vorher gezeigten Beispielbild, e
 
 ### pero_ocr
 
+\#TODO-pero
+
 Inferred by running manually on https://pero-ocr.fit.vutbr.cz/.
 
 ### pero_scribblesense
+
+\#TODO-pero
 
 Inferred by running manually on https://scribblesense.cz/.
 
 ### transrkibus
 
-#TODO: gibt es hierzu Möglichkeiten den Workflow zu beschreiben (e.g. Konfigurationsparameter)?
+\#TODO-transkribus: gibt es hierzu Möglichkeiten den Workflow zu beschreiben (e.g. Konfigurationsparameter)?
 Falls nicht, dann würde ein einfacher Satz mit Verweis und Link reichen.
 
 ### tsk_openai_one_shot
 
 executed directly by [./src/pressmint_postprocessing.ipynb](./src/pressmint_postprocessing.ipynb).
 
-#TODO
+\#TODO-tsk_*
 
 ### tsk_openai_three_shot
 
 executed directly by [./src/pressmint_postprocessing.ipynb](./src/pressmint_postprocessing.ipynb).
 
-#TODO
+\#TODO-tsk_*
 
 ### tsk_openai_two_shot
 
 executed directly by [./src/pressmint_postprocessing.ipynb](./src/pressmint_postprocessing.ipynb).
 
-#TODO
+\#TODO-tsk_*
 
 ### tsk_openai_zero_shot
 
 executed directly by [./src/pressmint_postprocessing.ipynb](./src/pressmint_postprocessing.ipynb).
 
-#TODO
+\#TODO-tsk_*
 
 ## comparison results details
 
