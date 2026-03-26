@@ -47,8 +47,8 @@ They were run on [https://www.clip.science/](https://www.clip.science/) on a sin
 [apptainer](https://apptainer.org/) and [slurm](https://slurm.schedmd.com/overview.html).
 
 To reproduce those, an equally strong GPU is required. If available, then the respective slurm
-scripts under [./src](./src) call the apptainer commands which can be extracted and called
-individually, e.g. with 
+scripts under [./src](./src) can be inspected which call the apptainer commands. These commands can
+be extracted and called individually, e.g. like
 
 ```
 apptainer exec --fakeroot --containall --writable-tmpfs --nv \
@@ -57,6 +57,8 @@ apptainer exec --fakeroot --containall --writable-tmpfs --nv \
   --bind ./churro.sh:/pressmint-ground-truth/src/churro/churro.sh \
   churro.sif bash /pressmint-ground-truth/src/churro/churro.sh
 ``` 
+
+To reproduce individual OCR workflows, checkout their git commits and scripts as described below.
 
 ### others
 
