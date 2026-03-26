@@ -12,11 +12,13 @@ from qwen_vl_utils import process_vision_info
 INFERENCE_ENABLED = True
 MAX_NEW_TOKENS = 8000
 
-PROMPT = """
-This is a scan of a historic german newspaper from the early 20th century. Please do OCR on it,
-extract all the text and keep the reading order. Also keep in mind that the writing is in german
-'Fraktur'. The output should only be text."
-"""
+PROMPT = (
+    "Transkribiere den Text aus dem folgenden historischen Dokument. Hierbei handelt es sich um "
+    "eine deutsche Zeitung aus dem frühen 20. Jahrhundert in Frakturschrift. Behalte die "
+    "menschliche Leserichtung bei, also erkenne den Fluss in den Textblöcken. Der Output soll "
+    "reiner Text sein, ohne spezielle Kategorisierung oder Strukturierung."
+)
+OUT_FOLDER = "/pressmint-ground-truth/data/texts/dots_ocr_7_german_extensive_2_pkl"
 
 
 def inference(image_path, prompt, model, processor, image_id):
@@ -62,7 +64,7 @@ def inference(image_path, prompt, model, processor, image_id):
     else:
         output_text = "test"
     print(output_text)
-    output_path = f"/pressmint-ground-truth/data/texts/dots_ocr_4/{image_id}.pkl"
+    output_path = f"{OUT_FOLDER}/{image_id}.pkl"
     print(f"{output_path=}")
     with open(output_path, "wb") as f:
         pickle.dump(output_text, f)
