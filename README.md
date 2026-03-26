@@ -189,6 +189,9 @@ conversation.append(
 
 ### churro_5_one_shot_s_replaced
 
+Code, configuration, and log at time of inference: 
+[https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/14b546ef6ad9324af668c39b18714492a8116968/src/churro/](https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/14b546ef6ad9324af668c39b18714492a8116968/src/churro/)
+
 Same data as churro_4_one_shot, but since it had transcribed 'ſ' instead of 's', in this dataset, 
 they were replaced from 'ſ' to 's' with sed (note that this includes 's' which are supposed to be 
 'ß').
