@@ -1,8 +1,8 @@
 import os
 if "LOCAL_RANK" not in os.environ:
     os.environ["LOCAL_RANK"] = "0"
-from glob import glob
 import pickle
+import random
 from dots_ocr.utils import dict_promptmode_to_prompt
 import torch
 from transformers import AutoModelForCausalLM, AutoProcessor, AutoTokenizer
@@ -18,23 +18,42 @@ PROMPT = (
     "menschliche Leserichtung bei, also erkenne den Fluss in den Textblöcken. Der Output soll "
     "reiner Text sein, ohne spezielle Kategorisierung oder Strukturierung."
 )
-OUT_FOLDER = "/pressmint-ground-truth/data/texts/dots_ocr_7_german_extensive_2_pkl"
+IN_IMAGE_FOLDER= "/pressmint-ground-truth/data/texts/images/"
+IN_GROUND_TRUTH_FOLDER = "/pressmint-ground-truth/data/texts/transkribus_corrected/"
+OUT_FOLDER = "/pressmint-ground-truth/data/texts/dots_ocr_8_one_shot/"
 
 
-def inference(image_path, prompt, model, processor, image_id):
+def inference(model, processor, ground_truth_pair_list, image_file_infer):
     print("-- inference")
     messages = [
-        {
+        {"role": "system", "content": PROMPT},
+    ]
+    for image_file_ground_truth, text_file_ground_truth in ground_truth_pair_list:
+        image_path_ground_truth = os.path.join(IN_IMAGE_FOLDER, image_file_ground_truth)
+        print(f"{image_path_ground_truth=}")
+        messages.append({
             "role": "user",
             "content": [
-                {
-                    "type": "image",
-                    "image": image_path
-                },
-                {"type": "text", "text": prompt}
+                {"type": "text", "text": "transcribe this document:"},
+                {"type": "image", "image": image_path_ground_truth},
             ]
-        }
-    ]
+        })
+        text_path_ground_truth = os.path.join(IN_GROUND_TRUTH_FOLDER, text_file_ground_truth)
+        print(f"{text_path_ground_truth=}")
+        with open(text_path_ground_truth, "r") as f:
+            text_ground_truth = f.read()
+        messages.append(
+            {"role": "assistant", "content": text_ground_truth}
+        )
+    image_path_infer = os.path.join(IN_IMAGE_FOLDER, image_file_infer)
+    print(f"{image_path_infer=}")
+    messages.append({
+        "role": "user",
+        "content": [
+            {"type": "text", "text": "transcribe this document:"},
+            {"type": "image", "image": image_path_infer},
+        ],
+    })
 
     if INFERENCE_ENABLED:
         # Preparation for inference
@@ -64,10 +83,28 @@ def inference(image_path, prompt, model, processor, image_id):
     else:
         output_text = "test"
     print(output_text)
-    output_path = f"{OUT_FOLDER}/{image_id}.pkl"
-    print(f"{output_path=}")
-    with open(output_path, "wb") as f:
+    out_path = os.path.join(OUT_FOLDER, image_file_infer.replace(".jpg", ".pkl"))
+    print(f"{out_path=}")
+    os.makedirs(OUT_FOLDER, exist_ok=True)
+    with open(out_path, "wb") as f:
         pickle.dump(output_text, f)
+
+
+def create_infer_and_ground_truth_groups(num_ground_truth):
+    print("--- create_infer_and_ground_truth_groups")
+    infer_and_ground_truth_groups = []
+    image_file_list = os.listdir(IN_IMAGE_FOLDER)
+    for image_file_infer in image_file_list:
+        print(f"{image_file_infer=}")
+        sample_pool = [i for i in image_file_list if i != image_file_infer]
+        ground_truth_pair_list = []
+        for image_file_ground_truth in random.sample(sample_pool, num_ground_truth):
+            text_file_ground_truth = image_file_ground_truth.replace(".jpg", ".txt")
+            print(f"{text_file_ground_truth=}")
+            print(f"{image_file_ground_truth=}")
+            ground_truth_pair_list.append((image_file_ground_truth, text_file_ground_truth))
+        infer_and_ground_truth_groups.append((ground_truth_pair_list, image_file_infer))
+    return infer_and_ground_truth_groups
 
 
 if __name__ == "__main__":
@@ -88,11 +125,13 @@ if __name__ == "__main__":
         processor = None
     print("--- model and processor loaded")
 
-    folder = "/pressmint-ground-truth/data/texts/images/"
-    for image_file_name in os.listdir(folder):
-        image_path = folder + image_file_name
-        print("--- new image")
-        print(f"{image_path=}")
-        image_id = image_file_name.replace(".jpg", "")
-        inference(image_path, PROMPT, model, processor, image_id)
+    infer_and_ground_truth_groups = create_infer_and_ground_truth_groups(1)
+    # limit = 3
+    # current = 0
+    for ground_truth_pair_list, image_file_infer in infer_and_ground_truth_groups:
+        # if current == limit:
+        #     break
+        # current += 1
+        print(f"{image_file_infer=}")
+        inference(model, processor, ground_truth_pair_list, image_file_infer)
     

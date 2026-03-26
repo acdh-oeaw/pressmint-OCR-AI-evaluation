@@ -4,7 +4,7 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=16G
 #SBATCH --gres=gpu:A100:1
-#SBATCH --time=05:00:00
+#SBATCH --time=01:00:00
 #SBATCH --output=dots_ocr.log
 
 title="dots_ocr"
