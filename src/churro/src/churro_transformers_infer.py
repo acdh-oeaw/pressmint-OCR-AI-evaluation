@@ -22,10 +22,10 @@ from transformers.image_utils import load_image
 
 DEFAULT_MODEL_ID = "stanford-oval/churro-3B"
 DEFAULT_SYSTEM_MESSAGE = (
-    "Transcribe the document following the example shown. Keep the human reading order and "
+    "Transcribe the document following the examples shown. Keep the human reading order and "
     "natural flow of text blocks. Output only plain text without any special structure."
 )
-OUT_FOLDER = "/pressmint-ground-truth/data/texts/churro_4_one_shot/"
+OUT_FOLDER = "/pressmint-ground-truth/data/texts/churro_6_two_shot/"
 IN_IMAGE_FOLDER = "/pressmint-ground-truth/data/texts/images/"
 IN_GROUND_TRUTH_FOLDER = "/pressmint-ground-truth/data/texts/transkribus_corrected/"
 
@@ -262,7 +262,7 @@ def main() -> None:
     model.eval()
 
     if args.image is None:
-        infer_and_ground_truth_groups = _create_infer_and_ground_truth_groups(1)
+        infer_and_ground_truth_groups = _create_infer_and_ground_truth_groups(2)
         # limit = 3
         # current = 0
         for ground_truth_pair_list, image_file_infer in infer_and_ground_truth_groups:
