@@ -20,7 +20,7 @@ PROMPT = (
 )
 IN_IMAGE_FOLDER= "/pressmint-ground-truth/data/texts/images/"
 IN_GROUND_TRUTH_FOLDER = "/pressmint-ground-truth/data/texts/transkribus_corrected/"
-OUT_FOLDER = "/pressmint-ground-truth/data/texts/dots_ocr_8_one_shot/"
+OUT_FOLDER = "/pressmint-ground-truth/data/texts/dots_ocr_9_three_shot_pkl/"
 
 
 def inference(model, processor, ground_truth_pair_list, image_file_infer):
@@ -125,7 +125,7 @@ if __name__ == "__main__":
         processor = None
     print("--- model and processor loaded")
 
-    infer_and_ground_truth_groups = create_infer_and_ground_truth_groups(1)
+    infer_and_ground_truth_groups = create_infer_and_ground_truth_groups(3)
     # limit = 3
     # current = 0
     for ground_truth_pair_list, image_file_infer in infer_and_ground_truth_groups:
