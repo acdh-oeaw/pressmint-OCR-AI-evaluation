@@ -13,9 +13,9 @@ INFERENCE_ENABLED = True
 MAX_NEW_TOKENS = 8000
 
 PROMPT = """
-Das ist ein Scan einer deutschen historischen Zeitung aus dem frühen 20. Jahrhundert. 
-Bitte führe OCR darauf aus, also extrahiere den Text und behalte dabei die Leserichtung bei.
-Beachte auch, dass die Schrift in Fraktur gehalten ist. Der Output soll nur der Text alleine sein.
+This is a scan of a historic german newspaper from the early 20th century. Please do OCR on it,
+extract all the text and keep the reading order. Also keep in mind that the writing is in german
+'Fraktur'. The output should only be text."
 """
 
 
