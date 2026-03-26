@@ -611,8 +611,7 @@ Inferred by running manually on https://scribblesense.cz/.
 
 ### transrkibus
 
-\#TODO-transkribus: gibt es hierzu Möglichkeiten den Workflow zu beschreiben (e.g. Konfigurationsparameter)?
-Falls nicht, dann würde ein einfacher Satz mit Verweis und Link reichen.
+\#TODO-transkribus
 
 ### tsk_openai_one_shot
 
