@@ -351,6 +351,9 @@ Extract text from the given bounding box on the image (format: [x1, y1, x2, y2])
 
 ### dots_ocr_5_german_extensive
 
+Code, configuration, and log at time of inference: 
+[https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/caa71941735123e18f45e0c385d6d109d4699319/src/dots_ocr/](https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/caa71941735123e18f45e0c385d6d109d4699319/src/dots_ocr/)
+
 **Discarded.**
 
 Model ran through all images and infered, but the outputs were all empty.
