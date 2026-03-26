@@ -124,7 +124,7 @@ prompt_extensive = (
 
 ### churro_1_simple
 
-Code and configuration at time of inference: 
+Code, configuration, and log at time of inference: 
 [https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/e0de4ae339228a10c26b07538018d0a3f3b1a273/src/churro/](https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/e0de4ae339228a10c26b07538018d0a3f3b1a273/src/churro/)
 
 Default prompt:
