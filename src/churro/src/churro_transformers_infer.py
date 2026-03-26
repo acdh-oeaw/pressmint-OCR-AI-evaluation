@@ -21,12 +21,12 @@ from transformers.image_utils import load_image
 
 DEFAULT_MODEL_ID = "stanford-oval/churro-3B"
 DEFAULT_SYSTEM_MESSAGE = (
-    "Transkribiere den Text aus dem folgenden historischen Dokument. Hierbei handelt es sich um "
-    "eine deutsche Zeitung aus dem frühen 20. Jahrhundert in Frakturschrift. Behalte die "
-    "menschliche Leserichtung bei, also erkenne den Fluss in den Textblöcken. Der Output soll "
-    "reiner Text sein, ohne spezielle Kategorisierung oder Strukturierung."
+    "Transcribe the text of the following historic document. It is a german newspaper from the "
+    "early 20th century, printed in 'Fraktur'. Keep the human reading order, meaning, that the "
+    "natural flow of the text blocks must be respected. The output should only be plain text, "
+    "without any categories or special structure."
 )
-OUT_FOLDER = "/pressmint-ground-truth/data/texts/churro_2_german_extensive_2/"
+OUT_FOLDER = "/pressmint-ground-truth/data/texts/churro_3_english_extensive_3/"
 
 MAX_IMAGE_DIM = 2500
 MIN_PIXELS = 512 * 28 * 28
