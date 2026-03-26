@@ -25,6 +25,8 @@ UI with theirs results persisted and evaulated here like the others.
 
 ## how to reproduce
 
+#TODO: describe how to obtain the images.
+
 ### notebook
 
 To run the OCR worfklows via LLM APIs of Anthropic, Google, and OpenAI, use the respective functions
@@ -95,8 +97,7 @@ This plot shows the results per image averaged across workflows
 
 The following is a list of all configurations and parameters of the evaluated models.
 
-Their respective inference outputs are found at [./data/texts/](./data/texts/) respective their
-workflow name.
+Their inference outputs are found at [./data/texts/](./data/texts/) respective their workflow name.
 
 ### anno
 
