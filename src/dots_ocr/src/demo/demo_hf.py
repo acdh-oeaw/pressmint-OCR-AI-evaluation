@@ -13,7 +13,7 @@ INFERENCE_ENABLED = True
 MAX_NEW_TOKENS = 8000
 
 FULL_RUN = True
-NUM_GROUND_TRUTH = 1
+NUM_GROUND_TRUTH = 3
 PROMPT = (
     "You are an expert in historical German documents. Transcribe the text from "
     "German newspapers from the early 20th century written in Fraktur script. "
@@ -25,7 +25,7 @@ PROMPT = (
 )
 IN_IMAGE_FOLDER= "/pressmint-ground-truth/data/texts/images/"
 IN_GROUND_TRUTH_FOLDER = "/pressmint-ground-truth/data/texts/transkribus_corrected/"
-OUT_FOLDER = "/pressmint-ground-truth/data/texts/dots_ocr_10_one_shot_english_extensive_pkl"
+OUT_FOLDER = "/pressmint-ground-truth/data/texts/dots_ocr_11_three_shot_english_extensive_pkl"
 
 def inference(model, processor, ground_truth_pair_list, image_file_infer):
     print("-- inference")
