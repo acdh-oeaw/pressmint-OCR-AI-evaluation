@@ -256,6 +256,9 @@ Default prompt:
 
 ### deepseek_ocr_2_german_extensive_2
 
+Code, configuration, and log at time of inference: 
+[https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/ae4ae6a9ef9b45f61829193cd243f5908a72954e/src/churro/](https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/ae4ae6a9ef9b45f61829193cd243f5908a72954e/src/churro/)
+
 ```
 PROMPT = (
     "<image>\n<|grounding|>Transkribiere den Text aus dem folgenden historischen Dokument. Hierbei "
