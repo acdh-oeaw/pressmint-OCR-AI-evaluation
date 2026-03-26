@@ -284,6 +284,9 @@ PROMPT = (
 
 ### dots_ocr_1_default
 
+Code, configuration, and log at time of inference: 
+[https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/616a2b8596b6fb9a7081ddcf48e99e47798111b0/src/dots_ocr/](https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/616a2b8596b6fb9a7081ddcf48e99e47798111b0/src/dots_ocr/)
+
 Default setup of dots.ocr with the first of the four default prompts:
 ```
 Please output the layout information from the PDF image, including each layout element's bbox, its category, and the corresponding text content within the bbox.
@@ -307,6 +310,9 @@ Please output the layout information from the PDF image, including each layout e
 
 ### dots_ocr_2_default
 
+Code, configuration, and log at time of inference: 
+[https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/616a2b8596b6fb9a7081ddcf48e99e47798111b0/src/dots_ocr/](https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/616a2b8596b6fb9a7081ddcf48e99e47798111b0/src/dots_ocr/)
+
 **Discarded.**
 
 The results concerned only the bounding boxes, but without texts.
@@ -322,6 +328,9 @@ Do not output the corresponding text. The layout result should be in JSON format
 
 ### dots_ocr_3_default
 
+Code, configuration, and log at time of inference: 
+[https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/616a2b8596b6fb9a7081ddcf48e99e47798111b0/src/dots_ocr/](https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/616a2b8596b6fb9a7081ddcf48e99e47798111b0/src/dots_ocr/)
+
 Default setup of dots.ocr with the third of the four default prompts:
 
 ```
@@ -330,6 +339,9 @@ Extract the text content from this image.
 
 
 ### dots_ocr_4_default
+
+Code, configuration, and log at time of inference: 
+[https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/616a2b8596b6fb9a7081ddcf48e99e47798111b0/src/dots_ocr/](https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/616a2b8596b6fb9a7081ddcf48e99e47798111b0/src/dots_ocr/)
 
 Default setup of dots.ocr with the fourth of the four default prompts:
 
