@@ -41,7 +41,7 @@ must be named `google_key.json` for the google API and `tokens.json` for OpenAI 
 - workflow: described in following section
 - WER: word error rate, lower = better
 - CER: character error rate, lower = better
-- difflib: python's native difflib, higher = better
+- difflib: python's native difflib, implementing "Gestalt pattern matching", higher = better
 
 (Note that in this plot the axis for WER and CER are inverted so that better results are displayed 
 consistently higher up.)
