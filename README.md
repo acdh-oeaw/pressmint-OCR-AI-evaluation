@@ -238,6 +238,9 @@ Same as `churro_7_two_shot_prompts_adapted` but with temperature set to 0.
 
 ### churro_9_two_shot_zero_temperature
 
+Code, configuration, and log at time of inference: 
+[https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/18dd2a3e1c2ff366b9da8c9db7bca53e6abe20dd/src/churro/](https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/18dd2a3e1c2ff366b9da8c9db7bca53e6abe20dd/src/churro/)
+
 Identical to `churro_8_two_shot_zero_temperature`, to check if results are the same.
 
 ### deepseek_ocr_1_default
