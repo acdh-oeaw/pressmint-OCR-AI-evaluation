@@ -202,6 +202,9 @@ Same prompt and code setup as `churro_4_one_shot`, but with two pairs of ground 
 
 ### churro_7_two_shot_prompts_adapted
 
+Code, configuration, and log at time of inference: 
+[https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/fbcda001e9a630d869e57693d282143e9cf9dae7/src/churro/](https://github.com/acdh-oeaw/pressmint-OCR-AI-evaluation/blob/fbcda001e9a630d869e57693d282143e9cf9dae7/src/churro/)
+
 same as `churro_6_two_shot` but with prompts and chat adapted:
 
 ```
