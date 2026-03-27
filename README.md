@@ -25,7 +25,13 @@ UI with theirs results persisted and evaulated here like the others.
 
 ## how to reproduce
 
-\#TODO-origin-images
+### image sources
+
+The images were obtained from https://anno.onb.ac.at/ where the "Abendpost" were extracted from:
+- https://anno.onb.ac.at/cgi-content/anno?aid=wrz&datum=19140629
+- https://anno.onb.ac.at/cgi-content/anno?aid=wrz&datum=19151228
+- https://anno.onb.ac.at/cgi-content/anno?aid=wrz&datum=19171228
+- https://anno.onb.ac.at/cgi-content/anno?aid=wrz&datum=19181227
 
 ### notebook
 
