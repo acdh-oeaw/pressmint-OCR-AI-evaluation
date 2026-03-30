@@ -589,15 +589,22 @@ prompt_one_shot_ocr_inference = "Anhand von dem vorher gezeigten Beispielbild, e
 
 ### pero_ocr
 
-\#TODO-pero
-
 Inferred by running manually on https://pero-ocr.fit.vutbr.cz/.
+Models used:
+* Layout detection: `Printed layout`
+* OCR: `German Fraktur Printed`
+* Language Model: `German`
 
 ### pero_scribblesense
 
-\#TODO-pero
-
 Inferred by running manually on https://scribblesense.cz/.
+Scribblesense provides an improved front end to the PERO OCR-engine.  
+On the other hand, not all models from the "original" PERO are usabel in scribblesence. Most notably the `german fraktur` model is not available. 
+Scribblesense was thus used with 
+* Layout detection: `Universal+Order v1.0`
+* OCR: `Printed Large v1.0`
+* Language Model: None available in scribblesene
+
 
 ### transrkibus
 
