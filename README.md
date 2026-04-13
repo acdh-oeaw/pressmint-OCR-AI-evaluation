@@ -108,7 +108,7 @@ Their inference outputs are found at [./data/texts/](./data/texts/) respective t
 ### anno
 
 This is the only "OCR workflow" that was not executed by us, but provided by
-[https://anno.onb.ac.at/](https://anno.onb.ac.at/) and used as a comparision to evaluated against.
+[https://anno.onb.ac.at/](https://anno.onb.ac.at/).
 
 ### anthropic_1_simple
 
