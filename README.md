@@ -606,7 +606,7 @@ Scribblesense was thus used with
 * Language Model: None available in scribblesene
 
 
-### transrkibus
+### transkribus
 
 \#TODO-transkribus
 
